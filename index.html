@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f2e8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="今天吃什么" />
+    <title>今天吃什么 · 美食强菜谱库</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./assets/app-icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#">今天吃什么</a>
+      <div class="topbar-actions">
+        <button id="installButton" class="ghost-button install-button" type="button" hidden>安装到手机</button>
+        <button id="favoritesButton" class="ghost-button" type="button">收藏 <span id="favoriteCount">0</span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">美食强 · 可复做菜谱库</p>
+        <h1>冰箱里有什么，<br />今天就吃什么。</h1>
+        <p class="hero-copy">选择手边食材，找到能直接开做的家常菜。</p>
+        <div class="search-wrap">
+          <label for="ingredientSearch">选择已有食材</label>
+          <div class="search-box">
+            <input id="ingredientSearch" type="search" placeholder="例如：鸡蛋、豆腐、牛肉" autocomplete="off" />
+            <button id="addIngredient" type="button">添加</button>
+          </div>
+          <div id="suggestions" class="suggestions" hidden></div>
+        </div>
+
+        <div id="selectedIngredients" class="chips" aria-live="polite"></div>
+
+        <details class="filters">
+          <summary>更多筛选</summary>
+          <div class="filter-grid">
+            <label>最长用时
+              <select id="timeFilter">
+                <option value="">不限</option>
+                <option value="15">15分钟</option>
+                <option value="30">30分钟</option>
+                <option value="60">60分钟</option>
+              </select>
+            </label>
+            <label>难度
+              <select id="difficultyFilter">
+                <option value="">不限</option>
+                <option value="简单">简单</option>
+                <option value="中等">中等</option>
+                <option value="困难">困难</option>
+              </select>
+            </label>
+            <label class="exclude-label">排除食材
+              <input id="excludeSearch" type="text" placeholder="例如：香菜、辣椒" />
+            </label>
+          </div>
+        </details>
+      </section>
+
+      <p id="offlineNotice" class="offline-notice" hidden aria-live="polite"></p>
+
+      <section class="results-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">菜谱推荐</p>
+            <h2 id="resultTitle">全部菜谱</h2>
+          </div>
+          <span id="resultCount" class="count"></span>
+        </div>
+        <div id="recipeGrid" class="recipe-grid"></div>
+        <div id="emptyState" class="empty" hidden>
+          <strong>暂时没有合适的菜谱</strong>
+          <p>减少一个筛选条件，或者换一种食材试试。</p>
+        </div>
+      </section>
+
+    </main>
+
+    <dialog id="recipeDialog" class="recipe-dialog">
+      <div id="recipeDetail"></div>
+    </dialog>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
