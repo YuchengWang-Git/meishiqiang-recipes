@@ -26534,10 +26534,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "excluded_from_recommendations",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "步骤为零散字幕片段，关键收汁时长和判断标准缺失；暂不作为可直接照做的菜谱推荐。"
       }
     },
     {
@@ -39974,7 +39975,7 @@
     },
     {
       "id": "bili-BV15P411y7g6",
-      "title": "我做的地锅鸡很好吃！自家做的一点也不输外面的味道",
+      "title": "地锅鸡",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖15项用料和13个顺序步骤。",
       "source": {
@@ -40323,7 +40324,7 @@
     },
     {
       "id": "bili-BV1zo4y1N7GJ",
-      "title": "我做的鱿鱼炒面也很好吃！在家做的一点也不输外面味道",
+      "title": "鱿鱼炒面",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖16项用料和5个顺序步骤。",
       "source": {
@@ -40970,7 +40971,7 @@
     },
     {
       "id": "bili-BV1oa4y1T742",
-      "title": "我做的甲鱼很好吃，搭配茨菰一起烧、一盘子吃的干干净净",
+      "title": "茨菰烧甲鱼",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖12项用料和16个顺序步骤。",
       "source": {
@@ -41709,10 +41710,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
       }
     },
     {
@@ -42187,10 +42189,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
       }
     },
     {
@@ -42434,15 +42437,16 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
       }
     },
     {
       "id": "bili-BV1GY411d7Mk",
-      "title": "我做的蛋炒饭很好吃！儿子吃了两碗",
+      "title": "蛋炒饭",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖10项用料和13个顺序步骤。",
       "source": {
@@ -43632,7 +43636,7 @@
     },
     {
       "id": "bili-BV1bS4y167Np",
-      "title": "嫌面馆牛肉面的肉少、就自己在家做、步骤靠谱、易学实用接地气",
+      "title": "牛肉面",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖8项用料和12个顺序步骤。",
       "source": {
@@ -43912,9 +43916,9 @@
     },
     {
       "id": "bili-BV1bb4y1475r",
-      "title": "这样炒的藕丝、清香脆爽、开胃下饭、做法实用靠谱接地气",
-      "aliases": [],
-      "summary": "根据美食强视频中的连续操作字幕整理，覆盖7项用料和9个顺序步骤。",
+      "title": "清炒藕丝",
+      "aliases": ["炒藕丝"],
+      "summary": "藕丝先焯水冲凉，再用猪油和蒜末大火快炒，口感清脆。",
       "source": {
         "bvid": "BV1bb4y1475r",
         "title": "这样炒的藕丝、清香脆爽、开胃下饭、做法实用靠谱接地气",
@@ -43951,6 +43955,45 @@
         "spicyLevel": 0
       },
       "ingredients": [
+        {
+          "name": "莲藕",
+          "canonicalName": "莲藕",
+          "quantity": null,
+          "unit": "适量",
+          "role": "主料",
+          "required": true,
+          "prep": "去皮切细丝",
+          "aliases": ["藕", "藕丝"]
+        },
+        {
+          "name": "青椒",
+          "canonicalName": "青椒",
+          "quantity": null,
+          "unit": "少许",
+          "role": "辅料",
+          "required": false,
+          "prep": "切丝",
+          "aliases": ["青红椒"]
+        },
+        {
+          "name": "红椒",
+          "canonicalName": "红椒",
+          "quantity": null,
+          "unit": "少许",
+          "role": "辅料",
+          "required": false,
+          "prep": "切丝"
+        },
+        {
+          "name": "青蒜",
+          "canonicalName": "蒜苗",
+          "quantity": null,
+          "unit": "少许",
+          "role": "辅料",
+          "required": false,
+          "prep": "切小圈，起锅前加入",
+          "aliases": ["青蒜"]
+        },
         {
           "name": "大蒜",
           "canonicalName": "大蒜",
@@ -44135,12 +44178,14 @@
         "status": "needs_user_spot_check",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "requiredIngredients": ["莲藕"],
+        "reviewNote": "已根据步骤补回主料及步骤明确提到的辅料。"
       }
     },
     {
       "id": "bili-BV1zT4y1X72H",
-      "title": "这样做的胡萝卜炒肉、营养开胃、做法靠谱接地气、真正实用家常菜",
+      "title": "胡萝卜炒肉",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖10项用料和9个顺序步骤。",
       "source": {
@@ -44655,7 +44700,7 @@
     },
     {
       "id": "bili-BV1Eq4y187eS",
-      "title": "我做的板栗烧鸡很好吃！正经家常菜、做法靠谱实用接地气",
+      "title": "板栗烧鸡",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖9项用料和8个顺序步骤。",
       "source": {
@@ -44891,7 +44936,7 @@
     },
     {
       "id": "bili-BV1QS4y1G7gy",
-      "title": "我做的家常豆腐很好吃！正经家常菜、实用靠谱接地气",
+      "title": "家常豆腐",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖6项用料和7个顺序步骤。",
       "source": {
@@ -45089,7 +45134,7 @@
     },
     {
       "id": "bili-BV1ER4y177AQ",
-      "title": "我做的苜蓿肉很好吃！做法靠谱实用接地气",
+      "title": "苜蓿肉",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖13项用料和9个顺序步骤。",
       "source": {
@@ -45812,7 +45857,7 @@
     },
     {
       "id": "bili-BV1v34y127CS",
-      "title": "这道红烧鸡做的真有水平！做法详细、步骤清晰、实用靠谱接地气",
+      "title": "红烧鸡",
       "aliases": [],
       "summary": "根据美食强视频中的连续操作字幕整理，覆盖9项用料和8个顺序步骤。",
       "source": {
@@ -46051,7 +46096,7 @@
       "id": "bili-BV1nL411F7WA",
       "title": "千层脆耳",
       "aliases": [],
-      "summary": "根据美食强视频中的连续操作字幕整理，覆盖4项用料和6个顺序步骤。",
+      "summary": "猪耳朵焯水去腥后小火煮熟，压紧冷却后切片食用。",
       "source": {
         "bvid": "BV1nL411F7WA",
         "title": "年夜饭做一道“千层脆耳”寓意顺风好运、做法靠谱实用接地气",
@@ -46084,10 +46129,20 @@
           "煮"
         ],
         "difficulty": "简单",
-        "estimatedMinutes": 20,
+        "estimatedMinutes": 110,
         "spicyLevel": 0
       },
       "ingredients": [
+        {
+          "name": "猪耳朵",
+          "canonicalName": "猪耳朵",
+          "quantity": null,
+          "unit": "适量",
+          "role": "主料",
+          "required": true,
+          "prep": "烧净耳窝杂毛后，用钢丝球刷洗干净",
+          "aliases": ["猪耳", "耳朵"]
+        },
         {
           "name": "料酒",
           "canonicalName": "料酒",
@@ -46211,7 +46266,9 @@
         "status": "needs_user_spot_check",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "requiredIngredients": ["猪耳朵"],
+        "reviewNote": "已根据步骤补回主料，并校正总用时。"
       }
     },
     {

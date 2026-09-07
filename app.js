@@ -2,6 +2,7 @@ const state = {
   recipes: [],
   selected: [],
   favorites: new Set(JSON.parse(localStorage.getItem("recipe-favorites") || "[]")),
+  madeCounts: JSON.parse(localStorage.getItem("recipe-made-counts") || "{}"),
   onlyFavorites: false,
 };
 
@@ -50,6 +51,12 @@ window.addEventListener("online", setConnectionNotice);
 window.addEventListener("offline", setConnectionNotice);
 
 const normalize = (value) => value.trim().toLowerCase().replace(/\s+/g, "");
+const sourceTag = (recipe) => {
+  const platform = recipe.source?.platform === "bilibili" ? "B站" : recipe.source?.platform || "来源";
+  return `@${platform}${recipe.source?.creator || ""}`;
+};
+const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
+const isVisibleRecipe = (recipe) => !["excluded_from_recommendations", "needs_rebuild"].includes(recipe.quality?.status);
 const ingredientTerms = (ingredient) => [
   ingredient.name,
   ingredient.canonicalName,
@@ -94,6 +101,7 @@ function scoreRecipe(recipe) {
 function filteredRecipes() {
   const excluded = elements.exclude.value.split(/[、,，\s]+/).map(normalize).filter(Boolean);
   return state.recipes
+    .filter(isVisibleRecipe)
     .filter((recipe) => !state.onlyFavorites || state.favorites.has(recipe.id))
     .filter((recipe) => !elements.time.value || recipe.tags.estimatedMinutes <= Number(elements.time.value))
     .filter((recipe) => !elements.difficulty.value || recipe.tags.difficulty === elements.difficulty.value)
@@ -106,6 +114,7 @@ function filteredRecipes() {
 function recipeCard(entry) {
   const { recipe, matched, missing } = entry;
   const favorite = state.favorites.has(recipe.id);
+  const made = madeCount(recipe);
   const matchText = state.selected.length
     ? `匹配 ${matched.length}/${state.selected.length} 个所选食材`
     : `${recipe.ingredients.filter((item) => item.required).length} 种主要用料`;
@@ -116,7 +125,7 @@ function recipeCard(entry) {
     <article class="recipe-card">
       <div class="card-top">
         <div>
-          <p class="eyebrow">${recipe.tags.meal[0]}</p>
+          <p class="eyebrow">${recipe.tags.meal[0]} <span class="source-tag">${sourceTag(recipe)}</span></p>
           <h3>${recipe.title}</h3>
         </div>
       </div>
@@ -128,6 +137,7 @@ function recipeCard(entry) {
       </div>
       <div class="match">${matchText}</div>
       ${missingText}
+      ${made ? `<div class="made-count">已做 ${made} 次</div>` : ""}
       <div class="card-actions">
         <button class="primary" data-open="${recipe.id}">查看做法</button>
         <button class="favorite ${favorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="收藏${recipe.title}">${favorite ? "已收藏" : "收藏"}</button>
@@ -136,7 +146,7 @@ function recipeCard(entry) {
 }
 
 function renderDetail(recipe) {
-  const qualityLabel = recipe.quality.status === "human_verified" ? "已人工校正" : "已结构化 · 待抽查";
+  const made = madeCount(recipe);
   const ingredientRows = recipe.ingredients.map((item) => `
     <li>
       <span>${item.name}${item.required ? "" : "（可选）"}</span>
@@ -157,11 +167,12 @@ function renderDetail(recipe) {
   elements.detail.innerHTML = `
     <article class="detail">
       <div class="detail-header">
-        <div><p class="eyebrow">${recipe.source.creator} · ${qualityLabel}</p><h2>${recipe.title}</h2></div>
+        <div><p class="eyebrow"><span class="source-tag">${sourceTag(recipe)}</span> · 已结构化整理</p><h2>${recipe.title}</h2></div>
         <button class="close" data-close aria-label="关闭">×</button>
       </div>
       <p class="detail-summary">${recipe.summary}</p>
       <div class="meta"><span>${recipe.tags.estimatedMinutes}分钟</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.methods.join(" · ")}</span></div>
+      <div class="made-row"><button class="made-button" data-made="${recipe.id}">我做过一次</button><span>累计 ${made} 次</span></div>
       <h3>准备食材</h3>
       <ul class="ingredient-list">${ingredientRows}</ul>
       <h3>开始做</h3>
@@ -170,11 +181,15 @@ function renderDetail(recipe) {
       <div class="unknowns">${recipe.unknowns.map((item) => `<div>· ${item}</div>`).join("")}</div>
       <p><a class="source-link" href="${recipe.source.url}" target="_blank" rel="noreferrer">查看原始视频</a></p>
     </article>`;
-  elements.dialog.showModal();
+  if (!elements.dialog.open) elements.dialog.showModal();
 }
 
 function persistFavorites() {
   localStorage.setItem("recipe-favorites", JSON.stringify([...state.favorites]));
+}
+
+function persistMadeCounts() {
+  localStorage.setItem("recipe-made-counts", JSON.stringify(state.madeCounts));
 }
 
 function render() {
@@ -218,6 +233,15 @@ elements.grid.addEventListener("click", (event) => {
   }
 });
 elements.dialog.addEventListener("click", (event) => {
+  const made = event.target.closest("[data-made]");
+  if (made) {
+    state.madeCounts[made.dataset.made] = madeCount({ id: made.dataset.made }) + 1;
+    persistMadeCounts();
+    const recipe = state.recipes.find((item) => item.id === made.dataset.made);
+    renderDetail(recipe);
+    render();
+    return;
+  }
   if (event.target.closest("[data-close]") || event.target === elements.dialog) elements.dialog.close();
 });
 

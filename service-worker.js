@@ -1,4 +1,4 @@
-const CACHE = "meishiqiang-recipes-v1";
+const CACHE = "meishiqiang-recipes-v2";
 const appShell = [
   "./",
   "./index.html",
