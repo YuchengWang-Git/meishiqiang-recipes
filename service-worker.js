@@ -1,10 +1,11 @@
-const CACHE = "meishiqiang-recipes-v2";
+const CACHE = "meishiqiang-recipes-v3";
 const appShell = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./data/recipes.json",
+  "./data/recipes-howtocook.json",
   "./manifest.webmanifest",
   "./assets/app-icon.svg",
   "./offline.html",
@@ -32,7 +33,7 @@ self.addEventListener("fetch", (event) => {
 
   // Prefer fresh recipe data when online; preserve the last complete library
   // as the offline fallback.
-  if (requestUrl.pathname.endsWith("/data/recipes.json")) {
+  if (requestUrl.pathname.endsWith("/data/recipes.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook.json")) {
     event.respondWith(fetch(event.request).then((response) => {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(event.request, copy));

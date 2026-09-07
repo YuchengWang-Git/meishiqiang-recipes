@@ -99,6 +99,13 @@ h2 { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(28px
 .detail-summary { color: var(--muted); line-height: 1.7; }
 .made-row { display: flex; align-items: center; gap: 12px; margin-top: 20px; color: var(--muted); font-size: 14px; }
 .made-button { border: 0; border-radius: 11px; background: var(--accent); color: white; padding: 11px 15px; font-weight: 700; }
+.serving-row { display: flex; align-items: center; gap: 9px; margin-top: 14px; color: var(--muted); font-size: 14px; }
+.serving-row button { width: 32px; height: 32px; border: 1px solid var(--line); background: white; border-radius: 9px; font-weight: 800; }
+.serving-row button:disabled, .detail-actions button:disabled { opacity: .42; cursor: not-allowed; }
+.detail-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 20px; }
+.detail-actions button { flex: 1; min-width: 132px; }
+.secondary { border: 1px solid var(--line); border-radius: 11px; background: white; color: var(--ink); padding: 11px 14px; font-weight: 700; }
+.text-button { border: 0; background: transparent; color: var(--accent-dark); padding: 9px 0; font-weight: 700; }
 .detail h3 { margin: 32px 0 14px; }
 .ingredient-list { display: grid; gap: 8px; padding: 0; list-style: none; }
 .ingredient-list li { display: grid; grid-template-columns: 1fr auto; gap: 14px; border-bottom: 1px dashed var(--line); padding: 10px 0; }
@@ -110,6 +117,14 @@ h2 { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(28px
 .step-meta span { font-size: 12px; background: var(--cream); color: var(--muted); border-radius: 7px; padding: 5px 8px; }
 .unknowns { border: 1px solid var(--line); background: var(--cream); border-radius: 14px; padding: 16px 18px; color: var(--muted); line-height: 1.7; }
 .source-link { color: var(--accent-dark); }
+.cook-progress { height: 8px; margin: 28px 0; overflow: hidden; border-radius: 999px; background: var(--cream); }
+.cook-progress span { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width .2s; }
+.cook-step { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(26px, 5vw, 38px); line-height: 1.5; }
+.step-meta.large { margin: 18px 0; }
+.cook-tip { border-left: 4px solid var(--accent); background: #fff5ee; padding: 14px; border-radius: 0 10px 10px 0; color: var(--muted); line-height: 1.7; }
+.timer { min-height: 24px; color: var(--accent-dark); font-weight: 800; }
+.shopping-list { margin: 18px 0 24px; padding: 0; list-style: none; }
+.shopping-list li { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed var(--line); padding: 11px 0; }
 
 @media (max-width: 650px) {
   .topbar { height: 60px; }
@@ -121,4 +136,7 @@ h2 { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(28px
   .recipe-grid { grid-template-columns: 1fr; }
   .detail h2 { font-size: 32px; }
   .made-row { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .topbar-actions { gap: 4px; }
+  .ghost-button { padding: 7px 5px; }
+  .detail-actions button { flex: 1 1 100%; }
 }
