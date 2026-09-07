@@ -1,9 +1,10 @@
 import { readFileSync } from "node:fs";
 
-const files = ["recipes.json", "recipes-howtocook.json"];
+const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json"];
 const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")));
 const recipes = libraries.flatMap((library) => library.recipes);
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
+const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "excluded_from_recommendations", "needs_rebuild"]);
 const errors = [];
 const ids = new Set();
 
@@ -19,6 +20,8 @@ for (const recipe of recipes) {
   ids.add(recipe.id);
   if (!hiddenStatuses.has(recipe.quality?.status) && (!recipe.title || recipe.title.length > 12)) errors.push(`${label}: 展示菜名为空或超过 12 个字`);
   if (!recipe.source?.creator || !recipe.source?.platform || !recipe.source?.url) errors.push(`${label}: 来源信息不完整`);
+  if (!recipe.quality?.status) errors.push(`${label}: 缺少质量分层状态`);
+  if (recipe.quality?.status && !qualityStatuses.has(recipe.quality.status)) errors.push(`${label}: 使用了未定义的质量分层状态`);
   if (!Array.isArray(recipe.ingredients) || !recipe.ingredients.length) errors.push(`${label}: 没有材料`);
   if (!Array.isArray(recipe.steps) || !recipe.steps.length) errors.push(`${label}: 没有步骤`);
 

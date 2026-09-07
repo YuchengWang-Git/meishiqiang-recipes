@@ -40963,7 +40963,7 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82
