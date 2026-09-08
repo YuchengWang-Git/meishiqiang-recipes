@@ -1,10 +1,10 @@
 import { readFileSync } from "node:fs";
 
-const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json"];
+const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
 const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")));
 const recipes = libraries.flatMap((library) => library.recipes);
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
-const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "excluded_from_recommendations", "needs_rebuild"]);
+const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "creator_attributed", "excluded_from_recommendations", "needs_rebuild"]);
 const errors = [];
 const ids = new Set();
 

@@ -128,6 +128,8 @@ h2 { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(28px
 .timer { min-height: 24px; color: var(--accent-dark); font-weight: 800; }
 .shopping-list { margin: 18px 0 24px; padding: 0; list-style: none; }
 .shopping-list li { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed var(--line); padding: 11px 0; }
+.site-footer { max-width: 1180px; margin: 0 auto; padding: 8px 24px 32px; color: var(--muted); font-size: 13px; }
+.site-footer a { color: var(--accent-dark); margin-left: 8px; }
 
 @media (max-width: 650px) {
   .topbar { height: 60px; }

@@ -47,6 +47,7 @@ const qualityInfo = (recipe) => {
   if (["reference_verified", "human_verified"].includes(status)) return { rank: 3, label: "已核对", className: "" };
   if (status === "needs_user_spot_check") return { rank: 2, label: "已整理待抽查", className: "review" };
   if (status === "source_structured") return { rank: 2, label: "结构化来源", className: "review" };
+  if (status === "creator_attributed") return { rank: 2, label: "来源整理", className: "review" };
   return { rank: 1, label: "待补全", className: "transcript" };
 };
 const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
@@ -58,6 +59,7 @@ const scaledQuantity = (recipe, ingredient) => {
   if (typeof ingredient.quantity !== "number") return `${ingredient.quantity ?? ""}${ingredient.unit || ""}`;
   return `${formatNumber(ingredient.quantity * recipeServings(recipe) / (recipe.servings || 1))}${ingredient.unit || ""}`;
 };
+const estimatedTime = (recipe) => Number.isFinite(recipe.tags.estimatedMinutes) ? `${recipe.tags.estimatedMinutes}分钟` : "用时见步骤";
 
 function allIngredients() {
   const names = new Set();
@@ -85,7 +87,7 @@ function filteredRecipes() {
   const excluded = elements.exclude.value.split(/[、，\s]+/).map(normalize).filter(Boolean);
   return state.recipes.filter(isVisibleRecipe)
     .filter((recipe) => !state.onlyFavorites || state.favorites.has(recipe.id))
-    .filter((recipe) => !elements.time.value || recipe.tags.estimatedMinutes <= Number(elements.time.value))
+    .filter((recipe) => !elements.time.value || !Number.isFinite(recipe.tags.estimatedMinutes) || recipe.tags.estimatedMinutes <= Number(elements.time.value))
     .filter((recipe) => !elements.difficulty.value || recipe.tags.difficulty === elements.difficulty.value)
     .filter((recipe) => !elements.quality.value || qualityInfo(recipe).rank >= (elements.quality.value === "verified" ? 3 : 2))
     .filter((recipe) => !excluded.some((term) => recipe.ingredients.some((item) => ingredientTerms(item).some((name) => name.includes(term)))))
@@ -97,9 +99,10 @@ function recipeCard(entry) {
   const { recipe, matched, missing } = entry;
   const quality = qualityInfo(recipe);
   const favorite = state.favorites.has(recipe.id); const made = madeCount(recipe);
-  const matchText = state.selected.length ? `匹配 ${matched.length}/${state.selected.length} 个所选食材` : `${recipe.ingredients.filter((item) => item.required).length} 种主要用料`;
+  const mainIngredientCount = recipe.ingredients.filter((item) => item.role === "主料").length || recipe.ingredients.filter((item) => item.required).length;
+  const matchText = state.selected.length ? `匹配 ${matched.length}/${state.selected.length} 个所选食材` : `${mainIngredientCount} 种主要用料`;
   const missingText = state.selected.length && missing.length ? `<div class="match missing">还需：${missing.slice(0, 4).map((item) => item.canonicalName).join("、")}</div>` : "";
-  return `<article class="recipe-card"><div class="card-top"><div><p class="eyebrow">${recipe.tags.meal[0]} <span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h3>${recipe.title}</h3></div></div><p>${recipe.summary}</p><div class="meta"><span>${recipe.tags.estimatedMinutes}分钟</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.flavor.join(" · ")}</span></div><div class="match">${matchText}</div>${missingText}${made ? `<div class="made-count">已做 ${made} 次</div>` : ""}<div class="card-actions"><button class="primary" data-open="${recipe.id}">查看做法</button><button class="favorite ${favorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="收藏${recipe.title}">${favorite ? "已收藏" : "收藏"}</button></div></article>`;
+  return `<article class="recipe-card"><div class="card-top"><div><p class="eyebrow">${recipe.tags.meal[0]} <span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h3>${recipe.title}</h3></div></div><p>${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.flavor.join(" · ")}</span></div><div class="match">${matchText}</div>${missingText}${made ? `<div class="made-count">已做 ${made} 次</div>` : ""}<div class="card-actions"><button class="primary" data-open="${recipe.id}">查看做法</button><button class="favorite ${favorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="收藏${recipe.title}">${favorite ? "已收藏" : "收藏"}</button></div></article>`;
 }
 function ingredientRows(recipe) {
   return recipe.ingredients.map((item) => `<li><span>${item.name}${item.required ? "" : "（可选）"}</span><strong>${scaledQuantity(recipe, item)}</strong>${item.prep ? `<small>${item.prep}</small>` : ""}${item.alternatives?.length ? `<small>可替代：${item.alternatives.join("、")}</small>` : ""}</li>`).join("");
@@ -110,7 +113,7 @@ function renderDetail(recipe) {
   const steps = recipe.steps.map((step) => `<li>${step.action}<div class="step-meta">${step.heat ? `<span>火候：${step.heat}</span>` : ""}${step.durationMinutes ? `<span>约${step.durationMinutes}分钟</span>` : ""}${step.cue ? `<span>状态：${step.cue}</span>` : ""}</div>${step.tips?.length ? `<p><strong>注意：</strong>${step.tips.join("；")}</p>` : ""}</li>`).join("");
   const notes = recipe.notes || recipe.unknowns || [];
   const quality = qualityInfo(recipe);
-  elements.detail.innerHTML = `<article class="detail"><div class="detail-header"><div><p class="eyebrow"><span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h2>${recipe.title}</h2></div><button class="close" data-close aria-label="关闭">×</button></div><p class="detail-summary">${recipe.summary}</p><div class="meta"><span>${recipe.tags.estimatedMinutes}分钟</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.methods.join(" · ")}</span></div><div class="made-row"><button class="made-button" data-made="${recipe.id}">我做过一次</button><span>累计 ${made} 次</span></div>${recipe.servings ? `<div class="serving-row"><span>按 <strong>${servings}</strong> 人份准备</span><button data-serving="-1" data-recipe="${recipe.id}" ${servings <= 1 ? "disabled" : ""}>−</button><button data-serving="1" data-recipe="${recipe.id}">＋</button></div>` : ""}<div class="detail-actions"><button class="primary" data-cook="${recipe.id}">进入做菜模式</button><button class="secondary" data-add-shopping="${recipe.id}">补齐缺少食材</button></div><h3>准备食材</h3><ul class="ingredient-list">${ingredientRows(recipe)}</ul><h3>完整步骤</h3><ol class="steps">${steps}</ol>${notes.length ? `<h3>提示与边界</h3><div class="unknowns">${notes.map((item) => `<div>· ${item}</div>`).join("")}</div>` : ""}<p><a class="source-link" href="${recipe.source.url}" target="_blank" rel="noreferrer">查看原始来源</a></p></article>`;
+  elements.detail.innerHTML = `<article class="detail"><div class="detail-header"><div><p class="eyebrow"><span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h2>${recipe.title}</h2></div><button class="close" data-close aria-label="关闭">×</button></div><p class="detail-summary">${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.methods.join(" · ")}</span></div><div class="made-row"><button class="made-button" data-made="${recipe.id}">我做过一次</button><span>累计 ${made} 次</span></div>${recipe.servings ? `<div class="serving-row"><span>按 <strong>${servings}</strong> 人份准备</span><button data-serving="-1" data-recipe="${recipe.id}" ${servings <= 1 ? "disabled" : ""}>−</button><button data-serving="1" data-recipe="${recipe.id}">＋</button></div>` : ""}<div class="detail-actions"><button class="primary" data-cook="${recipe.id}">进入做菜模式</button><button class="secondary" data-add-shopping="${recipe.id}">补齐缺少食材</button></div><h3>准备食材</h3><ul class="ingredient-list">${ingredientRows(recipe)}</ul><h3>完整步骤</h3><ol class="steps">${steps}</ol>${notes.length ? `<h3>提示与边界</h3><div class="unknowns">${notes.map((item) => `<div>· ${item}</div>`).join("")}</div>` : ""}<p><a class="source-link" href="${recipe.source.url}" target="_blank" rel="noreferrer">查看原始来源</a></p></article>`;
   if (!elements.dialog.open) elements.dialog.showModal();
 }
 function renderCookMode(recipe, stepIndex = 0) {
@@ -164,7 +167,7 @@ elements.dialog.addEventListener("click", (event) => {
 });
 elements.shoppingDialog.addEventListener("click", (event) => { const remove = event.target.closest("[data-shopping-remove]"); if (remove) { state.shoppingList.delete(remove.dataset.shoppingRemove); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-clear]")) { state.shoppingList.clear(); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-close]") || event.target === elements.shoppingDialog) elements.shoppingDialog.close(); });
 
-const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json", "./data/recipes-howtocook-imported.json"].map((url) => fetch(url).then((response) => response.json())));
+const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json", "./data/recipes-howtocook-imported.json", "./data/recipes-cunlv.json"].map((url) => fetch(url).then((response) => response.json())));
 state.recipes = payloads.flatMap((payload) => payload.recipes);
 setConnectionNotice(); render();
 if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => {}));

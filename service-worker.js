@@ -1,4 +1,4 @@
-const CACHE = "meishiqiang-recipes-v5";
+const CACHE = "meishiqiang-recipes-v6";
 const appShell = [
   "./",
   "./index.html",
@@ -8,6 +8,7 @@ const appShell = [
   "./data/recipes-howtocook.json",
   "./data/recipes-howtocook-batch.json",
   "./data/recipes-howtocook-imported.json",
+  "./data/recipes-cunlv.json",
   "./manifest.webmanifest",
   "./assets/app-icon.svg",
   "./offline.html",
@@ -35,7 +36,7 @@ self.addEventListener("fetch", (event) => {
 
   // Prefer fresh recipe data when online; preserve the last complete library
   // as the offline fallback.
-  if (requestUrl.pathname.endsWith("/data/recipes.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook-batch.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook-imported.json")) {
+  if (requestUrl.pathname.endsWith("/data/recipes.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook-batch.json") || requestUrl.pathname.endsWith("/data/recipes-howtocook-imported.json") || requestUrl.pathname.endsWith("/data/recipes-cunlv.json")) {
     event.respondWith(fetch(event.request).then((response) => {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(event.request, copy));
