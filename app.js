@@ -46,6 +46,7 @@ const qualityInfo = (recipe) => {
   const status = recipe.quality?.status;
   if (["reference_verified", "human_verified"].includes(status)) return { rank: 3, label: "已核对", className: "" };
   if (status === "needs_user_spot_check") return { rank: 2, label: "已整理待抽查", className: "review" };
+  if (status === "source_structured") return { rank: 2, label: "结构化来源", className: "review" };
   return { rank: 1, label: "待补全", className: "transcript" };
 };
 const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
@@ -163,7 +164,7 @@ elements.dialog.addEventListener("click", (event) => {
 });
 elements.shoppingDialog.addEventListener("click", (event) => { const remove = event.target.closest("[data-shopping-remove]"); if (remove) { state.shoppingList.delete(remove.dataset.shoppingRemove); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-clear]")) { state.shoppingList.clear(); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-close]") || event.target === elements.shoppingDialog) elements.shoppingDialog.close(); });
 
-const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json"].map((url) => fetch(url).then((response) => response.json())));
+const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json", "./data/recipes-howtocook-imported.json"].map((url) => fetch(url).then((response) => response.json())));
 state.recipes = payloads.flatMap((payload) => payload.recipes);
 setConnectionNotice(); render();
 if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => {}));
