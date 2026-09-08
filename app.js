@@ -42,6 +42,14 @@ const selectionName = (value) => {
   const cleaned = String(value || "").trim().replace(/[=＝]+$/g, "").replace(/^[\d一二三四五六七八九十半两]+(?:[./、-]\d+)?\s*(?:个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|克|g|毫升|ml|斤)?\s*/iu, "");
   return normalize(cleaned).includes("鸡蛋") ? "鸡蛋" : cleaned;
 };
+const pantryIngredientTerms = new Set([
+  "水", "清水", "开水", "热水", "温水", "冷水", "冰水",
+  "油", "食用油", "植物油", "花生油", "菜籽油", "猪油", "香油",
+  "盐", "食盐", "海盐", "糖", "白糖", "冰糖", "砂糖",
+  "酱油", "生抽", "老抽", "醋", "米醋", "陈醋", "香醋", "料酒", "淀粉",
+  "葱", "小葱", "大葱", "葱花", "姜", "生姜", "姜片", "蒜", "大蒜", "蒜末", "蒜瓣", "香菜",
+  "干辣椒", "辣椒", "花椒", "八角", "桂皮", "香叶",
+].map(normalize));
 const sourceTag = (recipe) => recipe.source?.label || (() => {
   const platform = recipe.source?.platform === "bilibili" ? "B站" : recipe.source?.platform || "来源";
   return `@${platform}${recipe.source?.creator || ""}`;
@@ -57,6 +65,10 @@ const qualityInfo = (recipe) => {
 const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
 const isVisibleRecipe = (recipe) => !["excluded_from_recommendations", "needs_rebuild"].includes(recipe.quality?.status);
 const ingredientTerms = (ingredient) => [ingredient.name, ingredient.canonicalName, ...(ingredient.aliases || [])].map(normalize);
+const isDefaultPantryIngredient = (ingredient) => {
+  const terms = typeof ingredient === "string" ? [normalize(selectionName(ingredient))] : ingredientTerms(ingredient);
+  return terms.some((term) => pantryIngredientTerms.has(term));
+};
 const recipeServings = (recipe) => state.servings[recipe.id] || recipe.servings || 1;
 const formatNumber = (value) => Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, "");
 const scaledQuantity = (recipe, ingredient) => {
@@ -68,7 +80,7 @@ const estimatedTime = (recipe) => Number.isFinite(recipe.tags.estimatedMinutes) 
 function allIngredients() {
   const names = new Set();
   state.recipes.forEach((recipe) => recipe.ingredients.forEach((item) => {
-    names.add(selectionName(item.canonicalName || item.name));
+    if (!isDefaultPantryIngredient(item)) names.add(selectionName(item.canonicalName || item.name));
   }));
   return [...names].sort((a, b) => a.localeCompare(b, "zh-CN"));
 }
@@ -78,12 +90,12 @@ function ingredientMatches(ingredient, selected) {
 }
 function addIngredient(value = elements.search.value) {
   const clean = selectionName(value);
-  if (clean && !state.selected.some((item) => normalize(item) === normalize(clean))) state.selected.push(clean);
+  if (clean && !isDefaultPantryIngredient(clean) && !state.selected.some((item) => normalize(item) === normalize(clean))) state.selected.push(clean);
   elements.search.value = ""; elements.suggestions.hidden = true; render();
 }
 function scoreRecipe(recipe) {
-  const required = recipe.ingredients.filter((item) => item.required && item.role !== "调味料");
-  const declaredMainIngredients = recipe.ingredients.filter((item) => item.required && item.role === "主料");
+  const required = recipe.ingredients.filter((item) => item.required && item.role !== "调味料" && !isDefaultPantryIngredient(item));
+  const declaredMainIngredients = recipe.ingredients.filter((item) => item.required && item.role === "主料" && !isDefaultPantryIngredient(item));
   // 早期整理的菜谱没有角色标记时，退回到全部非调味必需食材，避免误判为“主料已齐”。
   const mainIngredients = declaredMainIngredients.length ? declaredMainIngredients : required;
   const matched = state.selected.filter((selected) => recipe.ingredients.some((ingredient) => ingredientMatches(ingredient, selected)));
@@ -120,7 +132,7 @@ function recipeCard(entry) {
   const { recipe, matched, missing } = entry;
   const quality = qualityInfo(recipe);
   const favorite = state.favorites.has(recipe.id); const made = madeCount(recipe);
-  const mainIngredientCount = recipe.ingredients.filter((item) => item.role === "主料").length || recipe.ingredients.filter((item) => item.required).length;
+  const mainIngredientCount = recipe.ingredients.filter((item) => item.role === "主料" && !isDefaultPantryIngredient(item)).length || recipe.ingredients.filter((item) => item.required && !isDefaultPantryIngredient(item)).length;
   const matchText = state.selected.length ? `匹配 ${matched.length}/${state.selected.length} 个所选食材` : `${mainIngredientCount} 种主要用料`;
   const missingText = state.selected.length && missing.length ? `<div class="match missing">还需：${missing.slice(0, 4).map((item) => item.canonicalName).join("、")}</div>` : "";
   return `<article class="recipe-card"><div class="card-top"><div><p class="eyebrow">${recipe.tags.meal[0]} <span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h3>${recipe.title}</h3></div></div><p>${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.flavor.join(" · ")}</span></div><div class="match">${matchText}</div>${missingText}${made ? `<div class="made-count">已做 ${made} 次</div>` : ""}<div class="card-actions"><button class="primary" data-open="${recipe.id}">查看做法</button><button class="favorite ${favorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="收藏${recipe.title}">${favorite ? "已收藏" : "收藏"}</button></div></article>`;
@@ -152,7 +164,7 @@ function persistFavorites() { localStorage.setItem("recipe-favorites", JSON.stri
 function persistMadeCounts() { localStorage.setItem("recipe-made-counts", JSON.stringify(state.madeCounts)); }
 function persistShoppingList() { localStorage.setItem("recipe-shopping-list", JSON.stringify([...state.shoppingList])); }
 function addMissingToShopping(recipe) {
-  recipe.ingredients.filter((item) => item.required && !state.selected.some((selected) => ingredientMatches(item, selected))).forEach((item) => state.shoppingList.add(item.canonicalName || item.name));
+  recipe.ingredients.filter((item) => item.required && !isDefaultPantryIngredient(item) && !state.selected.some((selected) => ingredientMatches(item, selected))).forEach((item) => state.shoppingList.add(item.canonicalName || item.name));
   persistShoppingList(); render();
 }
 function renderShoppingList() {

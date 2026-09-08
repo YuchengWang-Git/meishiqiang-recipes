@@ -2095,7 +2095,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "草鱼 大约三斤",
@@ -3708,7 +3708,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "大蒜",
@@ -3956,7 +3956,7 @@
           "quantity": 15,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "柠檬",
@@ -6506,7 +6506,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "火腿片",
@@ -6515,7 +6515,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "轻食机",
@@ -7059,20 +7059,11 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "一个带皮玉米",
           "canonicalName": "一个带皮玉米",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "淹过玉米约半节指头的水",
-          "canonicalName": "淹过玉米约半节指头的水",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -7085,15 +7076,6 @@
           "aliases": [],
           "quantity": 2,
           "unit": "克",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "根据口味选择加或者不加糖",
-          "canonicalName": "根据口味选择加或者不加糖",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
           "role": "原料",
           "required": true
         }
@@ -7125,7 +7107,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "新鲜玉米",
           "水"
@@ -7133,7 +7115,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -7429,7 +7411,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "鸡蛋",
           "盐"
@@ -7437,7 +7419,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -7483,24 +7465,6 @@
           "unit": "适量",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "秒表",
-          "canonicalName": "秒表",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "淹过鸡蛋约",
-          "canonicalName": "淹过鸡蛋约",
-          "aliases": [],
-          "quantity": 2,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -7535,7 +7499,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "鸡蛋",
           "水"
@@ -7543,7 +7507,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -7775,7 +7739,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "新鲜鸡蛋",
           "定时器"
@@ -7783,7 +7747,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -8085,7 +8049,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "鸡蛋",
           "芝麻油"
@@ -8093,7 +8057,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -8156,7 +8120,7 @@
           "quantity": 2,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "香油",
@@ -8322,7 +8286,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "鸡蛋",
           "杯子"
@@ -8330,7 +8294,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -8402,7 +8366,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "纯干燕麦片",
@@ -8578,7 +8542,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "新鲜欧芹",
@@ -8587,7 +8551,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "干辣椒碎",
@@ -8596,7 +8560,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "面包",
@@ -8908,7 +8872,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "新鲜鸡蛋",
           "热水"
@@ -8916,7 +8880,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -9854,7 +9818,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -10423,7 +10387,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡蛋",
@@ -10686,7 +10650,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -11976,7 +11940,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "工具",
@@ -11994,7 +11958,7 @@
           "quantity": 1,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -12110,7 +12074,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "工具",
@@ -12263,7 +12227,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "遇水发光冰块",
@@ -12272,7 +12236,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -12771,7 +12735,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "红石榴糖浆",
           "NFC橙汁"
@@ -12779,7 +12743,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -12859,7 +12823,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "手动压汁器",
@@ -12877,7 +12841,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "1",
@@ -12965,7 +12929,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "金酒",
           "苏打气"
@@ -12973,7 +12937,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -13044,7 +13008,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "手动压汁器",
@@ -13117,7 +13081,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "金酒",
           "汤力水气"
@@ -13125,7 +13089,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -13412,7 +13376,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "波旁威士忌",
           "可口可乐"
@@ -13420,7 +13384,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -13582,7 +13546,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "工具",
@@ -13609,7 +13573,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -13643,7 +13607,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "柠檬",
           "果蜜"
@@ -13651,7 +13615,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -13722,7 +13686,7 @@
           "quantity": 1,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "薄荷叶或坚果碎",
@@ -13731,7 +13695,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -13982,7 +13946,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -14776,7 +14740,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "金酒",
           "龙舌兰酒"
@@ -14784,7 +14748,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -14889,7 +14853,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "甘露咖啡酒",
           "爱尔兰百利甜酒"
@@ -14897,7 +14861,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -15077,7 +15041,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "打碎的冰块",
           "冰镇苏打水"
@@ -15085,7 +15049,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -15323,7 +15287,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "生抽",
@@ -15523,7 +15487,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "牛肉",
@@ -15657,8 +15621,8 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "Masala粉",
-          "牛肉"
+          "牛肉",
+          "番茄"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -15746,7 +15710,7 @@
           "quantity": 10,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白砂糖",
@@ -15800,7 +15764,7 @@
           "quantity": 3,
           "unit": "片",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "花椒",
@@ -15809,7 +15773,7 @@
           "quantity": 10,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "料酒",
@@ -16166,7 +16130,7 @@
           "quantity": 1,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "葱",
@@ -16572,7 +16536,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "黑胡椒粉",
@@ -16707,7 +16671,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "生姜",
@@ -16987,7 +16951,7 @@
           "quantity": 3,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -17422,7 +17386,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "莴笋 = 约",
@@ -18868,7 +18832,7 @@
           "quantity": 2,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "冰糖",
@@ -19098,7 +19062,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "辅料",
@@ -19197,7 +19161,7 @@
           "quantity": 0,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "豆皮",
@@ -19206,7 +19170,7 @@
           "quantity": 0,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "盐",
@@ -19299,8 +19263,8 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "主料",
-          "辅料"
+          "辅料",
+          "猪五花肉"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -20748,7 +20712,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "糖",
@@ -23772,7 +23736,7 @@
           "quantity": 5,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡蛋",
@@ -23781,7 +23745,7 @@
           "quantity": 1,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡翅中",
@@ -24290,7 +24254,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白芸豆",
@@ -25803,7 +25767,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "姜",
@@ -26202,7 +26166,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "蒜末",
@@ -26554,7 +26518,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "厨房纸",
@@ -26563,7 +26527,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "汤匙",
@@ -26635,7 +26599,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "预制牛排酱汁",
@@ -26644,7 +26608,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "配菜",
@@ -26653,7 +26617,7 @@
           "quantity": 1,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "口蘑",
@@ -26790,8 +26754,8 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "锡箔纸",
-          "厨房纸"
+          "汤匙",
+          "牛排"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -27165,7 +27129,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "大蒜",
@@ -27174,7 +27138,7 @@
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "蚝油",
@@ -27183,7 +27147,7 @@
           "quantity": 10,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "料酒",
@@ -27192,7 +27156,7 @@
           "quantity": 10,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡蛋",
@@ -27201,7 +27165,7 @@
           "quantity": 1,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白胡椒粉",
@@ -27210,7 +27174,7 @@
           "quantity": 2,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白糖",
@@ -27219,7 +27183,7 @@
           "quantity": 5,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "猪肉馅",
@@ -28585,7 +28549,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白芝麻",
@@ -28594,7 +28558,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -28768,7 +28732,7 @@
           "quantity": 1,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "红椒",
@@ -29664,7 +29628,7 @@
           "quantity": 50,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "大蒜",
@@ -29673,7 +29637,7 @@
           "quantity": 5,
           "unit": "瓣",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "干辣椒",
@@ -29682,7 +29646,7 @@
           "quantity": 4,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "蚝油",
@@ -29691,7 +29655,7 @@
           "quantity": 10,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "淀粉",
@@ -29700,7 +29664,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "白胡椒粉",
@@ -29709,7 +29673,7 @@
           "quantity": 2,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -32057,7 +32021,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "蚝油",
@@ -32597,7 +32561,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "芝麻",
@@ -32606,7 +32570,7 @@
           "quantity": 5,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "食用油",
@@ -33368,7 +33332,7 @@
           "quantity": 1000,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "酒",
@@ -35588,1425 +35552,6 @@
       }
     },
     {
-      "id": "howtocook-structured-bc63535be89e",
-      "title": "半成品意面",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E5%8D%8A%E6%88%90%E5%93%81%E6%84%8F%E9%9D%A2.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炒",
-          "拌",
-          "微波"
-        ],
-        "difficulty": "简单",
-        "estimatedMinutes": 5,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "半成品意大利面",
-          "canonicalName": "半成品意大利面",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "袋",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "清水",
-          "canonicalName": "清水",
-          "aliases": [],
-          "quantity": 50,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "2 人",
-          "canonicalName": "2 人",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "将 50 ml 清水倒入平底锅",
-          "heat": null
-        },
-        {
-          "order": 2,
-          "action": "将面条放入，炒 1 分钟",
-          "heat": null,
-          "durationMinutes": 1
-        },
-        {
-          "order": 3,
-          "action": "将酱料倒入，翻炒 1 分钟",
-          "heat": null,
-          "durationMinutes": 1
-        },
-        {
-          "order": 4,
-          "action": "装盘即可",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "将面条放入「可用于微波炉加热」的盘子中",
-          "heat": "微波"
-        },
-        {
-          "order": 6,
-          "action": "将附带的酱料倒在面条上",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "倒入 50 ml 清水",
-          "heat": null
-        },
-        {
-          "order": 8,
-          "action": "700W 加热 2 分钟",
-          "heat": null,
-          "durationMinutes": 2
-        },
-        {
-          "order": 9,
-          "action": "取出拌匀即可",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "半成品意大利面",
-          "清水"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-d80e2c79be22",
-      "title": "空气炸锅鸡翅中",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E9%B8%A1%E7%BF%85%E4%B8%AD/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E9%B8%A1%E7%BF%85%E4%B8%AD.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炸",
-          "烤"
-        ],
-        "difficulty": "简单",
-        "estimatedMinutes": 20,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "鸡翅中",
-          "canonicalName": "鸡翅中",
-          "aliases": [],
-          "quantity": 6,
-          "unit": "个",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "罗勒碎",
-          "canonicalName": "罗勒碎",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "云南单山蘸水",
-          "canonicalName": "云南单山蘸水",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "鸡翅从冰箱拿出来，鸡翼面朝下放入锡纸烤盘，撒上罗勒碎，盖上保鲜膜自然解冻 20 分钟",
-          "heat": null,
-          "durationMinutes": 20
-        },
-        {
-          "order": 2,
-          "action": "撒上罗勒碎，空气炸锅 200°C，10 分钟",
-          "heat": null,
-          "durationMinutes": 10
-        },
-        {
-          "order": 3,
-          "action": "翻面，撒上罗勒碎，空气炸锅 200°C，7 分钟",
-          "heat": null,
-          "durationMinutes": 7
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "鸡翅中",
-          "罗勒碎"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-738d1ae29df7",
-      "title": "空气炸锅羊排",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%BE%8A%E6%8E%92/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%BE%8A%E6%8E%92.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炸",
-          "烤",
-          "腌"
-        ],
-        "difficulty": "中等",
-        "estimatedMinutes": 40,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "羊排",
-          "canonicalName": "羊排",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "片",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黑椒混合牛排调味料",
-          "canonicalName": "黑椒混合牛排调味料",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蒜蓉酱",
-          "canonicalName": "蒜蓉酱",
-          "aliases": [],
-          "quantity": 20,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "厨房纸",
-          "canonicalName": "厨房纸",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黄油",
-          "canonicalName": "黄油",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "烧烤料",
-          "canonicalName": "烧烤料",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "罗勒碎",
-          "canonicalName": "罗勒碎",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "羊排放入碗中清水洗净血水",
-          "heat": null
-        },
-        {
-          "order": 2,
-          "action": "羊排用厨房纸吸干水分，双面抹上黑椒混合调味料、蒜蓉酱，静置腌制 20 分钟",
-          "heat": null,
-          "durationMinutes": 20
-        },
-        {
-          "order": 3,
-          "action": "锡纸碗放上烤架，羊排放在烤架上，撒上罗勒碎，黄油或烧烤料放在羊排上，空气炸锅 180° 10 分钟",
-          "heat": null,
-          "durationMinutes": 10
-        },
-        {
-          "order": 4,
-          "action": "羊排翻面，撒上罗勒碎，黄油（从锡纸碗里舀上来）或烧烤料放在羊排上，空气炸锅 180° 5 分钟（可以视个人喜好加一点时间，这里写的是不会焦的时间）",
-          "heat": null,
-          "durationMinutes": 5
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "羊排",
-          "黑椒混合牛排调味料"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-d72881b6b5f0",
-      "title": "懒人蛋挞",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "烤"
-        ],
-        "difficulty": "中等",
-        "estimatedMinutes": 40,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "隔热手套",
-          "canonicalName": "隔热手套",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "网购蛋挞液",
-          "canonicalName": "网购蛋挞液",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蛋挞皮",
-          "canonicalName": "蛋挞皮",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "个",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蛋挞液约",
-          "canonicalName": "蛋挞液约",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "烤箱 200 度，预热 10 分钟",
-          "heat": null,
-          "durationMinutes": 10
-        },
-        {
-          "order": 2,
-          "action": "在烤盘上放上蛋挞皮，蛋挞皮中倒入蛋挞液约 10ml，具体分量需要看蛋挞皮大小，通常倒入 4/5 即可",
-          "heat": null
-        },
-        {
-          "order": 3,
-          "action": "将烤盘放入烤箱内，上下火 190 度，烤 10 - 20 分。如果想快速烤出蛋挞液上的焦褐斑点，需要上火更高一些，通常是 200 - 210 度",
-          "heat": null
-        },
-        {
-          "order": 4,
-          "action": "蛋挞液烤出焦褐斑点，蛋挞皮完全蓬松冒油即可",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "隔热手套",
-          "网购蛋挞液"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-27a93d60070d",
-      "title": "凉皮",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E5%87%89%E7%9A%AE.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "煮",
-          "拌"
-        ],
-        "difficulty": "中等",
-        "estimatedMinutes": 40,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "凉皮、面筋",
-          "canonicalName": "凉皮、面筋",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黄瓜、大蒜、绿豆芽",
-          "canonicalName": "黄瓜、大蒜、绿豆芽",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "凉皮用量为",
-          "canonicalName": "凉皮用量为",
-          "aliases": [],
-          "quantity": 300,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "芝麻酱的用量为",
-          "canonicalName": "芝麻酱的用量为",
-          "aliases": [],
-          "quantity": 30,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黄瓜",
-          "canonicalName": "黄瓜",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "锅中加入 500ml 水。煮沸。",
-          "heat": null
-        },
-        {
-          "order": 2,
-          "action": "将绿豆芽放入锅中，大火煮 60 秒。豆芽捞出，过凉水，放入盘中备用。",
-          "heat": "大火"
-        },
-        {
-          "order": 3,
-          "action": "黄瓜切丝放入盘中备用",
-          "heat": null
-        },
-        {
-          "order": 4,
-          "action": "将 10g 蒜瓣剥皮、放入蒜臼中加入 1g 盐。锤成蒜泥，加入 10g 自来水。放置备用。",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "注：超市购买来的凉皮表面一般会有食用油，可以使用自来水清洗。面筋同样。",
-          "heat": null
-        },
-        {
-          "order": 6,
-          "action": "注：清洗面筋之后，请用手将面筋中的大量水分挤出（不需过于用力）。",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "准备小碗，加入 3g 盐、2g 鸡精、5g 生抽、1g 老抽、1g 香油、2g 蚝油、香醋 5g、（盐、香醋均可根据个人口味酌量添加，以上数据只是大众口味）。",
-          "heat": null
-        },
-        {
-          "order": 8,
-          "action": "以上调料加入 25-35g 温水（据个人咸淡程度），使用筷子将其拌匀、溶解。静置一旁冷却。",
-          "heat": null
-        },
-        {
-          "order": 9,
-          "action": "注：以下计量均为一人份，如果有 n 人，请自觉将计量乘以 n",
-          "heat": null
-        },
-        {
-          "order": 10,
-          "action": "拿出小碗，将准备好的芝麻酱放入其中。",
-          "heat": null
-        },
-        {
-          "order": 11,
-          "action": "加入 4g 盐、3g 鸡精、5g 生抽、1g 老抽、3g 蚝油。",
-          "heat": null
-        },
-        {
-          "order": 12,
-          "action": "使用筷子将其调料与芝麻酱拌匀。",
-          "heat": null
-        },
-        {
-          "order": 13,
-          "action": "加入 10g 清水将其拌匀。",
-          "heat": null
-        },
-        {
-          "order": 14,
-          "action": "上一步骤重复 2、3 次（次数根据个人对芝麻酱的浓稠程度而定）。",
-          "heat": null
-        },
-        {
-          "order": 15,
-          "action": "拿出之前准备好的小盆，加入之前准备好的凉皮。",
-          "heat": null
-        },
-        {
-          "order": 16,
-          "action": "倒入盐水，使用筷子将其拌匀。随之盛入小碗（盐水一并倒入碗中）。",
-          "heat": null
-        },
-        {
-          "order": 17,
-          "action": "豆芽放置凉皮上、面筋随后放上。",
-          "heat": null
-        },
-        {
-          "order": 18,
-          "action": "将调配好的芝麻酱从面筋上方倒下。",
-          "heat": null
-        },
-        {
-          "order": 19,
-          "action": "撒上黄瓜丝。",
-          "heat": null
-        },
-        {
-          "order": 20,
-          "action": "如有喜爱可以加入辣椒油。",
-          "heat": null
-        },
-        {
-          "order": 21,
-          "action": "色香味俱全的家常凉皮出炉！",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "凉皮、面筋",
-          "黄瓜、大蒜、绿豆芽"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-052a03385a8b",
-      "title": "牛油火锅底料",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E7%89%9B%E6%B2%B9%E7%81%AB%E9%94%85%E5%BA%95%E6%96%99.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炒",
-          "炸"
-        ],
-        "difficulty": "困难",
-        "estimatedMinutes": 30,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "牛油",
-          "canonicalName": "牛油",
-          "aliases": [],
-          "quantity": 4500,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "纯猪油",
-          "canonicalName": "纯猪油",
-          "aliases": [],
-          "quantity": 500,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "豆瓣",
-          "canonicalName": "豆瓣",
-          "aliases": [],
-          "quantity": 1000,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "糍粑辣椒",
-          "canonicalName": "糍粑辣椒",
-          "aliases": [],
-          "quantity": 3000,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "老姜",
-          "canonicalName": "老姜",
-          "aliases": [],
-          "quantity": 250,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "大葱",
-          "canonicalName": "大葱",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "洋葱",
-          "canonicalName": "洋葱",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
-          "quantity": 200,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "豆鼓",
-          "canonicalName": "豆鼓",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "豆母子",
-          "canonicalName": "豆母子",
-          "aliases": [],
-          "quantity": 140,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "红花椒",
-          "canonicalName": "红花椒",
-          "aliases": [],
-          "quantity": 150,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "老油 ? 颗粒香料",
-          "canonicalName": "老油 ? 颗粒香料",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "麦芽粉",
-          "canonicalName": "麦芽粉",
-          "aliases": [],
-          "quantity": 12.5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "白酒",
-          "canonicalName": "白酒",
-          "aliases": [],
-          "quantity": 150,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "老油 ?? 干辣椒面",
-          "canonicalName": "老油 ?? 干辣椒面",
-          "aliases": [],
-          "quantity": 15,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "山奈",
-          "canonicalName": "山奈",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "八角",
-          "canonicalName": "八角",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "草果",
-          "canonicalName": "草果",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "肉桂",
-          "canonicalName": "肉桂",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "丁香",
-          "canonicalName": "丁香",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "小茴香",
-          "canonicalName": "小茴香",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "白芷",
-          "canonicalName": "白芷",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "荜拨",
-          "canonicalName": "荜拨",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香草",
-          "canonicalName": "香草",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香果",
-          "canonicalName": "香果",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "山楂",
-          "canonicalName": "山楂",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "陈皮",
-          "canonicalName": "陈皮",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香茅",
-          "canonicalName": "香茅",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "砂仁",
-          "canonicalName": "砂仁",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "白蔻",
-          "canonicalName": "白蔻",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香叶",
-          "canonicalName": "香叶",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "粉碎机",
-          "canonicalName": "粉碎机",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "锅置旺火（大火）放入牛油烧至 八成热(240±10°C) 时放入 老姜、大葱、洋葱、大蒜 (各100g)，炸干（吸尽异味（牛油腥味））后捞出扔掉。",
-          "heat": "大火"
-        },
-        {
-          "order": 2,
-          "action": "放入 (色拉油 || 菜籽油)、纯猪油，等待锅中油温下降到 五成热(150±10°C) 时放入 糍粑辣椒 持续翻炒 5-8 分钟。",
-          "heat": null,
-          "durationMinutes": 8
-        },
-        {
-          "order": 3,
-          "action": "放入 豆瓣 炒散，转用 中小火 慢炒至料渣略发白翻砂（发出沙沙声）。",
-          "heat": "中小火"
-        },
-        {
-          "order": 4,
-          "action": "油在外观呈现樱桃红时放入 姜片(150g)、大蒜(100g) 炒香，大约 15 秒。",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "放入 豆鼓、豆母子 炒香，放入 红花椒、小茴香 炒香。",
-          "heat": null
-        },
-        {
-          "order": 6,
-          "action": "（老油） 此刻放入 颗粒香料",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "放入 麦芽粉 炒散，放入 白酒 炒散。",
-          "heat": null
-        },
-        {
-          "order": 8,
-          "action": "起锅装入容器中，静置于温度低的环境(10-20) 5 天后再使用效果最佳。",
-          "heat": null
-        },
-        {
-          "order": 9,
-          "action": "起锅装入容器中放入 干辣椒面 搅匀置放 24 小时，等待制作 老油。",
-          "heat": null
-        },
-        {
-          "order": 10,
-          "action": "将底料倒入锅中，加入 3/5 的开水用大火烧开 （底料:2/5 开水:3/5）。",
-          "heat": "大火"
-        },
-        {
-          "order": 11,
-          "action": "烧开后表面会出现泡沫，将泡沫撇净。",
-          "heat": null
-        },
-        {
-          "order": 12,
-          "action": "转用 中小火 慢熬出味（约 25-30 分钟），过滤去渣。",
-          "heat": "中小火",
-          "durationMinutes": 30
-        },
-        {
-          "order": 13,
-          "action": "等待容器中 油水分离 后，将表面的 油 撇净（将油打出来） 装入另外的容器。",
-          "heat": null
-        },
-        {
-          "order": 14,
-          "action": "将上一步所 撇 出来的 油 重新倒入 净锅 中，直至 炼干 油中水分起锅装入容器即为 火锅老油。",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "牛油",
-          "纯猪油"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-beacf9fae671",
-      "title": "速冻馄饨",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E9%80%9F%E5%86%BB%E9%A6%84%E9%A5%A8.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炖",
-          "煮"
-        ],
-        "difficulty": "简单",
-        "estimatedMinutes": 55,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "未过期的一袋速冻馄饨",
-          "canonicalName": "未过期的一袋速冻馄饨",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "盐",
-          "canonicalName": "盐",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "鸡精",
-          "canonicalName": "鸡精",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "胡椒粉",
-          "canonicalName": "胡椒粉",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香油",
-          "canonicalName": "香油",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香菜",
-          "canonicalName": "香菜",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "根",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "一般一个人一顿可以食用",
-          "canonicalName": "一般一个人一顿可以食用",
-          "aliases": [],
-          "quantity": 12,
-          "unit": "个",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。",
-          "heat": null,
-          "durationMinutes": 35
-        },
-        {
-          "order": 2,
-          "action": "将速冻馄饨小心放入水中，注意不要烫伤。",
-          "heat": null
-        },
-        {
-          "order": 3,
-          "action": "放入电饭煲前可以适当用水过一下。",
-          "heat": null
-        },
-        {
-          "order": 4,
-          "action": "如果馄饨有调料包，此时可一并加入水中。",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "盖上电饭煲，按同样炖或煮的模式运行 20 分钟。",
-          "heat": null,
-          "durationMinutes": 20
-        },
-        {
-          "order": 6,
-          "action": "将所有馄饨连同能没过所有馄饨的水一同盛入碗中。",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。",
-          "heat": null
-        },
-        {
-          "order": 8,
-          "action": "也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "未过期的一袋速冻馄饨",
-          "盐"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-a6d7632b7047",
-      "title": "速冻水饺",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E9%80%9F%E5%86%BB%E6%B0%B4%E9%A5%BA.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炒",
-          "煮",
-          "拌"
-        ],
-        "difficulty": "简单",
-        "estimatedMinutes": 8,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "未过期的一袋速冻水饺",
-          "canonicalName": "未过期的一袋速冻水饺",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "一般一个人可以食用",
-          "canonicalName": "一般一个人可以食用",
-          "aliases": [],
-          "quantity": 7,
-          "unit": "个",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "中火，将水倒入锅中，静候水煮沸。",
-          "heat": "中火"
-        },
-        {
-          "order": 2,
-          "action": "将饺子倒入锅中。",
-          "heat": null
-        },
-        {
-          "order": 3,
-          "action": "倒入锅前可以适当用水过一下。",
-          "heat": null
-        },
-        {
-          "order": 4,
-          "action": "倒入饺子后，可以用炒菜勺子或铲子搅水，但要注意不要铲到饺子上，以避免粘锅上撕破皮或互相粘连造成粘连处夹生。",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "频率不需要太高，平均每 30 秒摇 3 秒，饺子浮起后不需要再做此步。",
-          "heat": null
-        },
-        {
-          "order": 6,
-          "action": "饺子浮起及水再次煮沸后，用炒菜勺子盛起一个饺子观察，如果面皮有夹生可用炒菜勺子舀入 80ml 凉水，将水降温，然后继续煮至沸腾，此间重复此观察、搅拌操作，最多加两次水就能全熟。",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "所有饺子浮起后（下饺子后约 8 分钟）用铲子或漏勺把饺子铲入盘或碗中，装盘后即可食用。",
-          "heat": null,
-          "durationMinutes": 8
-        },
-        {
-          "order": 8,
-          "action": "吃完饺子后，等锅内水温降低，将水倒掉并用洗洁精及时刷锅，不然过段时间锅内煮过的面粉会在锅壁形成黏糊糊的物质。",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "未过期的一袋速冻水饺",
-          "一般一个人可以食用"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
-      "id": "howtocook-structured-4f7e0b845f3a",
-      "title": "炸薯条",
-      "aliases": [],
-      "summary": "根据 HowToCook 公开菜谱的原始流程整理。",
-      "source": {
-        "platform": "github",
-        "creator": "HowToCook",
-        "label": "@HowToCook",
-        "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/semi-finished/%E7%82%B8%E8%96%AF%E6%9D%A1/%E7%82%B8%E8%96%AF%E6%9D%A1.md",
-        "license": "Unlicense"
-      },
-      "tags": {
-        "meal": [
-          "快手菜",
-          "半成品"
-        ],
-        "flavor": [],
-        "methods": [
-          "炸"
-        ],
-        "difficulty": "简单",
-        "estimatedMinutes": 25,
-        "spicyLevel": 0
-      },
-      "ingredients": [
-        {
-          "name": "1 袋半成品薯条",
-          "canonicalName": "1 袋半成品薯条",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "作为主食",
-          "canonicalName": "作为主食",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "作为小食",
-          "canonicalName": "作为小食",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        }
-      ],
-      "steps": [
-        {
-          "order": 1,
-          "action": "开封大分量半成品薯条注意开口要小，可以有效减少长久储藏下薯条表面结霜。",
-          "heat": null
-        },
-        {
-          "order": 2,
-          "action": "插电，200℃预热 5 分钟。",
-          "heat": null,
-          "durationMinutes": 5
-        },
-        {
-          "order": 3,
-          "action": "预热的目的是为了确保放入食材的时候锅内温度已经处于烹饪所需温度。",
-          "heat": null
-        },
-        {
-          "order": 4,
-          "action": "注意，预热完再拿出薯条，不应等薯条软化后再炸制。",
-          "heat": null
-        },
-        {
-          "order": 5,
-          "action": "取出薯条放入空气炸锅，200℃20 分钟。",
-          "heat": null,
-          "durationMinutes": 20
-        },
-        {
-          "order": 6,
-          "action": "取出薯条的时候注意半成品薯条已经有油，所以要异步去做客户端内刀斯林的话需要使用夹持工具。",
-          "heat": null
-        },
-        {
-          "order": 7,
-          "action": "5~10 分钟时可以拿出锅体晃动使薯条受热均匀也防止粘连。",
-          "heat": null,
-          "durationMinutes": 10
-        },
-        {
-          "order": 8,
-          "action": "10 分钟~15 分钟时，拿出锅体，往已经干了的薯条表面喷 1 层面积为薯条表面积 2/3 的油。",
-          "heat": null,
-          "durationMinutes": 10
-        },
-        {
-          "order": 9,
-          "action": "喜欢脆薯条的，取出后拿着锅体跳舞让空气经过薯条表面后装盘；喜欢软薯条的直接装盘。配合蘸酱或浇上酱汁更佳。",
-          "heat": null
-        }
-      ],
-      "notes": [
-        "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
-      ],
-      "quality": {
-        "status": "source_structured",
-        "requiredIngredients": [
-          "1袋半成品薯条",
-          "作为主食"
-        ],
-        "ingredientConfidence": 0.8,
-        "quantityConfidence": 0.7,
-        "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
-      }
-    },
-    {
       "id": "howtocook-structured-f4e64e08e42e",
       "title": "昂刺鱼豆腐汤",
       "aliases": [],
@@ -38356,7 +36901,7 @@
           "quantity": 250,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "番茄",
@@ -38610,16 +37155,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
-        },
-        {
-          "name": "一般一个人可以食用",
-          "canonicalName": "一般一个人可以食用",
-          "aliases": [],
-          "quantity": 60,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "水的体积是米饭的体积的",
@@ -38930,7 +37466,7 @@
           "quantity": 5,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -39678,7 +38214,7 @@
           "quantity": 5,
           "unit": "克",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "盐",
@@ -40592,7 +39128,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "的干紫菜",
@@ -40710,7 +39246,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "方便面用量为",
@@ -40850,7 +39386,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "方便面",
           "鸡蛋"
@@ -40858,7 +39394,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -41136,7 +39672,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "辣椒粉",
@@ -41395,7 +39931,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "金菇",
@@ -41404,7 +39940,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "冬菇",
@@ -41413,7 +39949,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "水",
@@ -42777,7 +41313,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "冷冻玉米粒",
@@ -42786,7 +41322,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "海苔碎",
@@ -42795,7 +41331,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "喜欢的沙拉酱",
@@ -42960,7 +41496,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "香草精",
@@ -42969,7 +41505,7 @@
           "quantity": 3,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "量杯",
@@ -43077,7 +41613,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -45121,15 +43657,6 @@
           "required": true
         },
         {
-          "name": "根据个人经验",
-          "canonicalName": "根据个人经验",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
           "name": "水",
           "canonicalName": "水",
           "aliases": [],
@@ -45410,15 +43937,6 @@
           "unit": "适量",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "一般一个人可以食用",
-          "canonicalName": "一般一个人可以食用",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -45454,7 +43972,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "江南米或北方大米",
           "水"
@@ -45462,7 +43980,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -45563,7 +44081,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "北方大米",
           "水"
@@ -45571,7 +44089,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -46267,7 +44785,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "葱",
@@ -46303,7 +44821,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -46772,7 +45290,7 @@
           "quantity": 20,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "姜",
@@ -47052,7 +45570,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "蒜",
@@ -47061,7 +45579,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "葱",
@@ -47070,7 +45588,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "盐",
@@ -47363,7 +45881,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "面食材料",
           "菜类材料"
@@ -47371,7 +45889,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -47453,7 +45971,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡蛋",
@@ -47471,7 +45989,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "食用油",
@@ -47498,7 +46016,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "孜然粉",
@@ -47516,7 +46034,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "黑胡椒粉",
@@ -47579,7 +46097,7 @@
           "quantity": 30,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "鸡蛋 = 份数",
@@ -47597,7 +46115,7 @@
           "quantity": 40,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "食用油 = 份数",
@@ -47624,7 +46142,7 @@
           "quantity": 1,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "孜然粉 = 份数",
@@ -47642,7 +46160,7 @@
           "quantity": 2,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "黑胡椒粉 = 份数",
@@ -49109,7 +47627,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "香菜叶",
@@ -49118,7 +47636,7 @@
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "大蒜",
@@ -49127,7 +47645,7 @@
           "quantity": 3,
           "unit": "瓣",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "擀面杖",
@@ -49163,7 +47681,7 @@
           "quantity": 5,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -50567,7 +49085,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "胡萝卜",
@@ -50576,7 +49094,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -50863,15 +49381,6 @@
           "unit": "适量",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "单人",
-          "canonicalName": "单人",
-          "aliases": [],
-          "quantity": 3,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -50917,7 +49426,7 @@
         "源自 HowToCook 公开结构化菜谱；用量、工具和保存提示请以原文为准。"
       ],
       "quality": {
-        "status": "source_structured",
+        "status": "excluded_from_recommendations",
         "requiredIngredients": [
           "鸡蛋",
           "水"
@@ -50925,7 +49434,7 @@
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
         "stepConfidence": 0.9,
-        "reviewNote": "已按来源的原料、计算和操作章节结构化导入，尚未逐道人工复核。"
+        "reviewNote": "不作为独立家常菜谱推荐：属于基础操作、速食组合或单一饮品。"
       }
     },
     {
@@ -51681,7 +50190,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "虾皮",
@@ -51690,7 +50199,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "香葱",
@@ -51699,7 +50208,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "肉末",
@@ -51708,7 +50217,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "酱油",
@@ -51726,7 +50235,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "醋",
@@ -51735,7 +50244,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "菜籽油或花生油",
@@ -51900,7 +50409,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "茄子",
-          "八角"
+          "酱油"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -53088,7 +51597,7 @@
           "quantity": 2,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "藤椒油",
@@ -53097,7 +51606,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -53226,7 +51735,7 @@
           "quantity": 10,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "葱",
@@ -53235,7 +51744,7 @@
           "quantity": 5,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "盐",
@@ -53253,7 +51762,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "芝麻油",
@@ -53262,7 +51771,7 @@
           "quantity": 1,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -53400,7 +51909,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "生抽 / 味极鲜",
@@ -53409,7 +51918,7 @@
           "quantity": 6,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -53540,7 +52049,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "沸水",
@@ -53678,7 +52187,7 @@
           "quantity": 1,
           "unit": "个",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "食用油",
@@ -55948,7 +54457,7 @@
           "quantity": 3,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "大白菜嫩叶",
@@ -56235,7 +54744,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "盐",
@@ -56307,7 +54816,7 @@
           "quantity": 2,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "香菜碎根据口味加",
@@ -56316,7 +54825,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         }
       ],
       "steps": [
@@ -56826,7 +55335,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": false
         },
         {
           "name": "叶菜类蔬菜",

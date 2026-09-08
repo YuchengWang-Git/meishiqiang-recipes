@@ -5,6 +5,7 @@ const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/$
 const recipes = libraries.flatMap((library) => library.recipes);
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
 const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "creator_attributed", "excluded_from_recommendations", "needs_rebuild"]);
+const malformedHowToCookIngredient = /(秒表|单人|淹过|没过|一般一个人可以食用)/;
 const errors = [];
 const ids = new Set();
 
@@ -26,6 +27,9 @@ for (const recipe of recipes) {
   if (!Array.isArray(recipe.steps) || !recipe.steps.length) errors.push(`${label}: 没有步骤`);
 
   const ingredientTerms = (recipe.ingredients || []).flatMap(terms);
+  if (!hiddenStatuses.has(recipe.quality?.status) && recipe.source?.creator === "HowToCook" && (recipe.ingredients || []).some((item) => malformedHowToCookIngredient.test(item.name) || malformedHowToCookIngredient.test(item.canonicalName))) {
+    errors.push(`${label}: HowToCook 解析出工具或说明文字，不能作为可推荐食材`);
+  }
   for (const required of recipe.quality?.requiredIngredients || []) {
     if (!ingredientTerms.some((item) => item === required || item.includes(required) || required.includes(item))) errors.push(`${label}: 关键食材“${required}”未列入材料`);
   }
