@@ -49,6 +49,11 @@ function methods(recipe) {
   const result = methodRules.filter(([, rule]) => rule.test(text)).map(([name]) => name);
   return result.length ? result.slice(0, 4) : ["家常做法"];
 }
+function difficulty(recipe, steps) {
+  const text = steps.map((step) => `${step.action} ${step.cue || ""}`).join(" ");
+  if (/(?:复炸|油温.{0,16}(?:150|180|190|200|210|冒泡)|(?:150|180|190|200|210)度.{0,16}油温|发酵|揉面|擀面|拉面|炒糖色|熬糖|打发|起酥|脱骨|去骨)/.test(text)) return "困难";
+  return steps.length >= 7 || methods(recipe).length >= 3 ? "中等" : "简单";
+}
 function flavorTags(recipe) {
   const text = [...(recipe.tags || []), recipe.description || ""].join(" ");
   const flavors = [["酸辣", /酸辣/], ["香辣", /香辣|辣/], ["咸甜", /咸甜|蜜汁/], ["酸甜", /酸甜|糖醋/], ["鲜香", /鲜香|海鲜/], ["麻辣", /麻辣/]].filter(([, rule]) => rule.test(text)).map(([name]) => name);
@@ -70,7 +75,7 @@ function toRecipe(recipe) {
     aliases: [...new Set([recipe.dish_name, ...tags].filter((item) => item && item !== title))],
     summary: recipe.description || `${title}的村驴视频文字整理。`,
     source: { platform: "bilibili", bvid: recipe.video_bvid, url: recipe.video_url, creator: "村驴", label: "@B站村驴", derivedFrom: "Ryder-MHumble/Cunlv-Skill（MIT）及 eleven71/cunlv-menu 整理数据", license: "原始教程版权归村驴所有；仅作非商业个人学习参考" },
-    tags: { meal: mealTags(recipe), flavor: flavorTags(recipe), methods: methods(recipe), difficulty: steps.length >= 10 ? "困难" : steps.length >= 6 ? "中等" : "简单", estimatedMinutes: null, spicyLevel: /辣/.test(tags.join(" ")) ? 1 : 0 },
+    tags: { meal: mealTags(recipe), flavor: flavorTags(recipe), methods: methods(recipe), difficulty: difficulty(recipe, steps), estimatedMinutes: null, spicyLevel: /辣/.test(tags.join(" ")) ? 1 : 0 },
     ingredients: (recipe.ingredients || []).map(toIngredient),
     steps,
     notes: [...new Set(recipe.tips || [])],

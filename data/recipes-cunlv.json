@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T06:37:24.852Z",
+  "updatedAt": "2026-09-08T07:57:44.504Z",
   "source": "村驴视频教程的结构化整理数据；每条保留原视频链接与署名。",
   "recipes": [
     {
@@ -826,7 +826,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -2404,7 +2404,7 @@
           "炒",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -2678,7 +2678,7 @@
           "焖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -4386,7 +4386,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -5277,7 +5277,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -5611,7 +5611,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -6964,7 +6964,7 @@
           "烤",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -7283,7 +7283,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -7570,7 +7570,7 @@
         "methods": [
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -7827,7 +7827,7 @@
           "焖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -8124,7 +8124,7 @@
           "炖",
           "焖"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -9798,7 +9798,7 @@
           "蒸",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -10256,7 +10256,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -10617,7 +10617,7 @@
           "炒",
           "炸"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -11288,7 +11288,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -12246,7 +12246,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -13044,7 +13044,7 @@
           "炒",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -13614,7 +13614,7 @@
           "煮",
           "腌"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -15331,7 +15331,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -16989,7 +16989,7 @@
           "煎",
           "炒"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -17985,7 +17985,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -19137,7 +19137,7 @@
           "炸",
           "炖"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -20171,7 +20171,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -20501,7 +20501,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -21912,7 +21912,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -22359,7 +22359,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -22741,7 +22741,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -24004,7 +24004,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -24597,7 +24597,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -25068,7 +25068,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -26318,7 +26318,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -27260,7 +27260,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -28849,7 +28849,7 @@
           "蒸",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -30584,7 +30584,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -30861,7 +30861,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -31825,7 +31825,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -32193,7 +32193,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -32790,7 +32790,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -33351,7 +33351,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -33651,7 +33651,7 @@
         "methods": [
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -33998,7 +33998,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -34350,7 +34350,7 @@
           "炸",
           "焖"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -34790,7 +34790,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -35003,7 +35003,7 @@
           "蒸",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -35888,7 +35888,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -36282,7 +36282,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -37402,7 +37402,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -37944,7 +37944,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -40452,7 +40452,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -41820,7 +41820,7 @@
           "焖",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -42127,7 +42127,7 @@
           "煎",
           "炒"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -42612,7 +42612,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -42851,7 +42851,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -43561,7 +43561,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -45619,7 +45619,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -46203,7 +46203,7 @@
           "炒",
           "腌"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -46495,7 +46495,7 @@
           "煎",
           "炖"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -48881,7 +48881,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -49869,7 +49869,7 @@
           "炖",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -50834,7 +50834,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -51808,7 +51808,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -52133,7 +52133,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -52503,7 +52503,7 @@
           "炸",
           "腌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -53939,7 +53939,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -54554,7 +54554,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -55515,7 +55515,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -56440,7 +56440,7 @@
           "炸",
           "蒸"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -56794,7 +56794,7 @@
         "methods": [
           "蒸"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -59608,7 +59608,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -60105,7 +60105,7 @@
           "烤",
           "腌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -62376,7 +62376,7 @@
           "焖",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -63510,7 +63510,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -65019,7 +65019,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -66007,7 +66007,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -68048,7 +68048,7 @@
           "焖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -69244,7 +69244,7 @@
         "methods": [
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -69439,7 +69439,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -70616,7 +70616,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -70947,7 +70947,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -71147,7 +71147,7 @@
         "methods": [
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -71416,7 +71416,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -71667,7 +71667,7 @@
           "炒",
           "炸"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -72401,7 +72401,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -73854,7 +73854,7 @@
         "methods": [
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -74250,7 +74250,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -76094,7 +76094,7 @@
           "烤",
           "焖"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -77016,7 +77016,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -77316,7 +77316,7 @@
           "炸",
           "烤"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -78020,7 +78020,7 @@
         "methods": [
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -78251,7 +78251,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -78800,7 +78800,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -79245,7 +79245,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -79840,7 +79840,7 @@
           "炖",
           "焖"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -80664,7 +80664,7 @@
           "焖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -81620,7 +81620,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -81793,7 +81793,7 @@
           "蒸",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -82118,7 +82118,7 @@
           "烤",
           "炖"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -82736,7 +82736,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -83428,7 +83428,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -83872,7 +83872,7 @@
         "methods": [
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -84106,7 +84106,7 @@
           "煎",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "简单",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -84732,7 +84732,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -86380,7 +86380,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -88725,7 +88725,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -89166,7 +89166,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -89512,7 +89512,7 @@
           "焖",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -90128,7 +90128,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -91089,7 +91089,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -92196,7 +92196,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -92729,7 +92729,7 @@
           "炒",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -93061,7 +93061,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -93344,7 +93344,7 @@
           "炸",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -93619,7 +93619,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -94090,7 +94090,7 @@
           "煮",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -94638,7 +94638,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "困难",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -97064,7 +97064,7 @@
           "煮",
           "卤"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -97398,7 +97398,7 @@
           "炖",
           "煮"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -97556,7 +97556,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "中等",
+        "difficulty": "困难",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
@@ -97910,7 +97910,7 @@
           "腌",
           "拌"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 1
       },
@@ -98100,7 +98100,7 @@
           "炸",
           "烤"
         ],
-        "difficulty": "简单",
+        "difficulty": "中等",
         "estimatedMinutes": null,
         "spicyLevel": 0
       },
