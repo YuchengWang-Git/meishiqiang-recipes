@@ -38,6 +38,10 @@ window.addEventListener("online", setConnectionNotice);
 window.addEventListener("offline", setConnectionNotice);
 
 const normalize = (value) => String(value || "").trim().toLowerCase().replace(/\s+/g, "");
+const selectionName = (value) => {
+  const cleaned = String(value || "").trim().replace(/[=＝]+$/g, "").replace(/^[\d一二三四五六七八九十半两]+(?:[./、-]\d+)?\s*(?:个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|克|g|毫升|ml|斤)?\s*/iu, "");
+  return normalize(cleaned).includes("鸡蛋") ? "鸡蛋" : cleaned;
+};
 const sourceTag = (recipe) => recipe.source?.label || (() => {
   const platform = recipe.source?.platform === "bilibili" ? "B站" : recipe.source?.platform || "来源";
   return `@${platform}${recipe.source?.creator || ""}`;
@@ -64,7 +68,7 @@ const estimatedTime = (recipe) => Number.isFinite(recipe.tags.estimatedMinutes) 
 function allIngredients() {
   const names = new Set();
   state.recipes.forEach((recipe) => recipe.ingredients.forEach((item) => {
-    names.add(item.canonicalName); (item.aliases || []).forEach((name) => names.add(name));
+    names.add(selectionName(item.canonicalName || item.name));
   }));
   return [...names].sort((a, b) => a.localeCompare(b, "zh-CN"));
 }
@@ -73,15 +77,27 @@ function ingredientMatches(ingredient, selected) {
   return ingredientTerms(ingredient).some((term) => term.includes(target) || target.includes(term));
 }
 function addIngredient(value = elements.search.value) {
-  const clean = value.trim();
+  const clean = selectionName(value);
   if (clean && !state.selected.some((item) => normalize(item) === normalize(clean))) state.selected.push(clean);
   elements.search.value = ""; elements.suggestions.hidden = true; render();
 }
 function scoreRecipe(recipe) {
   const required = recipe.ingredients.filter((item) => item.required && item.role !== "调味料");
+  const declaredMainIngredients = recipe.ingredients.filter((item) => item.required && item.role === "主料");
+  // 早期整理的菜谱没有角色标记时，退回到全部非调味必需食材，避免误判为“主料已齐”。
+  const mainIngredients = declaredMainIngredients.length ? declaredMainIngredients : required;
   const matched = state.selected.filter((selected) => recipe.ingredients.some((ingredient) => ingredientMatches(ingredient, selected)));
   const missing = required.filter((ingredient) => !state.selected.some((selected) => ingredientMatches(ingredient, selected)));
-  return { matched, missing, score: state.selected.length ? matched.length / state.selected.length : 0 };
+  const missingMain = mainIngredients.filter((ingredient) => !state.selected.some((selected) => ingredientMatches(ingredient, selected)));
+  const matchedMain = mainIngredients.length - missingMain.length;
+  return {
+    matched,
+    missing,
+    missingMain,
+    mainComplete: mainIngredients.length > 0 && missingMain.length === 0,
+    mainCoverage: mainIngredients.length ? matchedMain / mainIngredients.length : 0,
+    score: state.selected.length ? matched.length / state.selected.length : 0,
+  };
 }
 function filteredRecipes() {
   const excluded = elements.exclude.value.split(/[、，\s]+/).map(normalize).filter(Boolean);
@@ -93,7 +109,12 @@ function filteredRecipes() {
     .filter((recipe) => !excluded.some((term) => recipe.ingredients.some((item) => ingredientTerms(item).some((name) => name.includes(term)))))
     .map((recipe) => ({ recipe, quality: qualityInfo(recipe), ...scoreRecipe(recipe) }))
     .filter((entry) => !state.selected.length || entry.matched.length > 0)
-    .sort((a, b) => b.score - a.score || b.quality.rank - a.quality.rank || a.missing.length - b.missing.length);
+    .sort((a, b) => Number(b.mainComplete) - Number(a.mainComplete)
+      || a.missingMain.length - b.missingMain.length
+      || b.mainCoverage - a.mainCoverage
+      || b.score - a.score
+      || b.quality.rank - a.quality.rank
+      || a.missing.length - b.missing.length);
 }
 function recipeCard(entry) {
   const { recipe, matched, missing } = entry;
