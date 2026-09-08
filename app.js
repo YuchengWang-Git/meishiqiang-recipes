@@ -39,7 +39,16 @@ window.addEventListener("offline", setConnectionNotice);
 
 const normalize = (value) => String(value || "").trim().toLowerCase().replace(/\s+/g, "");
 const selectionName = (value) => {
-  const cleaned = String(value || "").trim().replace(/[=＝]+$/g, "").replace(/^[\d一二三四五六七八九十半两]+(?:[./、-]\d+)?\s*(?:个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|克|g|毫升|ml|斤)?\s*/iu, "");
+  const cleaned = String(value || "").trim()
+    .replace(/[（(][^）)]*[）)]/g, "")
+    .replace(/[=＝].*$/g, "")
+    .replace(/[\/／].*$/g, "")
+    .replace(/(?:或|、).*/g, "")
+    .replace(/(?:的)?(?:用量|量)\s*(?:为)?\s*.*$/g, "")
+    .replace(/\s*(?:约|大约)\s*$/g, "")
+    .replace(/\s*[\d.]+\s*(?:克|g|毫升|ml|个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|斤)?\s*$/iu, "")
+    .replace(/^[\d一二三四五六七八九十半两]+(?:[./、-]\d+)?\s*(?:个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|克|g|毫升|ml|斤)?\s*/iu, "")
+    .trim();
   return normalize(cleaned).includes("鸡蛋") ? "鸡蛋" : cleaned;
 };
 const pantryIngredientTerms = new Set([
@@ -66,9 +75,14 @@ const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
 const isVisibleRecipe = (recipe) => !["excluded_from_recommendations", "needs_rebuild"].includes(recipe.quality?.status);
 const ingredientTerms = (ingredient) => [ingredient.name, ingredient.canonicalName, ...(ingredient.aliases || [])].map(normalize);
 const isDefaultPantryIngredient = (ingredient) => {
-  const terms = typeof ingredient === "string" ? [normalize(selectionName(ingredient))] : ingredientTerms(ingredient);
-  return terms.some((term) => pantryIngredientTerms.has(term));
+  const rawTerms = typeof ingredient === "string" ? [ingredient] : [ingredient.name, ingredient.canonicalName, ...(ingredient.aliases || [])];
+  return rawTerms.some((term) => {
+    const clean = normalize(selectionName(term));
+    return pantryIngredientTerms.has(clean) || /^(?:(?:热|熟|炸用|炒菜用|炒馅用|普通|食用|植物|菜籽|花生|大豆|玉米|猪|香|芝麻|麻)?油)$/.test(clean);
+  });
 };
+const ingredientLabel = (ingredient) => selectionName(ingredient.canonicalName || ingredient.name) || ingredient.name;
+const isUsableIngredientCandidate = (name) => Boolean(name) && !/(?:等.*(?:类|等)|配菜|调味包|蘸料|碗汁|用量|份数|每个|一个人|适量)/.test(name);
 const recipeServings = (recipe) => state.servings[recipe.id] || recipe.servings || 1;
 const formatNumber = (value) => Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, "");
 const scaledQuantity = (recipe, ingredient) => {
@@ -80,7 +94,8 @@ const estimatedTime = (recipe) => Number.isFinite(recipe.tags.estimatedMinutes) 
 function allIngredients() {
   const names = new Set();
   state.recipes.forEach((recipe) => recipe.ingredients.forEach((item) => {
-    if (!isDefaultPantryIngredient(item)) names.add(selectionName(item.canonicalName || item.name));
+    const name = selectionName(item.canonicalName || item.name);
+    if (!isDefaultPantryIngredient(item) && isUsableIngredientCandidate(name)) names.add(name);
   }));
   return [...names].sort((a, b) => a.localeCompare(b, "zh-CN"));
 }
@@ -90,7 +105,7 @@ function ingredientMatches(ingredient, selected) {
 }
 function addIngredient(value = elements.search.value) {
   const clean = selectionName(value);
-  if (clean && !isDefaultPantryIngredient(clean) && !state.selected.some((item) => normalize(item) === normalize(clean))) state.selected.push(clean);
+  if (clean && isUsableIngredientCandidate(clean) && !isDefaultPantryIngredient(clean) && !state.selected.some((item) => normalize(item) === normalize(clean))) state.selected.push(clean);
   elements.search.value = ""; elements.suggestions.hidden = true; render();
 }
 function scoreRecipe(recipe) {
@@ -134,11 +149,11 @@ function recipeCard(entry) {
   const favorite = state.favorites.has(recipe.id); const made = madeCount(recipe);
   const mainIngredientCount = recipe.ingredients.filter((item) => item.role === "主料" && !isDefaultPantryIngredient(item)).length || recipe.ingredients.filter((item) => item.required && !isDefaultPantryIngredient(item)).length;
   const matchText = state.selected.length ? `匹配 ${matched.length}/${state.selected.length} 个所选食材` : `${mainIngredientCount} 种主要用料`;
-  const missingText = state.selected.length && missing.length ? `<div class="match missing">还需：${missing.slice(0, 4).map((item) => item.canonicalName).join("、")}</div>` : "";
+  const missingText = state.selected.length && missing.length ? `<div class="match missing">还需：${missing.slice(0, 4).map(ingredientLabel).join("、")}</div>` : "";
   return `<article class="recipe-card"><div class="card-top"><div><p class="eyebrow">${recipe.tags.meal[0]} <span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h3>${recipe.title}</h3></div></div><p>${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.flavor.join(" · ")}</span></div><div class="match">${matchText}</div>${missingText}${made ? `<div class="made-count">已做 ${made} 次</div>` : ""}<div class="card-actions"><button class="primary" data-open="${recipe.id}">查看做法</button><button class="favorite ${favorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="收藏${recipe.title}">${favorite ? "已收藏" : "收藏"}</button></div></article>`;
 }
 function ingredientRows(recipe) {
-  return recipe.ingredients.map((item) => `<li><span>${item.name}${item.required ? "" : "（可选）"}</span><strong>${scaledQuantity(recipe, item)}</strong>${item.prep ? `<small>${item.prep}</small>` : ""}${item.alternatives?.length ? `<small>可替代：${item.alternatives.join("、")}</small>` : ""}</li>`).join("");
+  return recipe.ingredients.map((item) => `<li><span>${ingredientLabel(item)}${item.required ? "" : "（可选）"}</span><strong>${scaledQuantity(recipe, item)}</strong>${item.prep ? `<small>${item.prep}</small>` : ""}${item.alternatives?.length ? `<small>可替代：${item.alternatives.join("、")}</small>` : ""}</li>`).join("");
 }
 function renderDetail(recipe) {
   clearInterval(timerId);
@@ -164,7 +179,7 @@ function persistFavorites() { localStorage.setItem("recipe-favorites", JSON.stri
 function persistMadeCounts() { localStorage.setItem("recipe-made-counts", JSON.stringify(state.madeCounts)); }
 function persistShoppingList() { localStorage.setItem("recipe-shopping-list", JSON.stringify([...state.shoppingList])); }
 function addMissingToShopping(recipe) {
-  recipe.ingredients.filter((item) => item.required && !isDefaultPantryIngredient(item) && !state.selected.some((selected) => ingredientMatches(item, selected))).forEach((item) => state.shoppingList.add(item.canonicalName || item.name));
+  recipe.ingredients.filter((item) => item.required && !isDefaultPantryIngredient(item) && !state.selected.some((selected) => ingredientMatches(item, selected))).forEach((item) => state.shoppingList.add(ingredientLabel(item)));
   persistShoppingList(); render();
 }
 function renderShoppingList() {
@@ -180,7 +195,7 @@ function render() {
 }
 elements.add.addEventListener("click", () => addIngredient());
 elements.search.addEventListener("keydown", (event) => { if (event.key === "Enter") addIngredient(); });
-elements.search.addEventListener("input", () => { const query = normalize(elements.search.value); const matches = query ? allIngredients().filter((name) => normalize(name).includes(query)).slice(0, 6) : []; elements.suggestions.innerHTML = matches.map((name) => `<button data-suggest="${name}">${name}</button>`).join(""); elements.suggestions.hidden = matches.length === 0; });
+elements.search.addEventListener("input", () => { const query = normalize(elements.search.value); const matches = query ? allIngredients().filter((name) => normalize(name).includes(query)).sort((a, b) => Number(normalize(b) === query) - Number(normalize(a) === query) || Number(normalize(b).startsWith(query)) - Number(normalize(a).startsWith(query)) || a.localeCompare(b, "zh-CN")).slice(0, 6) : []; elements.suggestions.innerHTML = matches.map((name) => `<button data-suggest="${name}">${name}</button>`).join(""); elements.suggestions.hidden = matches.length === 0; });
 elements.suggestions.addEventListener("click", (event) => { const target = event.target.closest("[data-suggest]"); if (target) addIngredient(target.dataset.suggest); });
 elements.selected.addEventListener("click", (event) => { const target = event.target.closest("[data-remove]"); if (target) { state.selected.splice(Number(target.dataset.remove), 1); render(); } });
 [elements.time, elements.difficulty, elements.quality, elements.exclude].forEach((element) => element.addEventListener("input", render));
