@@ -61,6 +61,9 @@ h1 { margin: 0; font-family: "STSong", "Songti SC", serif; font-size: clamp(42px
 .suggestions { position: absolute; top: 82px; width: 100%; background: white; border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 8px; z-index: 5; }
 .suggestions button { width: 100%; text-align: left; border: 0; background: transparent; padding: 11px 12px; border-radius: 8px; }
 .suggestions button:hover { background: var(--cream); }
+.recipe-search-wrap { max-width: 670px; margin-top: 16px; }
+.recipe-search-wrap label { display: block; font-weight: 700; margin-bottom: 10px; }
+.recipe-search-wrap input { width: 100%; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.78); padding: 13px 15px; color: var(--ink); outline-color: var(--accent); }
 .chips { min-height: 42px; max-width: 700px; display: flex; flex-wrap: wrap; gap: 9px; margin-top: 16px; }
 .chip { border: 1px solid #d9cdb9; background: rgba(255,255,255,.72); color: var(--ink); padding: 8px 12px; border-radius: 999px; }
 .chip::after { content: " ×"; color: var(--accent); }

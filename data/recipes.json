@@ -5620,7 +5620,7 @@
           "cue": "青椒洗干净之后去掉辣椒丁",
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             20.5
           ]
         },
@@ -5632,8 +5632,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            28.0
+            23,
+            28
           ]
         },
         {
@@ -5647,7 +5647,7 @@
           ],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -5661,7 +5661,7 @@
           ],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -5672,7 +5672,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -5685,7 +5685,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -5708,7 +5708,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -5722,8 +5722,8 @@
             "锅一定要烧热"
           ],
           "evidenceRangeSeconds": [
-            73.0,
-            78.0
+            73,
+            78
           ]
         },
         {
@@ -5735,7 +5735,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -5749,7 +5749,7 @@
           ],
           "evidenceRangeSeconds": [
             85.5,
-            98.0
+            98
           ]
         },
         {
@@ -5761,7 +5761,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -5773,7 +5773,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -6007,8 +6007,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -6022,7 +6022,7 @@
           ],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -6033,7 +6033,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -6045,7 +6045,7 @@
           "cue": "搅拌到这样非常粘手的状态",
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -6057,7 +6057,7 @@
           "cue": "焯干张的时候适量的加点小苏打",
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -6071,7 +6071,7 @@
             "可以让干张更加的软嫩"
           ],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -6095,7 +6095,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -6109,7 +6109,7 @@
             "水不要加太多"
           ],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -6121,7 +6121,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -6133,8 +6133,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
-            158.0
+            113,
+            158
           ]
         },
         {
@@ -6289,7 +6289,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             5.5,
-            13.0
+            13
           ]
         },
         {
@@ -6301,7 +6301,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            33.0
+            33
           ]
         },
         {
@@ -6315,7 +6315,7 @@
           ],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -6339,7 +6339,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            78.0
+            78
           ]
         },
         {
@@ -6352,7 +6352,7 @@
             "现在就可以直接来炒牛肉了"
           ],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -6380,8 +6380,8 @@
             "就可以翻一面来煎"
           ],
           "evidenceRangeSeconds": [
-            103.0,
-            108.0
+            103,
+            108
           ]
         },
         {
@@ -6392,7 +6392,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
+            113,
             115.5
           ]
         },
@@ -6404,7 +6404,7 @@
           "cue": "锅洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
+            118,
             125.5
           ]
         }
@@ -6586,7 +6586,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -6598,7 +6598,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            23.0
+            23
           ]
         },
         {
@@ -6611,7 +6611,7 @@
             "再加上味精和白胡椒粉拌匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -6639,7 +6639,7 @@
             "把生姜炸到这种焦黄的状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -6653,7 +6653,7 @@
             "像这样底下一面煎的有些微微的焦褐感就可以"
           ],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -6668,7 +6668,7 @@
           ],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -6680,7 +6680,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -6691,7 +6691,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -6703,7 +6703,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -6717,7 +6717,7 @@
             "炖上十五分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             105.5
           ]
         },
@@ -6729,8 +6729,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
-            118.0
+            108,
+            118
           ]
         }
       ],
@@ -6927,7 +6927,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            23.0
+            23
           ]
         },
         {
@@ -6950,7 +6950,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             45.5
           ]
         },
@@ -6962,7 +6962,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -6974,7 +6974,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -6988,7 +6988,7 @@
             "直接下锅炖也可以啊"
           ],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -7000,7 +7000,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             70.5
           ]
         },
@@ -7012,7 +7012,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -7024,7 +7024,7 @@
           "cue": "然后白菜干下锅继续煸炒",
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -7036,8 +7036,8 @@
           "cue": "把白菜干也炒软；炖水量加到基本和食材齐平即可",
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            93.0
+            88,
+            93
           ]
         },
         {
@@ -7062,8 +7062,8 @@
             "再煮上个两分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            103.0,
-            108.0
+            103,
+            108
           ]
         },
         {
@@ -7075,7 +7075,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -7086,8 +7086,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
-            118.0
+            118,
+            118
           ]
         }
       ],
@@ -7211,7 +7211,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -7223,7 +7223,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             25.5
           ]
         },
@@ -7235,7 +7235,7 @@
           "cue": "然后鸡肉冲洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -7247,7 +7247,7 @@
           "cue": "洗好之后把水分充分沥干；内脏用面粉和盐搓洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -7259,7 +7259,7 @@
           "cue": "沥干水分的鸡肉放到盆中",
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -7271,8 +7271,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
-            48.0
+            43,
+            48
           ]
         },
         {
@@ -7284,7 +7284,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -7295,7 +7295,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -7309,7 +7309,7 @@
             "把鸡肉炒到有点微微的缩紧就可以了"
           ],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -7322,7 +7322,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -7506,7 +7506,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -7517,7 +7517,7 @@
           "cue": "洗干净再用调料袋包起来",
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             30.5
           ]
         },
@@ -7530,7 +7530,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            53.0
+            53
           ]
         },
         {
@@ -7542,7 +7542,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -7553,8 +7553,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
-            68.0
+            63,
+            68
           ]
         },
         {
@@ -7579,7 +7579,7 @@
             "炒个两三分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -7591,8 +7591,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            88.0
+            83,
+            88
           ]
         },
         {
@@ -7617,8 +7617,8 @@
             "用高压锅的话十五分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
-            143.0
+            98,
+            143
           ]
         },
         {
@@ -7813,7 +7813,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -7825,7 +7825,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             20.5
           ]
         },
@@ -7837,8 +7837,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            28.0
+            23,
+            28
           ]
         },
         {
@@ -7850,7 +7850,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -7861,7 +7861,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -7875,8 +7875,8 @@
             "上气之后用小火压上3分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            48.0,
-            53.0
+            48,
+            53
           ]
         },
         {
@@ -7899,7 +7899,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -7911,7 +7911,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -7923,7 +7923,7 @@
           "cue": "大蒜子表面炒的有些微微的焦褐感",
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -7935,7 +7935,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -7947,7 +7947,7 @@
           "cue": "猪肚的表面也炒的有点焦焦的起皱",
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -7961,7 +7961,7 @@
             "汤汁加到漫过猪肚就可以了"
           ],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -7973,7 +7973,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -7985,7 +7985,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -8001,7 +8001,7 @@
           ],
           "evidenceRangeSeconds": [
             105.5,
-            113.0
+            113
           ]
         },
         {
@@ -8180,8 +8180,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            8.0,
-            13.0
+            8,
+            13
           ]
         },
         {
@@ -8193,7 +8193,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -8205,7 +8205,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             25.5,
-            28.0
+            28
           ]
         },
         {
@@ -8217,7 +8217,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -8229,7 +8229,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -8252,7 +8252,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -8264,7 +8264,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -8277,7 +8277,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -8300,7 +8300,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -8324,7 +8324,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         }
@@ -8515,7 +8515,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -8527,7 +8527,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -8539,7 +8539,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             20.5,
-            23.0
+            23
           ]
         },
         {
@@ -8562,7 +8562,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -8574,7 +8574,7 @@
           "cue": "炒到四周有些微微的焦褐感",
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -8586,8 +8586,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
-            48.0
+            43,
+            48
           ]
         },
         {
@@ -8601,7 +8601,7 @@
           ],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -8613,7 +8613,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -8627,7 +8627,7 @@
           ],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -8640,8 +8640,8 @@
             "上气之后用小火压上15分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -8653,7 +8653,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -8664,7 +8664,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -8676,8 +8676,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            88.0
+            88,
+            88
           ]
         }
       ],
@@ -8837,8 +8837,8 @@
             "或者用前腿肉来烧都可以"
           ],
           "evidenceRangeSeconds": [
-            8.0,
-            28.0
+            8,
+            28
           ]
         },
         {
@@ -8850,7 +8850,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -8861,8 +8861,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
-            48.0
+            43,
+            48
           ]
         },
         {
@@ -8874,7 +8874,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -8885,7 +8885,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -8899,8 +8899,8 @@
             "萝卜的表面炒到有点回软就可以了"
           ],
           "evidenceRangeSeconds": [
-            63.0,
-            68.0
+            63,
+            68
           ]
         },
         {
@@ -8925,7 +8925,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -8938,7 +8938,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            93.0
+            93
           ]
         },
         {
@@ -9087,7 +9087,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             20.5,
-            23.0
+            23
           ]
         },
         {
@@ -9098,8 +9098,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            48.0
+            28,
+            48
           ]
         },
         {
@@ -9110,7 +9110,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -9122,8 +9122,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
-            63.0
+            58,
+            63
           ]
         },
         {
@@ -9135,7 +9135,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -9148,7 +9148,7 @@
             "锅中的油炒的像这样很清澈就可以了"
           ],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -9160,7 +9160,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -9172,8 +9172,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            88.0
+            83,
+            88
           ]
         },
         {
@@ -9196,7 +9196,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -9210,7 +9210,7 @@
             "炖上20分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             110.5
           ]
         },
@@ -9411,7 +9411,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -9423,7 +9423,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -9435,7 +9435,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             20.5,
-            28.0
+            28
           ]
         },
         {
@@ -9448,7 +9448,7 @@
             "盐放上一点点就可以了"
           ],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             45.5
           ]
         },
@@ -9461,7 +9461,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -9473,7 +9473,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -9485,7 +9485,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -9508,8 +9508,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
-            83.0
+            78,
+            83
           ]
         },
         {
@@ -9520,8 +9520,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
-            98.0
+            93,
+            98
           ]
         },
         {
@@ -9532,7 +9532,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             120.5
           ]
         },
@@ -9544,7 +9544,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            123.0,
+            123,
             125.5
           ]
         },
@@ -9559,7 +9559,7 @@
           ],
           "evidenceRangeSeconds": [
             130.5,
-            138.0
+            138
           ]
         },
         {
@@ -9573,7 +9573,7 @@
           ],
           "evidenceRangeSeconds": [
             140.5,
-            143.0
+            143
           ]
         }
       ],
@@ -9769,7 +9769,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -9781,7 +9781,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             20.5,
-            43.0
+            43
           ]
         },
         {
@@ -9795,7 +9795,7 @@
           ],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -9807,7 +9807,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -9819,7 +9819,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            68.0
+            68
           ]
         },
         {
@@ -9831,7 +9831,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -9843,7 +9843,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -9855,7 +9855,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -9866,7 +9866,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -9879,7 +9879,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -9905,7 +9905,7 @@
           ],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -9917,7 +9917,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             115.5,
-            128.0
+            128
           ]
         }
       ],
@@ -10078,7 +10078,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            23.0
+            23
           ]
         },
         {
@@ -10101,7 +10101,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -10114,7 +10114,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -10125,7 +10125,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -10150,7 +10150,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -10162,7 +10162,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            78.0
+            78
           ]
         },
         {
@@ -10174,7 +10174,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -10199,8 +10199,8 @@
             "汤汁像这样就可以直接勾芡了"
           ],
           "evidenceRangeSeconds": [
-            93.0,
-            103.0
+            93,
+            103
           ]
         },
         {
@@ -10372,7 +10372,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -10384,7 +10384,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -10396,7 +10396,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             20.5,
-            23.0
+            23
           ]
         },
         {
@@ -10408,7 +10408,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             25.5,
-            33.0
+            33
           ]
         },
         {
@@ -10419,7 +10419,7 @@
           "cue": "把排骨里面剩余的水分炒干",
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -10431,7 +10431,7 @@
           "cue": "排骨炒成这样的状态",
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -10445,7 +10445,7 @@
             "肉炒的有点微微的焦褐感就可以了"
           ],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -10469,7 +10469,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             70.5
           ]
         },
@@ -10481,7 +10481,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -10493,7 +10493,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -10506,7 +10506,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            93.0
+            93
           ]
         },
         {
@@ -10518,7 +10518,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            108.0
+            108
           ]
         }
       ],
@@ -10641,7 +10641,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -10653,8 +10653,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -10677,7 +10677,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -10689,8 +10689,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
-            68.0
+            58,
+            68
           ]
         },
         {
@@ -10701,7 +10701,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -10713,8 +10713,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
-            93.0
+            93,
+            93
           ]
         }
       ],
@@ -10893,7 +10893,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            8.0,
+            8,
             10.5
           ]
         },
@@ -10907,8 +10907,8 @@
             "再把泡沫用勺子撇出去就可以了"
           ],
           "evidenceRangeSeconds": [
-            13.0,
-            18.0
+            13,
+            18
           ]
         },
         {
@@ -10931,8 +10931,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -10946,7 +10946,7 @@
           ],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -10960,7 +10960,7 @@
           ],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -10971,7 +10971,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -10983,8 +10983,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            58.0
+            53,
+            58
           ]
         },
         {
@@ -10995,7 +10995,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -11008,7 +11008,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -11019,8 +11019,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
-            88.0
+            78,
+            88
           ]
         },
         {
@@ -11207,7 +11207,7 @@
             "咱们可以把它放到燃气灶上烤着烧"
           ],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             25.5
           ]
         },
@@ -11220,7 +11220,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -11231,7 +11231,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -11244,7 +11244,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            53.0
+            53
           ]
         },
         {
@@ -11258,7 +11258,7 @@
           ],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -11269,7 +11269,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             70.5
           ]
         },
@@ -11293,8 +11293,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            93.0
+            88,
+            93
           ]
         },
         {
@@ -11306,7 +11306,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -11317,7 +11317,7 @@
           "cue": "用干净的手拌匀",
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -11329,8 +11329,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
-            128.0
+            128,
+            128
           ]
         }
       ],
@@ -11341,10 +11341,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -11545,7 +11546,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -11557,7 +11558,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -11569,7 +11570,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -11582,7 +11583,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -11594,7 +11595,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -11617,7 +11618,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             90.5
           ]
         },
@@ -11629,7 +11630,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             100.5
           ]
         },
@@ -11643,7 +11644,7 @@
             "可以放上一点香辣红油"
           ],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             110.5
           ]
         },
@@ -11846,7 +11847,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -11859,7 +11860,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            73.0
+            73
           ]
         },
         {
@@ -11870,8 +11871,8 @@
           "cue": "鱼块两面煎到焦黄就先盛出备用",
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
-            83.0
+            78,
+            83
           ]
         },
         {
@@ -11882,7 +11883,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -11894,7 +11895,7 @@
           "cue": "再加上葱段干辣椒",
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -11906,7 +11907,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -11920,7 +11921,7 @@
             "一定要炒一下"
           ],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             110.5
           ]
         },
@@ -11944,10 +11945,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -12111,7 +12113,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -12123,7 +12125,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             25.5
           ]
         },
@@ -12135,8 +12137,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -12148,7 +12150,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -12162,7 +12164,7 @@
           ],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -12175,7 +12177,7 @@
             "毛豆米上的毛豆衣不要去给它洗干净"
           ],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -12187,8 +12189,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            63.0
+            53,
+            63
           ]
         },
         {
@@ -12199,7 +12201,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -12211,7 +12213,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -12224,7 +12226,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            88.0
+            88
           ]
         },
         {
@@ -12235,7 +12237,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -12247,7 +12249,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -12385,7 +12387,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -12399,7 +12401,7 @@
           ],
           "evidenceRangeSeconds": [
             20.5,
-            28.0
+            28
           ]
         },
         {
@@ -12410,7 +12412,7 @@
           "cue": "烧开之后把浮沫撇干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             50.5
           ]
         },
@@ -12422,7 +12424,7 @@
           "cue": "这样炖出来的酱香味更加浓郁",
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -12434,7 +12436,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -12448,8 +12450,8 @@
             "都可以增加肉的鲜味"
           ],
           "evidenceRangeSeconds": [
-            63.0,
-            73.0
+            63,
+            73
           ]
         },
         {
@@ -12484,7 +12486,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -12496,7 +12498,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         }
@@ -12699,7 +12701,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -12711,7 +12713,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -12724,7 +12726,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -12736,7 +12738,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -12747,7 +12749,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             80.5
           ]
         },
@@ -12772,7 +12774,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -12786,7 +12788,7 @@
           ],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -12799,8 +12801,8 @@
             "全部发白飘起来就可以捞出来了"
           ],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         },
         {
@@ -12811,7 +12813,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -12823,7 +12825,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            133.0,
+            133,
             135.5
           ]
         },
@@ -12835,8 +12837,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            138.0,
-            148.0
+            138,
+            148
           ]
         },
         {
@@ -12849,7 +12851,7 @@
             "尽量不要用锅铲和勺子去翻拌"
           ],
           "evidenceRangeSeconds": [
-            163.0,
+            163,
             165.5
           ]
         },
@@ -12861,8 +12863,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            168.0,
-            168.0
+            168,
+            168
           ]
         }
       ],
@@ -12873,10 +12875,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -13032,7 +13035,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -13046,7 +13049,7 @@
           ],
           "evidenceRangeSeconds": [
             20.5,
-            23.0
+            23
           ]
         },
         {
@@ -13073,7 +13076,7 @@
             "其他任何的香料都不要放"
           ],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -13087,7 +13090,7 @@
             "用小火压20分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -13099,7 +13102,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -13113,7 +13116,7 @@
             "芝麻香油给它拌匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -13125,7 +13128,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -13137,8 +13140,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
-            73.0
+            73,
+            73
           ]
         }
       ],
@@ -13252,7 +13255,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             25.5
           ]
         },
@@ -13266,7 +13269,7 @@
             "也可以不蒸直接切"
           ],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             35.5
           ]
         },
@@ -13278,7 +13281,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -13304,7 +13307,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -13317,7 +13320,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -13328,7 +13331,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             80.5
           ]
         },
@@ -13340,8 +13343,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            83.0
+            83,
+            83
           ]
         }
       ],
@@ -13485,8 +13488,8 @@
             "洗好的包菜一定要把水分充分沥干"
           ],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -13509,7 +13512,7 @@
           "cue": "炒出来把包菜提前炒个半熟",
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             40.5
           ]
         },
@@ -13521,7 +13524,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -13534,7 +13537,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -13546,7 +13549,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -13569,8 +13572,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
-            78.0
+            73,
+            78
           ]
         },
         {
@@ -13598,7 +13601,7 @@
             "只需要把调料和菜炒匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             95.5
           ]
         },
@@ -13612,7 +13615,7 @@
             "千万不要炒太长时间"
           ],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -13624,8 +13627,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
-            113.0
+            103,
+            113
           ]
         },
         {
@@ -13637,7 +13640,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             130.5,
-            133.0
+            133
           ]
         },
         {
@@ -13650,8 +13653,8 @@
             "拌这样拌饭不要多香哦"
           ],
           "evidenceRangeSeconds": [
-            138.0,
-            138.0
+            138,
+            138
           ]
         }
       ],
@@ -13845,8 +13848,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
-            23.0
+            13,
+            23
           ]
         },
         {
@@ -13869,7 +13872,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -13883,7 +13886,7 @@
             "把鸡爪都炒上色就可以了"
           ],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -13907,8 +13910,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
-            83.0
+            68,
+            83
           ]
         },
         {
@@ -13919,8 +13922,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            93.0
+            88,
+            93
           ]
         },
         {
@@ -13932,7 +13935,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -13944,7 +13947,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -13955,8 +13958,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
-            108.0
+            108,
+            108
           ]
         }
       ],
@@ -13967,10 +13970,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -14136,8 +14140,8 @@
           "cue": "然后用个刷子从里到外给它刷洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -14151,7 +14155,7 @@
           ],
           "evidenceRangeSeconds": [
             40.5,
-            58.0
+            58
           ]
         },
         {
@@ -14176,7 +14180,7 @@
           "cue": "把鱼肉里面的盐分和粘液冲洗干净；我们再用力的把水分挤干",
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -14188,8 +14192,8 @@
           "cue": "鱼片搅拌成这样非常粘手的状态",
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            88.0
+            83,
+            88
           ]
         },
         {
@@ -14200,7 +14204,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -14213,7 +14217,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -14225,7 +14229,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -14237,7 +14241,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             115.5,
-            118.0
+            118
           ]
         },
         {
@@ -14250,7 +14254,7 @@
             "两面都煎成这样的焦褐感就可以了"
           ],
           "evidenceRangeSeconds": [
-            123.0,
+            123,
             125.5
           ]
         },
@@ -14264,7 +14268,7 @@
             "只要把鱼骨煎到焦黄的状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -14276,7 +14280,7 @@
           "cue": "把酸菜里面的水分炒干",
           "tips": [],
           "evidenceRangeSeconds": [
-            133.0,
+            133,
             135.5
           ]
         },
@@ -14288,7 +14292,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             140.5
           ]
         },
@@ -14301,7 +14305,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             145.5,
-            148.0
+            148
           ]
         },
         {
@@ -14313,7 +14317,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             150.5,
-            153.0
+            153
           ]
         },
         {
@@ -14327,7 +14331,7 @@
           ],
           "evidenceRangeSeconds": [
             155.5,
-            158.0
+            158
           ]
         },
         {
@@ -14350,10 +14354,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -14482,8 +14487,8 @@
             "切的刀口不要切到肚子上"
           ],
           "evidenceRangeSeconds": [
-            23.0,
-            28.0
+            23,
+            28
           ]
         },
         {
@@ -14511,7 +14516,7 @@
             "就用这里面的油来煎鱼也是可以的"
           ],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             45.5
           ]
         },
@@ -14524,7 +14529,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -14535,8 +14540,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
-            63.0
+            58,
+            63
           ]
         },
         {
@@ -14550,7 +14555,7 @@
           ],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -14561,7 +14566,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             80.5
           ]
         },
@@ -14585,7 +14590,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -14597,8 +14602,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            103.0
+            98,
+            103
           ]
         },
         {
@@ -14621,10 +14626,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -14788,7 +14794,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            23.0
+            23
           ]
         },
         {
@@ -14799,7 +14805,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             35.5
           ]
         },
@@ -14814,7 +14820,7 @@
           ],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -14839,8 +14845,8 @@
             "我们把水洗的很清澈就可以了"
           ],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -14851,8 +14857,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
-            83.0
+            78,
+            83
           ]
         },
         {
@@ -14864,7 +14870,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            88.0
+            88
           ]
         },
         {
@@ -14876,7 +14882,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            93.0
+            93
           ]
         },
         {
@@ -14887,7 +14893,7 @@
           "cue": "我们再下入拍蒜和泡过水的干辣椒",
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             105.5
           ]
         },
@@ -14899,8 +14905,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         },
         {
@@ -14913,7 +14919,7 @@
             "就可以来调味了"
           ],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             135.5
           ]
         },
@@ -14927,7 +14933,7 @@
             "味精放调料的速度一定要快"
           ],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             140.5
           ]
         },
@@ -14941,7 +14947,7 @@
             "土豆丝都炒上色了就可以了"
           ],
           "evidenceRangeSeconds": [
-            143.0,
+            143,
             145.5
           ]
         }
@@ -15127,7 +15133,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             20.5
           ]
         },
@@ -15153,8 +15159,8 @@
           "cue": "这样煮熟的鸡爪一点异味都不会有",
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
-            43.0
+            38,
+            43
           ]
         },
         {
@@ -15179,7 +15185,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -15192,7 +15198,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -15203,7 +15209,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -15215,8 +15221,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            93.0
+            83,
+            93
           ]
         },
         {
@@ -15253,7 +15259,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
+            118,
             120.5
           ]
         },
@@ -15265,8 +15271,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            148.0,
-            148.0
+            148,
+            148
           ]
         }
       ],
@@ -15407,8 +15413,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
-            28.0
+            18,
+            28
           ]
         },
         {
@@ -15422,7 +15428,7 @@
           ],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -15433,7 +15439,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -15447,8 +15453,8 @@
             "放上糯米拌匀就可以了一"
           ],
           "evidenceRangeSeconds": [
-            73.0,
-            78.0
+            73,
+            78
           ]
         },
         {
@@ -15460,7 +15466,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            93.0
+            93
           ]
         },
         {
@@ -15472,7 +15478,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -15485,7 +15491,7 @@
             "用小火蒸30分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -15497,8 +15503,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            123.0,
-            123.0
+            123,
+            123
           ]
         }
       ],
@@ -15645,7 +15651,7 @@
           ],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -15657,7 +15663,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            38.0
+            38
           ]
         },
         {
@@ -15671,7 +15677,7 @@
           ],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -15685,7 +15691,7 @@
           ],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -15697,7 +15703,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -15709,7 +15715,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -15732,7 +15738,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -15744,7 +15750,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -15756,8 +15762,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            93.0
+            88,
+            93
           ]
         },
         {
@@ -15769,7 +15775,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -15780,7 +15786,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -15792,8 +15798,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
-            113.0
+            108,
+            113
           ]
         },
         {
@@ -15805,7 +15811,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             120.5,
-            123.0
+            123
           ]
         },
         {
@@ -15830,7 +15836,7 @@
             "简单的拌几下就可以了"
           ],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             150.5
           ]
         },
@@ -15842,8 +15848,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            153.0,
-            153.0
+            153,
+            153
           ]
         }
       ],
@@ -15854,10 +15860,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“茄子”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -15994,7 +16001,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -16007,7 +16014,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            53.0
+            53
           ]
         },
         {
@@ -16019,7 +16026,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            73.0
+            73
           ]
         },
         {
@@ -16042,8 +16049,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
-            98.0
+            93,
+            98
           ]
         },
         {
@@ -16057,7 +16064,7 @@
           ],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -16068,7 +16075,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -16092,7 +16099,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -16104,7 +16111,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            133.0,
+            133,
             140.5
           ]
         },
@@ -16129,7 +16136,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             160.5,
-            163.0
+            163
           ]
         },
         {
@@ -16575,7 +16582,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            18.0
+            18
           ]
         },
         {
@@ -16598,7 +16605,7 @@
           "cue": "用干净的手抓拌均匀",
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -16610,8 +16617,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
-            43.0
+            38,
+            43
           ]
         },
         {
@@ -16624,7 +16631,7 @@
             "一定要先用大火高油温煸一下"
           ],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             65.5
           ]
         },
@@ -16636,8 +16643,8 @@
           "cue": "把里面的水分炒干",
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -16649,7 +16656,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -16661,7 +16668,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            98.0
+            98
           ]
         },
         {
@@ -16672,7 +16679,7 @@
           "cue": "炒的时候觉得有点干了",
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -16686,8 +16693,8 @@
             "在一起翻炒个2分钟左右就可以了"
           ],
           "evidenceRangeSeconds": [
-            118.0,
-            118.0
+            118,
+            118
           ]
         }
       ],
@@ -16698,10 +16705,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -16878,8 +16886,8 @@
             "切之前冲洗干净就可以了"
           ],
           "evidenceRangeSeconds": [
-            8.0,
-            13.0
+            8,
+            13
           ]
         },
         {
@@ -16902,8 +16910,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
-            38.0
+            33,
+            38
           ]
         },
         {
@@ -16915,7 +16923,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -16927,7 +16935,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -16950,7 +16958,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -16962,7 +16970,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -16976,8 +16984,8 @@
             "盐放上一点点就可以了"
           ],
           "evidenceRangeSeconds": [
-            68.0,
-            78.0
+            68,
+            78
           ]
         },
         {
@@ -16989,7 +16997,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            93.0
+            93
           ]
         },
         {
@@ -17013,7 +17021,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -17039,7 +17047,7 @@
           ],
           "evidenceRangeSeconds": [
             125.5,
-            128.0
+            128
           ]
         },
         {
@@ -17053,7 +17061,7 @@
           ],
           "evidenceRangeSeconds": [
             130.5,
-            138.0
+            138
           ]
         }
       ],
@@ -17223,7 +17231,7 @@
             "牛肉切之前把表面冲干净就可以了"
           ],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -17237,7 +17245,7 @@
             "切好之后就不要再洗了"
           ],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             25.5
           ]
         },
@@ -17249,8 +17257,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -17275,7 +17283,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -17288,7 +17296,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -17300,7 +17308,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -17312,7 +17320,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            78.0
+            78
           ]
         },
         {
@@ -17339,8 +17347,8 @@
             "给他炒到微微的断生就可以了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
-            108.0
+            98,
+            108
           ]
         },
         {
@@ -17352,7 +17360,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -17526,7 +17534,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            8.0,
+            8,
             10.5
           ]
         },
@@ -17552,7 +17560,7 @@
             "生姜不要剁"
           ],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -17564,7 +17572,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -17576,7 +17584,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -17589,7 +17597,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -17600,7 +17608,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -17613,7 +17621,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -17625,7 +17633,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -17637,7 +17645,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -17651,7 +17659,7 @@
           ],
           "evidenceRangeSeconds": [
             85.5,
-            88.0
+            88
           ]
         },
         {
@@ -17663,7 +17671,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -17687,7 +17695,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             120.5,
-            123.0
+            123
           ]
         },
         {
@@ -17857,7 +17865,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -17868,7 +17876,7 @@
           "cue": "把鳝鱼肉炒的有些微微的焦和感",
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -17881,7 +17889,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -17892,8 +17900,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
-            63.0
+            58,
+            63
           ]
         },
         {
@@ -17917,7 +17925,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -17928,7 +17936,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             95.5
           ]
         },
@@ -17940,8 +17948,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            108.0
+            98,
+            108
           ]
         }
       ],
@@ -18085,8 +18093,8 @@
           "cue": "首先要把烧掉的毛刮洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
-            18.0
+            13,
+            18
           ]
         },
         {
@@ -18097,7 +18105,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             25.5
           ]
         },
@@ -18109,8 +18117,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -18122,7 +18130,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -18133,7 +18141,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -18145,8 +18153,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
-            53.0
+            48,
+            53
           ]
         },
         {
@@ -18160,7 +18168,7 @@
           ],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -18185,7 +18193,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -18200,7 +18208,7 @@
           ],
           "evidenceRangeSeconds": [
             80.5,
-            83.0
+            83
           ]
         },
         {
@@ -18225,7 +18233,7 @@
             "压上30分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -18237,8 +18245,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            108.0
+            98,
+            108
           ]
         },
         {
@@ -18263,10 +18271,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -18410,7 +18419,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -18445,7 +18454,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             65.5
           ]
         },
@@ -18458,7 +18467,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            78.0
+            78
           ]
         },
         {
@@ -18469,7 +18478,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             90.5
           ]
         },
@@ -18481,8 +18490,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
-            98.0
+            93,
+            98
           ]
         },
         {
@@ -18493,7 +18502,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
+            118,
             120.5
           ]
         },
@@ -18505,8 +18514,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            123.0,
-            128.0
+            123,
+            128
           ]
         }
       ],
@@ -18675,7 +18684,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             25.5
           ]
         },
@@ -18689,7 +18698,7 @@
             "水烧开再煮个2分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             35.5
           ]
         },
@@ -18704,7 +18713,7 @@
           ],
           "evidenceRangeSeconds": [
             40.5,
-            48.0
+            48
           ]
         },
         {
@@ -18715,8 +18724,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            63.0
+            53,
+            63
           ]
         },
         {
@@ -18728,7 +18737,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            73.0
+            73
           ]
         },
         {
@@ -18751,7 +18760,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -18763,7 +18772,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -18778,7 +18787,7 @@
           ],
           "evidenceRangeSeconds": [
             100.5,
-            108.0
+            108
           ]
         },
         {
@@ -18790,7 +18799,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            118.0
+            118
           ]
         },
         {
@@ -18802,7 +18811,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             120.5,
-            133.0
+            133
           ]
         },
         {
@@ -18815,7 +18824,7 @@
             "青蒜叶撒进去拌一下就可以出锅了"
           ],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             140.5
           ]
         },
@@ -18827,8 +18836,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            143.0,
-            143.0
+            143,
+            143
           ]
         }
       ],
@@ -18989,7 +18998,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             5.5,
-            8.0
+            8
           ]
         },
         {
@@ -19001,7 +19010,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            23.0
+            23
           ]
         },
         {
@@ -19012,8 +19021,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
-            53.0
+            33,
+            53
           ]
         },
         {
@@ -19038,8 +19047,8 @@
           "cue": "然后直接下入沥干水分的鸡块",
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
-            68.0
+            63,
+            68
           ]
         },
         {
@@ -19050,7 +19059,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -19063,7 +19072,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             80.5,
-            88.0
+            88
           ]
         },
         {
@@ -19086,7 +19095,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -19098,7 +19107,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
+            113,
             115.5
           ]
         },
@@ -19112,8 +19121,8 @@
             "调味放上一点点盐就可以了"
           ],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         },
         {
@@ -19126,7 +19135,7 @@
             "焖个十七八分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -19141,7 +19150,7 @@
           ],
           "evidenceRangeSeconds": [
             140.5,
-            143.0
+            143
           ]
         }
       ],
@@ -19310,7 +19319,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             30.5
           ]
         },
@@ -19322,7 +19331,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -19336,8 +19345,8 @@
             "炒香之后放上黄豆酱就可以了"
           ],
           "evidenceRangeSeconds": [
-            38.0,
-            43.0
+            38,
+            43
           ]
         },
         {
@@ -19351,7 +19360,7 @@
           ],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -19374,8 +19383,8 @@
           "cue": "冲洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
-            83.0
+            73,
+            83
           ]
         },
         {
@@ -19387,7 +19396,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            88.0
+            88
           ]
         },
         {
@@ -19399,7 +19408,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            93.0
+            93
           ]
         },
         {
@@ -19411,7 +19420,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            118.0
+            118
           ]
         }
       ],
@@ -19535,8 +19544,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            28.0
+            23,
+            28
           ]
         },
         {
@@ -19547,7 +19556,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -19559,7 +19568,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -19583,7 +19592,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -19595,8 +19604,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
-            78.0
+            73,
+            78
           ]
         },
         {
@@ -19607,7 +19616,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             95.5
           ]
         },
@@ -19619,7 +19628,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -19631,8 +19640,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
-            113.0
+            113,
+            113
           ]
         }
       ],
@@ -19643,10 +19652,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -19821,7 +19831,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -19833,8 +19843,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
-            58.0
+            48,
+            58
           ]
         },
         {
@@ -19847,7 +19857,7 @@
             "锅一定要烧热"
           ],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -19861,7 +19871,7 @@
             "可以像这样一块一块的放进去"
           ],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             80.5
           ]
         },
@@ -19873,7 +19883,7 @@
           "cue": "带鱼要稍微煎的焦一点",
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -19885,7 +19895,7 @@
           "cue": "把两面都煎到焦黄",
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -19899,7 +19909,7 @@
             "这个煎过带鱼的油就不要了"
           ],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -19912,7 +19922,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             115.5,
-            118.0
+            118
           ]
         },
         {
@@ -19924,7 +19934,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             125.5,
-            128.0
+            128
           ]
         },
         {
@@ -19936,7 +19946,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             130.5,
-            133.0
+            133
           ]
         },
         {
@@ -19959,8 +19969,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            143.0,
-            153.0
+            143,
+            153
           ]
         },
         {
@@ -19971,8 +19981,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            158.0,
-            163.0
+            158,
+            163
           ]
         },
         {
@@ -19984,7 +19994,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             170.5,
-            173.0
+            173
           ]
         },
         {
@@ -20007,10 +20017,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -20199,7 +20210,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             25.5
           ]
         },
@@ -20211,7 +20222,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -20224,7 +20235,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -20236,7 +20247,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -20248,7 +20259,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            53.0
+            53
           ]
         },
         {
@@ -20259,7 +20270,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -20271,8 +20282,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -20297,7 +20308,7 @@
             "炒到看不见牛肉的生色就可以了"
           ],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             95.5
           ]
         },
@@ -20321,8 +20332,8 @@
           "cue": "青椒炒到断生",
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
-            113.0
+            108,
+            113
           ]
         },
         {
@@ -20336,7 +20347,7 @@
           ],
           "evidenceRangeSeconds": [
             115.5,
-            118.0
+            118
           ]
         }
       ],
@@ -20479,8 +20490,8 @@
             "洗干净切好之后就不要再沾水了"
           ],
           "evidenceRangeSeconds": [
-            13.0,
-            23.0
+            13,
+            23
           ]
         },
         {
@@ -20492,7 +20503,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             25.5,
-            28.0
+            28
           ]
         },
         {
@@ -20505,8 +20516,8 @@
             "肉片切成硬币厚度就可以了"
           ],
           "evidenceRangeSeconds": [
-            33.0,
-            38.0
+            33,
+            38
           ]
         },
         {
@@ -20518,7 +20529,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -20543,7 +20554,7 @@
           "cue": "用干净的手抓拌均匀",
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -20555,7 +20566,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -20567,7 +20578,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -20579,8 +20590,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
-            98.0
+            83,
+            98
           ]
         },
         {
@@ -20591,7 +20602,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -20603,7 +20614,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -20617,8 +20628,8 @@
             "然后开中火把调料炒匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            118.0,
-            118.0
+            118,
+            118
           ]
         }
       ],
@@ -20771,8 +20782,8 @@
             "好买猪蹄一定要找老板帮忙烧一下"
           ],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -20784,7 +20795,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             25.5,
-            28.0
+            28
           ]
         },
         {
@@ -20796,7 +20807,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -20808,7 +20819,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             35.5,
-            43.0
+            43
           ]
         },
         {
@@ -20820,7 +20831,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            58.0
+            58
           ]
         },
         {
@@ -20843,8 +20854,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -20868,7 +20879,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            108.0
+            108
           ]
         },
         {
@@ -20882,7 +20893,7 @@
           ],
           "evidenceRangeSeconds": [
             120.5,
-            148.0
+            148
           ]
         }
       ],
@@ -20893,10 +20904,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -21079,7 +21091,7 @@
             "我们在家里面可以换成刀面来拍"
           ],
           "evidenceRangeSeconds": [
-            18.0,
+            18,
             25.5
           ]
         },
@@ -21091,7 +21103,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -21103,8 +21115,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
-            38.0
+            33,
+            38
           ]
         },
         {
@@ -21141,7 +21153,7 @@
             "咸肉也不要煸的太干"
           ],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -21155,8 +21167,8 @@
             "也可以放豆瓣酱"
           ],
           "evidenceRangeSeconds": [
-            73.0,
-            83.0
+            73,
+            83
           ]
         },
         {
@@ -21179,8 +21191,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            103.0
+            98,
+            103
           ]
         },
         {
@@ -21192,7 +21204,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -21399,7 +21411,7 @@
             "切好之后就不要再洗了"
           ],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             25.5
           ]
         },
@@ -21412,7 +21424,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            38.0
+            38
           ]
         },
         {
@@ -21423,7 +21435,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -21436,7 +21448,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -21449,7 +21461,7 @@
             "稍微炒几下就可以了"
           ],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -21487,8 +21499,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            108.0
+            98,
+            108
           ]
         },
         {
@@ -21500,7 +21512,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            118.0
+            118
           ]
         },
         {
@@ -21512,7 +21524,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             125.5,
-            128.0
+            128
           ]
         },
         {
@@ -21523,7 +21535,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            133.0,
+            133,
             135.5
           ]
         },
@@ -21536,7 +21548,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             140.5,
-            148.0
+            148
           ]
         },
         {
@@ -21548,7 +21560,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             155.5,
-            158.0
+            158
           ]
         },
         {
@@ -21559,8 +21571,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            163.0,
-            173.0
+            163,
+            173
           ]
         },
         {
@@ -21571,8 +21583,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            178.0,
-            183.0
+            178,
+            183
           ]
         },
         {
@@ -21712,7 +21724,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            18.0
+            18
           ]
         },
         {
@@ -21723,7 +21735,7 @@
           "cue": "萝卜尽量把水分挤干一点",
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             25.5
           ]
         },
@@ -21735,7 +21747,7 @@
           "cue": "挤干水分我们再给它剁一下啊；粉丝煮熟放到砧板上剁碎",
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             35.5
           ]
         },
@@ -21747,7 +21759,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -21762,7 +21774,7 @@
           ],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -21774,7 +21786,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            83.0
+            83
           ]
         },
         {
@@ -21787,7 +21799,7 @@
             "拌到像这样的状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -21799,8 +21811,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
-            103.0
+            98,
+            103
           ]
         },
         {
@@ -21811,8 +21823,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
-            118.0
+            108,
+            118
           ]
         },
         {
@@ -21982,8 +21994,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            28.0
+            23,
+            28
           ]
         },
         {
@@ -21997,7 +22009,7 @@
           ],
           "evidenceRangeSeconds": [
             30.5,
-            33.0
+            33
           ]
         },
         {
@@ -22020,7 +22032,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -22032,7 +22044,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -22044,8 +22056,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
-            73.0
+            68,
+            73
           ]
         },
         {
@@ -22072,7 +22084,7 @@
             "这里煮的时候就不要盖盖子了"
           ],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -22259,7 +22271,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -22271,7 +22283,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -22306,7 +22318,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -22319,7 +22331,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            108.0
+            108
           ]
         },
         {
@@ -22330,8 +22342,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
-            118.0
+            113,
+            118
           ]
         }
       ],
@@ -22517,8 +22529,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -22531,7 +22543,7 @@
             "防止炒糊了"
           ],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             45.5
           ]
         },
@@ -22543,7 +22555,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -22555,8 +22567,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            58.0
+            53,
+            58
           ]
         },
         {
@@ -22567,7 +22579,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             65.5
           ]
         },
@@ -22581,7 +22593,7 @@
             "白菜杆不要直接炖"
           ],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             75.5
           ]
         },
@@ -22593,7 +22605,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -22605,7 +22617,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -22618,7 +22630,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -22632,7 +22644,7 @@
           ],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -22646,7 +22658,7 @@
           ],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -22657,8 +22669,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
-            118.0
+            113,
+            118
           ]
         }
       ],
@@ -22829,8 +22841,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            73.0
+            53,
+            73
           ]
         },
         {
@@ -22844,7 +22856,7 @@
           ],
           "evidenceRangeSeconds": [
             75.5,
-            78.0
+            78
           ]
         },
         {
@@ -22868,7 +22880,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             100.5,
-            103.0
+            103
           ]
         },
         {
@@ -22882,7 +22894,7 @@
           ],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -22894,7 +22906,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -22906,7 +22918,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             115.5,
-            118.0
+            118
           ]
         },
         {
@@ -23092,7 +23104,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -23104,7 +23116,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             45.5
           ]
         },
@@ -23116,7 +23128,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -23131,7 +23143,7 @@
           ],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -23156,7 +23168,7 @@
             "也不要炒太久"
           ],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             95.5
           ]
         },
@@ -23168,7 +23180,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
+            103,
             105.5
           ]
         },
@@ -23180,8 +23192,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
-            113.0
+            113,
+            113
           ]
         }
       ],
@@ -23192,10 +23204,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“羊”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -23387,7 +23400,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             10.5,
-            13.0
+            13
           ]
         },
         {
@@ -23398,8 +23411,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            18.0,
-            23.0
+            18,
+            23
           ]
         },
         {
@@ -23410,7 +23423,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -23425,7 +23438,7 @@
           ],
           "evidenceRangeSeconds": [
             35.5,
-            38.0
+            38
           ]
         },
         {
@@ -23437,7 +23450,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            43.0
+            43
           ]
         },
         {
@@ -23449,7 +23462,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -23461,7 +23474,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -23485,7 +23498,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            73.0
+            73
           ]
         },
         {
@@ -23508,8 +23521,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
-            108.0
+            103,
+            108
           ]
         },
         {
@@ -23520,8 +23533,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            123.0,
-            123.0
+            123,
+            123
           ]
         }
       ],
@@ -23680,7 +23693,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             15.5,
-            28.0
+            28
           ]
         },
         {
@@ -23691,8 +23704,8 @@
           "cue": "然后用力的把水分挤干",
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
-            43.0
+            38,
+            43
           ]
         },
         {
@@ -23703,8 +23716,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
-            58.0
+            48,
+            58
           ]
         },
         {
@@ -23716,7 +23729,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             70.5,
-            78.0
+            78
           ]
         },
         {
@@ -23727,7 +23740,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -23753,7 +23766,7 @@
             "给它拌匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -23765,7 +23778,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
+            113,
             115.5
           ]
         }
@@ -23957,7 +23970,7 @@
           ],
           "evidenceRangeSeconds": [
             20.5,
-            23.0
+            23
           ]
         },
         {
@@ -23970,7 +23983,7 @@
             "厚度切的和硬币差不多就可以了"
           ],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             35.5
           ]
         },
@@ -23982,7 +23995,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -23996,8 +24009,8 @@
             "我们尽量不要加小苏打"
           ],
           "evidenceRangeSeconds": [
-            43.0,
-            53.0
+            43,
+            53
           ]
         },
         {
@@ -24020,7 +24033,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             70.5
           ]
         },
@@ -24044,7 +24057,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             105.5
           ]
         },
@@ -24058,8 +24071,8 @@
             "煮到全部飘起来就可以了"
           ],
           "evidenceRangeSeconds": [
-            113.0,
-            118.0
+            113,
+            118
           ]
         },
         {
@@ -24070,8 +24083,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            123.0,
-            128.0
+            123,
+            128
           ]
         },
         {
@@ -24083,7 +24096,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             130.5,
-            138.0
+            138
           ]
         },
         {
@@ -24106,8 +24119,8 @@
           "cue": "牛肉之前煮过的已经是八成熟",
           "tips": [],
           "evidenceRangeSeconds": [
-            148.0,
-            153.0
+            148,
+            153
           ]
         },
         {
@@ -24121,7 +24134,7 @@
           ],
           "evidenceRangeSeconds": [
             155.5,
-            158.0
+            158
           ]
         },
         {
@@ -24133,7 +24146,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             160.5,
-            178.0
+            178
           ]
         }
       ],
@@ -24273,7 +24286,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
+            13,
             15.5
           ]
         },
@@ -24298,7 +24311,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            48.0
+            48
           ]
         },
         {
@@ -24310,7 +24323,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            58.0
+            58
           ]
         },
         {
@@ -24321,8 +24334,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
-            68.0
+            63,
+            68
           ]
         },
         {
@@ -24333,8 +24346,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
-            83.0
+            78,
+            83
           ]
         },
         {
@@ -24348,7 +24361,7 @@
           ],
           "evidenceRangeSeconds": [
             85.5,
-            93.0
+            93
           ]
         },
         {
@@ -24361,8 +24374,8 @@
             "大概炸个七八分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
-            113.0
+            98,
+            113
           ]
         },
         {
@@ -24375,8 +24388,8 @@
             "炸成这个状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         }
       ],
@@ -24387,10 +24400,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -24521,7 +24535,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -24533,7 +24547,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -24556,7 +24570,7 @@
           "cue": "直把肉拌到非常的粘手",
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             80.5
           ]
         },
@@ -24581,7 +24595,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            113.0
+            113
           ]
         },
         {
@@ -24606,7 +24620,7 @@
             "一直给它炒成这个状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -24630,8 +24644,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            153.0,
-            163.0
+            153,
+            163
           ]
         },
         {
@@ -24659,7 +24673,7 @@
           ],
           "evidenceRangeSeconds": [
             180.5,
-            183.0
+            183
           ]
         }
       ],
@@ -24849,7 +24863,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -24861,7 +24875,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             75.5,
-            83.0
+            83
           ]
         },
         {
@@ -24872,7 +24886,7 @@
           "cue": "然后再下入干辣椒",
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -24884,7 +24898,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             115.5
           ]
         },
@@ -24896,7 +24910,7 @@
           "cue": "炒熟了之后下入油麦菜；再把油麦菜炒到断生",
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
+            118,
             120.5
           ]
         },
@@ -24911,7 +24925,7 @@
           ],
           "evidenceRangeSeconds": [
             130.5,
-            133.0
+            133
           ]
         },
         {
@@ -24922,7 +24936,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             140.5
           ]
         },
@@ -24934,7 +24948,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            143.0,
+            143,
             145.5
           ]
         },
@@ -24946,8 +24960,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            148.0,
-            153.0
+            148,
+            153
           ]
         },
         {
@@ -24958,8 +24972,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            168.0,
-            183.0
+            168,
+            183
           ]
         },
         {
@@ -24972,8 +24986,8 @@
             "煮个七八秒就可以捞出来了"
           ],
           "evidenceRangeSeconds": [
-            188.0,
-            193.0
+            188,
+            193
           ]
         },
         {
@@ -24984,8 +24998,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            208.0,
-            208.0
+            208,
+            208
           ]
         }
       ],
@@ -25128,8 +25142,8 @@
             "肚子呢就不要完全切开"
           ],
           "evidenceRangeSeconds": [
-            3.0,
-            18.0
+            3,
+            18
           ]
         },
         {
@@ -25142,7 +25156,7 @@
             "可以让煮出来的鸡颜色更好看一些"
           ],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -25154,7 +25168,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            58.0,
+            58,
             60.5
           ]
         },
@@ -25180,8 +25194,8 @@
             "焖上20分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            83.0,
-            88.0
+            83,
+            88
           ]
         },
         {
@@ -25206,7 +25220,7 @@
             "给他拌匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            113.0,
+            113,
             120.5
           ]
         },
@@ -25221,7 +25235,7 @@
           ],
           "evidenceRangeSeconds": [
             145.5,
-            148.0
+            148
           ]
         },
         {
@@ -25233,7 +25247,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             155.5,
-            183.0
+            183
           ]
         }
       ],
@@ -25445,7 +25459,7 @@
           "cue": "然后冲洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            3.0,
+            3,
             25.5
           ]
         },
@@ -25457,8 +25471,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
-            33.0
+            28,
+            33
           ]
         },
         {
@@ -25482,7 +25496,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            53.0
+            53
           ]
         },
         {
@@ -25494,7 +25508,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             55.5,
-            68.0
+            68
           ]
         },
         {
@@ -25517,7 +25531,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             100.5
           ]
         },
@@ -25541,8 +25555,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         },
         {
@@ -25567,7 +25581,7 @@
             "加清水稀释一下就可以了"
           ],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             155.5
           ]
         },
@@ -25722,8 +25736,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            13.0,
-            18.0
+            13,
+            18
           ]
         },
         {
@@ -25734,7 +25748,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
+            23,
             40.5
           ]
         },
@@ -25747,7 +25761,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -25759,7 +25773,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -25771,7 +25785,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            103.0
+            103
           ]
         },
         {
@@ -25782,7 +25796,7 @@
           "cue": "直接上笼蒸熟",
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
+            118,
             120.5
           ]
         }
@@ -25934,7 +25948,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            28.0,
+            28,
             30.5
           ]
         },
@@ -25946,8 +25960,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
-            43.0
+            38,
+            43
           ]
         },
         {
@@ -25961,7 +25975,7 @@
           ],
           "evidenceRangeSeconds": [
             45.5,
-            48.0
+            48
           ]
         },
         {
@@ -25973,7 +25987,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -25998,8 +26012,8 @@
             "锅里面倒这么多油就可以了"
           ],
           "evidenceRangeSeconds": [
-            63.0,
-            68.0
+            63,
+            68
           ]
         },
         {
@@ -26011,7 +26025,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             85.5,
-            88.0
+            88
           ]
         },
         {
@@ -26023,7 +26037,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             90.5,
-            93.0
+            93
           ]
         },
         {
@@ -26035,7 +26049,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             95.5,
-            98.0
+            98
           ]
         },
         {
@@ -26058,7 +26072,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             110.5
           ]
         },
@@ -26071,7 +26085,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             115.5,
-            123.0
+            123
           ]
         },
         {
@@ -26082,7 +26096,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            138.0,
+            138,
             160.5
           ]
         }
@@ -26094,10 +26108,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“茄子”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -26232,7 +26247,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            73.0
+            73
           ]
         },
         {
@@ -26245,8 +26260,8 @@
             "大火煮上两分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            78.0,
-            88.0
+            78,
+            88
           ]
         },
         {
@@ -26257,7 +26272,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -26271,7 +26286,7 @@
             "了就可以捞出来了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
+            98,
             100.5
           ]
         },
@@ -26283,7 +26298,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            113.0,
+            113,
             135.5
           ]
         },
@@ -26295,8 +26310,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            153.0,
-            168.0
+            153,
+            168
           ]
         },
         {
@@ -26308,7 +26323,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             170.5,
-            173.0
+            173
           ]
         }
       ],
@@ -26412,8 +26427,8 @@
           "cue": "小龙虾拿回家先刷洗干净",
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            43.0
+            23,
+            43
           ]
         },
         {
@@ -26427,7 +26442,7 @@
           ],
           "evidenceRangeSeconds": [
             55.5,
-            58.0
+            58
           ]
         },
         {
@@ -26439,7 +26454,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             60.5,
-            63.0
+            63
           ]
         },
         {
@@ -26451,7 +26466,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            68.0
+            68
           ]
         },
         {
@@ -26474,7 +26489,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -26486,8 +26501,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            98.0
+            88,
+            98
           ]
         },
         {
@@ -26511,7 +26526,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             120.5,
-            123.0
+            123
           ]
         },
         {
@@ -26522,8 +26537,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
-            128.0
+            128,
+            128
           ]
         }
       ],
@@ -26685,7 +26700,7 @@
           "cue": "加上姜片八角桂皮干辣椒",
           "tips": [],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -26698,7 +26713,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             50.5,
-            53.0
+            53
           ]
         },
         {
@@ -26723,7 +26738,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             75.5
           ]
         },
@@ -26735,7 +26750,7 @@
           "cue": "接着用力的把梅干菜的水分挤干",
           "tips": [],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             85.5
           ]
         },
@@ -26747,7 +26762,7 @@
           "cue": "挤干水分的梅干菜放到锅中",
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
+            88,
             90.5
           ]
         },
@@ -26759,7 +26774,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -26773,8 +26788,8 @@
             "炒成这样的状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            98.0,
-            103.0
+            98,
+            103
           ]
         },
         {
@@ -26798,7 +26813,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             130.5,
-            138.0
+            138
           ]
         },
         {
@@ -26821,10 +26836,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -26999,7 +27015,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
+            38,
             40.5
           ]
         },
@@ -27013,7 +27029,7 @@
             "再煮上半分钟就可以了"
           ],
           "evidenceRangeSeconds": [
-            43.0,
+            43,
             45.5
           ]
         },
@@ -27025,8 +27041,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
-            63.0
+            48,
+            63
           ]
         },
         {
@@ -27037,7 +27053,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            68.0,
+            68,
             75.5
           ]
         },
@@ -27051,7 +27067,7 @@
             "柠檬一定要把皮和籽去掉"
           ],
           "evidenceRangeSeconds": [
-            93.0,
+            93,
             95.5
           ]
         },
@@ -27065,8 +27081,8 @@
             "用干净的手拌匀就可以了"
           ],
           "evidenceRangeSeconds": [
-            103.0,
-            113.0
+            103,
+            113
           ]
         }
       ],
@@ -27077,10 +27093,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“虾、柠檬”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -27199,7 +27216,7 @@
           ],
           "evidenceRangeSeconds": [
             10.5,
-            23.0
+            23
           ]
         },
         {
@@ -27211,7 +27228,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             45.5,
-            53.0
+            53
           ]
         },
         {
@@ -27275,7 +27292,7 @@
           ],
           "evidenceRangeSeconds": [
             145.5,
-            148.0
+            148
           ]
         },
         {
@@ -27286,7 +27303,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            198.0,
+            198,
             200.5
           ]
         },
@@ -27298,8 +27315,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            203.0,
-            203.0
+            203,
+            203
           ]
         }
       ],
@@ -27513,8 +27530,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            23.0,
-            33.0
+            23,
+            33
           ]
         },
         {
@@ -27526,7 +27543,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             40.5,
-            48.0
+            48
           ]
         },
         {
@@ -27537,8 +27554,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
-            58.0
+            53,
+            58
           ]
         },
         {
@@ -27549,7 +27566,7 @@
           "cue": "放到干锅里面给它抓散",
           "tips": [],
           "evidenceRangeSeconds": [
-            63.0,
+            63,
             70.5
           ]
         },
@@ -27561,7 +27578,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            73.0,
+            73,
             75.5
           ]
         },
@@ -27575,7 +27592,7 @@
             "炒到这个状态就可以了"
           ],
           "evidenceRangeSeconds": [
-            78.0,
+            78,
             80.5
           ]
         },
@@ -27587,8 +27604,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            88.0,
-            103.0
+            88,
+            103
           ]
         },
         {
@@ -27600,7 +27617,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             105.5,
-            108.0
+            108
           ]
         },
         {
@@ -27623,8 +27640,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
-            133.0
+            128,
+            133
           ]
         }
       ],
@@ -27800,7 +27817,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            33.0,
+            33,
             60.5
           ]
         },
@@ -27813,7 +27830,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             65.5,
-            88.0
+            88
           ]
         },
         {
@@ -27824,8 +27841,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            103.0,
-            108.0
+            103,
+            108
           ]
         },
         {
@@ -27836,8 +27853,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            118.0,
-            123.0
+            118,
+            123
           ]
         },
         {
@@ -27849,7 +27866,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             130.5,
-            143.0
+            143
           ]
         },
         {
@@ -27861,7 +27878,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             145.5,
-            148.0
+            148
           ]
         }
       ],
@@ -28041,7 +28058,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             30.5,
-            38.0
+            38
           ]
         },
         {
@@ -28064,7 +28081,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            48.0,
+            48,
             50.5
           ]
         },
@@ -28076,7 +28093,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            53.0,
+            53,
             55.5
           ]
         },
@@ -28114,7 +28131,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            108.0,
+            108,
             120.5
           ]
         },
@@ -28127,7 +28144,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             125.5,
-            138.0
+            138
           ]
         },
         {
@@ -28138,7 +28155,7 @@
           "cue": "把这个蔬菜炒熟",
           "tips": [],
           "evidenceRangeSeconds": [
-            143.0,
+            143,
             145.5
           ]
         },
@@ -28151,7 +28168,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             150.5,
-            153.0
+            153
           ]
         },
         {
@@ -28162,7 +28179,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            158.0,
+            158,
             160.5
           ]
         },
@@ -28175,7 +28192,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             165.5,
-            173.0
+            173
           ]
         },
         {
@@ -28188,8 +28205,8 @@
             "把牛肉煮到全部变色就可以了"
           ],
           "evidenceRangeSeconds": [
-            193.0,
-            203.0
+            193,
+            203
           ]
         },
         {
@@ -28212,8 +28229,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            218.0,
-            218.0
+            218,
+            218
           ]
         }
       ],
@@ -28354,7 +28371,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            3.0,
+            3,
             35.5
           ]
         },
@@ -28366,8 +28383,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            38.0,
-            68.0
+            38,
+            68
           ]
         },
         {
@@ -28394,7 +28411,7 @@
             "我们可以分个几次来炸"
           ],
           "evidenceRangeSeconds": [
-            83.0,
+            83,
             85.5
           ]
         },
@@ -28407,7 +28424,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             110.5,
-            113.0
+            113
           ]
         },
         {
@@ -28430,7 +28447,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            128.0,
+            128,
             130.5
           ]
         },
@@ -28454,7 +28471,7 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            163.0,
+            163,
             165.5
           ]
         },
@@ -28467,7 +28484,7 @@
           "tips": [],
           "evidenceRangeSeconds": [
             170.5,
-            193.0
+            193
           ]
         },
         {
@@ -28478,8 +28495,8 @@
           "cue": null,
           "tips": [],
           "evidenceRangeSeconds": [
-            198.0,
-            198.0
+            198,
+            198
           ]
         }
       ],
@@ -28829,10 +28846,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -29499,10 +29517,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -30513,10 +30532,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸭”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -30797,10 +30817,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -32511,10 +32532,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -33754,10 +33776,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -36126,10 +36149,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“甲鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -37207,10 +37231,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -37544,10 +37569,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鳜鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -38356,10 +38382,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -38677,10 +38704,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“羊”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -41322,10 +41350,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“甲鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -42193,7 +42222,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
+        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -43917,7 +43946,9 @@
     {
       "id": "bili-BV1bb4y1475r",
       "title": "清炒藕丝",
-      "aliases": ["炒藕丝"],
+      "aliases": [
+        "炒藕丝"
+      ],
       "summary": "藕丝先焯水冲凉，再用猪油和蒜末大火快炒，口感清脆。",
       "source": {
         "bvid": "BV1bb4y1475r",
@@ -43963,7 +43994,10 @@
           "role": "主料",
           "required": true,
           "prep": "去皮切细丝",
-          "aliases": ["藕", "藕丝"]
+          "aliases": [
+            "藕",
+            "藕丝"
+          ]
         },
         {
           "name": "青椒",
@@ -43973,7 +44007,9 @@
           "role": "辅料",
           "required": false,
           "prep": "切丝",
-          "aliases": ["青红椒"]
+          "aliases": [
+            "青红椒"
+          ]
         },
         {
           "name": "红椒",
@@ -43992,7 +44028,9 @@
           "role": "辅料",
           "required": false,
           "prep": "切小圈，起锅前加入",
-          "aliases": ["青蒜"]
+          "aliases": [
+            "青蒜"
+          ]
         },
         {
           "name": "大蒜",
@@ -44179,7 +44217,9 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "requiredIngredients": ["莲藕"],
+        "requiredIngredients": [
+          "莲藕"
+        ],
         "reviewNote": "已根据步骤补回主料及步骤明确提到的辅料。"
       }
     },
@@ -45614,10 +45654,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     },
     {
@@ -46141,7 +46182,10 @@
           "role": "主料",
           "required": true,
           "prep": "烧净耳窝杂毛后，用钢丝球刷洗干净",
-          "aliases": ["猪耳", "耳朵"]
+          "aliases": [
+            "猪耳",
+            "耳朵"
+          ]
         },
         {
           "name": "料酒",
@@ -46267,7 +46311,9 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "requiredIngredients": ["猪耳朵"],
+        "requiredIngredients": [
+          "猪耳朵"
+        ],
         "reviewNote": "已根据步骤补回主料，并校正总用时。"
       }
     },
@@ -46697,10 +46743,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
       }
     }
   ]

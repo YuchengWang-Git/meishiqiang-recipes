@@ -5,7 +5,12 @@ const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/$
 const recipes = libraries.flatMap((library) => library.recipes);
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
 const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "creator_attributed", "excluded_from_recommendations", "needs_rebuild"]);
-const malformedHowToCookIngredient = /(秒表|单人|淹过|没过|一般一个人可以食用)/;
+const malformedHowToCookIngredient = /(?:[=＝]|(?:的)?(?:数量|用量|份数|数)$|秒表|单人|淹过|没过|一般一个人可以食用|手套|容器|塑料杯|玻璃杯|密封罐|刻度)/;
+const titleIngredientChecks = [
+  ["甲鱼", /甲鱼/, /甲鱼/], ["鳜鱼", /鳜鱼/, /鳜/], ["鲫鱼", /鲫鱼/, /鲫/], ["鲈鱼", /鲈鱼/, /鲈/],
+  ["虾", /虾/, /虾/], ["蟹", /蟹/, /蟹/], ["羊", /羊/, /羊/], ["牛", /牛/, /牛/], ["猪", /猪/, /猪/], ["鸭", /鸭/, /鸭/],
+  ["鸡", /鸡(?!蛋)/, /鸡/], ["鱼", /鱼(?!香)/, /鱼/], ["茄子", /茄子/, /茄子/], ["柠檬", /柠檬/, /柠檬/],
+];
 const errors = [];
 const ids = new Set();
 
@@ -29,6 +34,11 @@ for (const recipe of recipes) {
   const ingredientTerms = (recipe.ingredients || []).flatMap(terms);
   if (!hiddenStatuses.has(recipe.quality?.status) && recipe.source?.creator === "HowToCook" && (recipe.ingredients || []).some((item) => malformedHowToCookIngredient.test(item.name) || malformedHowToCookIngredient.test(item.canonicalName))) {
     errors.push(`${label}: HowToCook 解析出工具或说明文字，不能作为可推荐食材`);
+  }
+  if (!hiddenStatuses.has(recipe.quality?.status) && recipe.source?.creator === "美食强") {
+    const text = ingredientTerms.join(" ");
+    const missing = titleIngredientChecks.filter(([, titlePattern, ingredientPattern]) => titlePattern.test(recipe.title) && !ingredientPattern.test(text)).map(([name]) => name);
+    if (missing.length) errors.push(`${label}: 菜名关键食材“${missing.join("、")}”未列入材料，必须先停止推荐`);
   }
   for (const required of recipe.quality?.requiredIngredients || []) {
     if (!ingredientTerms.some((item) => item === required || item.includes(required) || required.includes(item))) errors.push(`${label}: 关键食材“${required}”未列入材料`);

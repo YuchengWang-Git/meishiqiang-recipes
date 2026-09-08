@@ -13,8 +13,8 @@ const categoryTags = {
   meat_dish: ["主菜", "家常菜"], "semi-finished": ["快手菜", "半成品"], soup: ["汤", "家常菜"],
   staple: ["主食", "家常菜"], vegetable_dish: ["蔬菜", "家常菜"],
 };
-const toolPattern = /(锅|刀|铲|碗|盘|勺|烤箱|空气炸锅|电饭煲|微波炉|蒸箱|冰箱|保鲜膜|砧板|厨师机|打蛋器|榨汁机|搅拌机|漏勺|滤网|模具|锡纸|油纸|温度计|厨房秤|料理机|秒表|计时器)/;
-const narrativePattern = /^(?:单人|多人|每份|淹过|没过|覆盖|水位|能支撑|根据|以能|请|一般一个人可以食用)/;
+const toolPattern = /(锅|刀|铲|碗|盘|勺|烤箱|空气炸锅|电饭煲|微波炉|蒸箱|冰箱|保鲜膜|砧板|厨师机|打蛋器|榨汁机|搅拌机|漏勺|滤网|模具|锡纸|油纸|温度计|厨房秤|料理机|秒表|计时器|手套|容器|塑料杯|玻璃杯|密封罐|刻度)/;
+const narrativePattern = /^(?:单人|多人|每份|淹过|没过|覆盖|水位|能支撑|根据|以能|请|一般一个人可以食用|每个|一个)/;
 const lowValueTitles = new Set([
   "水煮玉米", "太阳蛋", "溏心蛋", "完美水煮蛋", "微波炉荷包蛋", "温泉蛋", "蒸水蛋",
   "煮泡面加蛋", "炒方便面", "电饭煲蒸米饭", "煮锅蒸米饭", "汤面", "柠檬水",
@@ -52,9 +52,11 @@ function listLines(markdown) {
 
 function cleanIngredientName(value) {
   return cleanMarkdown(value)
+    .replace(/[=＝].*$/, "")
     .replace(/[（(][^）)]*[）)]/g, "")
     .replace(/[（(].*$/, "")
     .replace(/^(?:约|适量的?)\s*/, "")
+    .replace(/(?:的)?(?:数量|数|用量|量)\s*.*$/, "")
     .replace(/\s+(?:[一二两三四五六七八九十半]|\d+)(?:个|根|块|把|片|颗|只|袋|头|瓣|勺|杯|碗|瓶|罐|张|条|枚).*$/, "")
     .replace(/[：:，,。；;].*$/, "")
     .replace(/\s*(?:切|洗|泡|腌|挽|备用|少许|适量|若干).*$/, "")
@@ -67,7 +69,7 @@ function parseIngredient(line) {
   const quantityMatch = text.match(/^(.+?)(?:\s+|[：:])([0-9]+(?:\.[0-9]+)?)(?:\s*(?:～|~|-|至)\s*[0-9]+(?:\.[0-9]+)?)?\s*(克|g|毫升|ml|颗|个|只|片|瓣|根|把|勺|大勺|小勺|杯|块|斤|公斤|千克|袋|条|张|枚|瓶|罐|碗|盘)?/i);
   const quantityFirst = text.match(/^([0-9]+(?:\.[0-9]+)?)\s*(克|g|毫升|ml|颗|个|只|片|瓣|根|把|勺|大勺|小勺|杯|块|斤|公斤|千克|袋|条|张|枚|瓶|罐|碗|盘)\s+(.+)/i);
   const name = cleanIngredientName(quantityFirst ? quantityFirst[3] : quantityMatch ? quantityMatch[1] : text);
-  if (!name || name.length > 20 || toolPattern.test(name) || narrativePattern.test(name) || /^(?:必备|可选|原料|调料|食材|配料|材料)$/.test(name)) return null;
+  if (!name || name.length > 20 || toolPattern.test(name) || narrativePattern.test(name) || /^[\d.]+$/.test(name) || /^(?:必备|可选|原料|调料|食材|配料|材料)$/.test(name)) return null;
   return {
     name,
     canonicalName: name,
