@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T08:00:00.000Z",
+  "updatedAt": "2026-09-09T10:30:00.000Z",
   "source": "采蘑菇的小姑娘ヽ对多位美食创作者公开视频的图文菜谱整理；仅导入原作者和标题均可明确核对的条目，首批仅供人工抽查，不作为已验证菜谱。",
   "recipes": [
     {
@@ -403,6 +403,106 @@
       ],
       "notes": ["罗勒、松子和帕玛森奶酪是青酱的关键材料，会作为库存匹配条件。", "原文另有手工意面慢版，需鸡蛋与面粉；本条为日常更适用的快版。", "已保留图文整理者、原作者主页和原视频链接，待人工抽查。"],
       "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["意大利面", "罗勒叶", "帕玛森奶酪"], "ingredientConfidence": 0.95, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "图文明确区分快版和手工慢版；本站只收录步骤更短的快版，已核对原视频。" }
+    },
+    {
+      "id": "mogu-cv22424091",
+      "title": "黄金炒饭",
+      "aliases": ["蛋黄炒饭"],
+      "summary": "凉米饭先拌蛋黄炒散，再拌回炒熟的蛋白；火腿、青豆等可按家里现有食材添加。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv22424091", "originalCreator": "隋卞一做（特厨做饭_）", "originalCreatorUrl": "https://www.bilibili.com/video/BV1os4y1G7UH/", "originalVideoUrl": "https://www.bilibili.com/video/BV1os4y1G7UH/",
+        "contentFormat": "text_and_image_cards", "derivedFrom": "图文正文、1 张食材卡与 2 张步骤卡", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主食", "家常菜"], "flavor": ["蛋香", "葱香"], "methods": ["炒"], "difficulty": "简单", "estimatedMinutes": 15, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "凉米饭", "canonicalName": "米饭", "aliases": ["隔夜饭"], "quantity": null, "unit": "1碗", "role": "主料", "required": true, "prep": "尽量使用颗粒松散的凉饭" },
+        { "name": "鸡蛋", "canonicalName": "鸡蛋", "aliases": [], "quantity": null, "unit": "适量", "role": "主料", "required": true, "prep": "蛋黄和蛋白分开" },
+        { "name": "葱花", "canonicalName": "小葱", "aliases": ["葱"], "quantity": null, "unit": "适量", "role": "辅料", "required": true },
+        { "name": "火腿肠", "canonicalName": "火腿肠", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false },
+        { "name": "青豆", "canonicalName": "青豆", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false },
+        { "name": "玉米粒", "canonicalName": "玉米粒", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false },
+        { "name": "辣条", "canonicalName": "辣条", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": ["食用油"], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "凉米饭拌入蛋黄，抓散全部结块。", "durationMinutes": 3, "cue": "米粒均匀裹上蛋黄、没有结块" },
+        { "order": 2, "action": "锅中热油，倒入蛋白炒熟后盛出。", "heat": "中火", "durationMinutes": 2 },
+        { "order": 3, "action": "锅中再热油，炒香葱花后下蛋黄米饭；待表面鸡蛋凝固，将米饭完全炒散。", "heat": "中火", "durationMinutes": 5, "cue": "饭粒干爽、能彼此分开" },
+        { "order": 4, "action": "加盐；图卡建议用少量水帮助盐化开。倒回蛋白和可选的火腿肠、青豆、玉米粒、辣条，翻炒均匀。", "heat": "中火", "durationMinutes": 3, "tips": ["可选配料按家里剩余食材调整", "少量水仅为化盐过程用水，不参与库存匹配"] }
+      ],
+      "notes": ["蛋黄先裹饭、蛋白后回锅是本版本的核心做法。", "已按图卡逐张转写材料与步骤，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["米饭", "鸡蛋"], "ingredientConfidence": 0.95, "quantityConfidence": 0.75, "stepConfidence": 0.95, "imageCardsReviewed": true, "reviewNote": "已逐张核对 1 张食材卡与 2 张步骤卡；页面文字和图卡共同构成完整流程。" }
+    },
+    {
+      "id": "mogu-cv22889165",
+      "title": "皮蛋肉丸",
+      "aliases": ["湘式皮蛋肉丸"],
+      "summary": "三七肥瘦猪肉打上劲后包入咸鸭蛋黄、裹皮蛋碎，高压蒸制成味道浓厚的肉丸。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv22889165", "originalCreator": "隋卞一做（特厨做饭_）", "originalCreatorUrl": "https://www.bilibili.com/read/cv22889165",
+        "contentFormat": "text_and_image_cards", "derivedFrom": "图文正文、食材卡、过程卡与提示卡", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["咸鲜", "皮蛋"], "methods": ["剁", "蒸"], "difficulty": "中等", "estimatedMinutes": 35, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "猪肉", "canonicalName": "猪肉", "aliases": ["肥瘦猪肉"], "quantity": 500, "unit": "克", "role": "主料", "required": true, "prep": "选三肥七瘦，剁成肉末" },
+        { "name": "皮蛋", "canonicalName": "皮蛋", "aliases": ["松花蛋"], "quantity": null, "unit": "适量", "role": "主料", "required": true, "prep": "切碎备用" },
+        { "name": "咸鸭蛋黄", "canonicalName": "咸鸭蛋黄", "aliases": [], "quantity": null, "unit": "按肉丸数准备", "role": "辅料", "required": true },
+        { "name": "鸡蛋", "canonicalName": "鸡蛋", "aliases": [], "quantity": 1, "unit": "个", "role": "辅料", "required": true },
+        { "name": "葱", "canonicalName": "大葱", "aliases": ["小葱"], "quantity": null, "unit": "适量", "role": "辅料", "required": true },
+        { "name": "姜", "canonicalName": "生姜", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true },
+        { "name": "淀粉", "canonicalName": "淀粉", "aliases": [], "quantity": null, "unit": "25–30克", "role": "辅料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": 3, "unit": "克", "role": "调味料", "required": true },
+        { "name": "白胡椒粉", "canonicalName": "白胡椒粉", "aliases": ["胡椒粉"], "quantity": 1, "unit": "克", "role": "调味料", "required": true },
+        { "name": "味精", "canonicalName": "味精", "aliases": [], "quantity": 1, "unit": "克", "role": "调味料", "required": false },
+        { "name": "香油", "canonicalName": "香油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "猪肉剁碎。肉末加入盐、白胡椒粉、可选味精、鸡蛋和香油；葱姜加水打成葱姜水，分次加入约100克，朝一个方向搅至肉馅上劲，最后拌入淀粉。", "durationMinutes": 12, "cue": "肉馅黏性增强、能挂在手上", "tips": ["水为打葱姜水的过程用水，不参与库存匹配"] },
+        { "order": 2, "action": "皮蛋切成碎粒。取肉馅包入咸鸭蛋黄，团成丸子后均匀裹上皮蛋碎。", "durationMinutes": 8, "cue": "蛋黄被肉馅完全包住、皮蛋碎能附着" },
+        { "order": 3, "action": "高压锅加葱姜水，放入肉丸；上汽后蒸约14分钟。", "heat": "中火", "durationMinutes": 14, "cue": "肉丸定型、中心熟透" },
+        { "order": 4, "action": "可在盘中加少量蒸鱼豉油，或用酱油加水调成简易底味，再摆入肉丸。", "durationMinutes": 1, "tips": ["底味为可选项，肉丸本身已调味"] }
+      ],
+      "notes": ["图卡给出每500克肉约3克盐、1克胡椒粉和100克葱姜水；淀粉在正文与图卡间为25–30克，保留为范围。", "已按图卡逐张转写材料、过程和提示，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["猪肉", "皮蛋", "咸鸭蛋黄"], "ingredientConfidence": 0.95, "quantityConfidence": 0.85, "stepConfidence": 0.95, "imageCardsReviewed": true, "reviewNote": "已逐张核对食材卡、2 张过程卡与提示卡；正文不完整的步骤已从图卡恢复。" }
+    },
+    {
+      "id": "mogu-cv22573672",
+      "title": "滑溜里脊",
+      "aliases": ["滑熘里脊"],
+      "summary": "里脊去筋膜、漂净血水后上浆滑油，再与鲜竹笋和碗芡快速炒匀，口感咸鲜滑嫩。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv22573672", "originalCreator": "隋卞一做（特厨做饭_）", "originalCreatorUrl": "https://www.bilibili.com/read/cv22573672",
+        "contentFormat": "text_and_image_cards", "derivedFrom": "图文正文、食材卡与 4 张步骤卡", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["咸鲜", "滑嫩"], "methods": ["上浆", "滑油", "炒"], "difficulty": "困难", "estimatedMinutes": 35, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "猪里脊", "canonicalName": "猪里脊", "aliases": ["里脊肉", "梅通脊"], "quantity": null, "unit": "500克", "role": "主料", "required": true, "prep": "去筋膜，切约5毫米厚片" },
+        { "name": "鲜竹笋", "canonicalName": "鲜竹笋", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "alternatives": ["脆口配菜"] },
+        { "name": "鸡蛋", "canonicalName": "鸡蛋", "aliases": [], "quantity": 1, "unit": "个", "role": "辅料", "required": true, "prep": "只取蛋清上浆" },
+        { "name": "葱", "canonicalName": "大葱", "aliases": ["小葱"], "quantity": null, "unit": "适量", "role": "辅料", "required": true },
+        { "name": "姜", "canonicalName": "生姜", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true },
+        { "name": "玉米淀粉", "canonicalName": "玉米淀粉", "aliases": [], "quantity": null, "unit": "适量（另备15克调芡）", "role": "辅料", "required": true },
+        { "name": "小苏打", "canonicalName": "小苏打", "aliases": [], "quantity": null, "unit": "少许", "role": "辅料", "required": false, "prep": "使用通脊肉时可加" },
+        { "name": "料酒", "canonicalName": "料酒", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "香油", "canonicalName": "香油", "aliases": [], "quantity": null, "unit": "少许", "role": "调味料", "required": true },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "约4克", "role": "调味料", "required": true },
+        { "name": "白胡椒粉", "canonicalName": "白胡椒粉", "aliases": ["胡椒粉"], "quantity": 1, "unit": "克", "role": "调味料", "required": true },
+        { "name": "味精", "canonicalName": "味精", "aliases": [], "quantity": null, "unit": "少许", "role": "调味料", "required": false }
+      ],
+      "steps": [
+        { "order": 1, "action": "去净里脊筋膜，切成约5毫米厚片；用清水漂去多余血水并沥干。葱姜加水制成葱姜水，取约80克备用。", "durationMinutes": 10, "tips": ["水为漂洗和打葱姜水的过程用水，不参与库存匹配"] },
+        { "order": 2, "action": "蛋清、盐、白胡椒粉、可选味精和玉米淀粉调成浆，加入葱姜水；放入肉片轻抓并搅匀。使用通脊肉时可加少许小苏打。", "durationMinutes": 5, "cue": "肉片表面均匀挂浆、不出水" },
+        { "order": 3, "action": "盐、白胡椒粉、可选味精、少量香油和水淀粉调成碗芡。", "durationMinutes": 2 },
+        { "order": 4, "action": "锅烧热后加油，约四成油温下肉片；肉片泛白时下鲜竹笋等配菜，片刻后捞出。", "heat": "中火", "durationMinutes": 3, "cue": "肉片刚泛白，不要滑油过久" },
+        { "order": 5, "action": "重新起锅留底油，炒香葱姜；倒入滑好的肉片，烹料酒后淋入碗芡，快速翻匀出锅。", "heat": "中大火", "durationMinutes": 3, "cue": "芡汁均匀裹住肉片、保持滑嫩" }
+      ],
+      "notes": ["这道菜的难点是切片、上浆和四成油温滑油，非步骤数量本身。", "鲜竹笋可换成其他脆口配菜，但不建议省略主料里脊。", "已按图卡逐张转写材料与步骤，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["猪里脊", "鸡蛋", "玉米淀粉"], "ingredientConfidence": 0.95, "quantityConfidence": 0.85, "stepConfidence": 0.95, "imageCardsReviewed": true, "reviewNote": "已逐张核对食材卡与 4 张步骤卡；包含正文没有展开的上浆、滑油和碗芡步骤。" }
     }
   ]
 }

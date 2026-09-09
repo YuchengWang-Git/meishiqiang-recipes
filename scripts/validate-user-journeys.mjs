@@ -38,6 +38,9 @@ const allowedMoguCreators = ["美食作家王刚R", "万能工具人阿伟", "�
 assert(moguRecipes.length >= 5, `图文整理菜谱数量异常：${moguRecipes.length}`);
 assert(moguRecipes.every((recipe) => ["needs_user_spot_check", "human_verified"].includes(recipe.quality?.status) && recipe.source?.originalCreator && recipe.source?.originalCreatorUrl), "图文整理菜谱缺少有效复核状态或双重来源归属");
 assert(moguRecipes.every((recipe) => allowedMoguCreators.some((creator) => recipe.source.originalCreator.includes(creator))), "图文整理菜谱出现未准入原作者");
+const imageCardRecipes = moguRecipes.filter((recipe) => recipe.source?.contentFormat === "text_and_image_cards");
+assert(imageCardRecipes.length >= 3 && imageCardRecipes.every((recipe) => recipe.quality?.imageCardsReviewed === true), "图文步骤卡未完成逐张核对");
+assert(["黄金炒饭", "皮蛋肉丸", "滑溜里脊"].every((title) => imageCardRecipes.some((recipe) => recipe.title === title)), "已核对的图卡菜谱没有全部入库");
 const taxonomyProblems = visible.flatMap((recipe) => {
   const names = recipe.ingredients.map((item) => canonicalIngredientName(item.canonicalName || item.name));
   const duplicates = names.filter((name, index) => name && names.indexOf(name) !== index);

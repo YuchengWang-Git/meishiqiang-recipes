@@ -34,6 +34,9 @@ for (const recipe of recipes) {
   if (recipe.source?.creator === "采蘑菇的小姑娘ヽ" && (!recipe.source.originalCreator || !recipe.source.originalCreatorUrl)) {
     errors.push(`${label}: 二次整理来源必须同时标注图文整理者和原视频作者`);
   }
+  if (recipe.source?.contentFormat === "text_and_image_cards" && recipe.quality?.imageCardsReviewed !== true) {
+    errors.push(`${label}: 图文步骤卡未标记为已逐张核对，不能入库`);
+  }
   if (!recipe.quality?.status) errors.push(`${label}: 缺少质量分层状态`);
   if (recipe.quality?.status && !qualityStatuses.has(recipe.quality.status)) errors.push(`${label}: 使用了未定义的质量分层状态`);
   if (!Array.isArray(recipe.ingredients) || !recipe.ingredients.length) errors.push(`${label}: 没有材料`);
