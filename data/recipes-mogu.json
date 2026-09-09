@@ -267,6 +267,142 @@
       ],
       "notes": ["清水属于烹饪过程用水，不会作为库存食材。", "番茄、鸡蛋和面条均为主料，库存推荐会同时识别。", "已保留图文整理者与原视频链接，待人工抽查。"],
       "quality": { "status": "human_verified", "requiredIngredients": ["鸡蛋", "番茄", "面条"], "ingredientConfidence": 0.95, "quantityConfidence": 0.75, "stepConfidence": 0.95, "reviewNote": "图文材料、步骤、汤面比例和时间点完整；已由站点维护者人工复核。" }
+    },
+    {
+      "id": "mogu-cv23640788",
+      "title": "糖醋茄子",
+      "aliases": ["脆皮糖醋茄子"],
+      "summary": "茄子以自制脆炸粉两次油炸，再裹上酸甜浓稠的糖醋汁，外酥内软。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv23640788", "originalCreator": "小高姐的魔法调料", "originalCreatorUrl": "https://space.bilibili.com/216156027", "originalVideoUrl": "https://www.bilibili.com/video/BV1yg4y1G7BT/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["糖醋", "酥脆"], "methods": ["腌", "炸", "炒"], "difficulty": "中等", "estimatedMinutes": 40, "spicyLevel": 1 },
+      "ingredients": [
+        { "name": "茄子", "canonicalName": "茄子", "aliases": [], "quantity": null, "unit": "300–500克", "role": "主料", "required": true, "prep": "去蒂切均匀块" },
+        { "name": "面粉", "canonicalName": "面粉", "aliases": [], "quantity": 60, "unit": "克", "role": "辅料", "required": true },
+        { "name": "玉米淀粉", "canonicalName": "玉米淀粉", "aliases": [], "quantity": null, "unit": "60克+1小勺", "role": "辅料", "required": true, "prep": "60克用于脆炸粉，1小勺用于糖醋汁" },
+        { "name": "泡打粉", "canonicalName": "泡打粉", "aliases": [], "quantity": 1, "unit": "小勺", "role": "辅料", "required": true },
+        { "name": "小苏打", "canonicalName": "小苏打", "aliases": [], "quantity": null, "unit": "1/8小勺", "role": "辅料", "required": true },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 1, "unit": "小勺", "role": "辅料", "required": true, "prep": "切末" },
+        { "name": "辣椒粉", "canonicalName": "辣椒粉", "aliases": [], "quantity": 1, "unit": "小勺", "role": "调味料", "required": false },
+        { "name": "生抽", "canonicalName": "生抽", "aliases": [], "quantity": 1, "unit": "小勺", "role": "调味料", "required": true },
+        { "name": "陈醋", "canonicalName": "陈醋", "aliases": [], "quantity": 1, "unit": "大勺", "role": "调味料", "required": true },
+        { "name": "白醋", "canonicalName": "白醋", "aliases": [], "quantity": 1, "unit": "大勺", "role": "调味料", "required": true, "prep": "与60克水调成醋水" },
+        { "name": "白糖", "canonicalName": "白糖", "aliases": [], "quantity": 2, "unit": "大勺", "role": "调味料", "required": true },
+        { "name": "老抽", "canonicalName": "老抽", "aliases": [], "quantity": null, "unit": "1/4小勺", "role": "调味料", "required": true },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "1/2小勺", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "茄子切块，加盐抓匀，静置15分钟。", "durationMinutes": 15 },
+        { "order": 2, "action": "面粉、玉米淀粉、泡打粉和小苏打拌匀成脆炸粉；取约1/3脆炸粉拌茄子，加入白醋水后，再拌入余下脆炸粉。", "durationMinutes": 5, "cue": "茄子表面均匀挂上湿粉" },
+        { "order": 3, "action": "油温约165℃下茄子炸至外皮酥脆捞出；升至约190℃后复炸30秒。", "heat": "中大火", "durationMinutes": 6, "cue": "外壳金黄、轻敲发脆" },
+        { "order": 4, "action": "生抽、陈醋、白糖、玉米淀粉、老抽和60克水调成糖醋汁；锅中少许油爆香蒜末和可选辣椒粉，倒入料汁小火搅至浓稠。", "heat": "小火", "durationMinutes": 3 },
+        { "order": 5, "action": "倒入炸好的茄子，快速翻拌至均匀裹汁即出锅。", "durationMinutes": 1, "tips": ["裹汁后久放会回软，建议马上上桌"] }
+      ],
+      "notes": ["水为调制醋水和糖醋汁的过程用水，不作为库存食材。", "泡打粉和小苏打是酥脆口感的关键材料，库存匹配会保留。", "已保留图文整理者、原作者主页和原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["茄子", "泡打粉"], "ingredientConfidence": 0.95, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "图文列出脆炸粉、糖醋汁、两段油温及完整步骤；已核对原视频。" }
+    },
+    {
+      "id": "mogu-cv20708818",
+      "title": "搓麻食",
+      "aliases": ["陕西烩麻食", "麻食"],
+      "summary": "手搓小面坨与鸡肉番茄蔬菜臊子同煮，是一锅完成的陕西家常面食。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv20708818", "originalCreator": "小高姐的魔法调料", "originalCreatorUrl": "https://space.bilibili.com/216156027", "originalVideoUrl": "https://www.bilibili.com/video/BV1cW4y1M7u9/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主食", "家常菜"], "flavor": ["咸鲜", "番茄"], "methods": ["和面", "煮", "炒"], "difficulty": "中等", "estimatedMinutes": 100, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "中筋面粉", "canonicalName": "中筋面粉", "aliases": ["面粉"], "quantity": 200, "unit": "克", "role": "主料", "required": true },
+        { "name": "土豆淀粉", "canonicalName": "土豆淀粉", "aliases": [], "quantity": 20, "unit": "克", "role": "主料", "required": true },
+        { "name": "鸡腿肉", "canonicalName": "鸡腿肉", "aliases": ["鸡肉"], "quantity": null, "unit": "1块", "role": "主料", "required": true, "prep": "带皮切小丁" },
+        { "name": "土豆", "canonicalName": "土豆", "aliases": [], "quantity": 1, "unit": "个", "role": "辅料", "required": true, "prep": "切小丁" },
+        { "name": "番茄", "canonicalName": "番茄", "aliases": ["西红柿"], "quantity": 2, "unit": "个", "role": "辅料", "required": true, "prep": "切小丁" },
+        { "name": "黄花菜", "canonicalName": "黄花菜", "aliases": [], "quantity": null, "unit": "1小把", "role": "辅料", "required": true },
+        { "name": "木耳", "canonicalName": "木耳", "aliases": [], "quantity": null, "unit": "1/2杯（泡发）", "role": "辅料", "required": true },
+        { "name": "花菇", "canonicalName": "花菇", "aliases": ["香菇"], "quantity": 3, "unit": "个", "role": "辅料", "required": true },
+        { "name": "大葱", "canonicalName": "大葱", "aliases": ["葱"], "quantity": 1, "unit": "根", "role": "辅料", "required": true },
+        { "name": "蒜苗", "canonicalName": "蒜苗", "aliases": [], "quantity": 1, "unit": "根", "role": "辅料", "required": true },
+        { "name": "花椒粉", "canonicalName": "花椒粉", "aliases": [], "quantity": null, "unit": "1/4小勺", "role": "调味料", "required": true },
+        { "name": "八角", "canonicalName": "八角", "aliases": [], "quantity": 1, "unit": "个", "role": "调味料", "required": true },
+        { "name": "生抽", "canonicalName": "生抽", "aliases": [], "quantity": 1, "unit": "小勺", "role": "调味料", "required": true },
+        { "name": "白胡椒粉", "canonicalName": "白胡椒粉", "aliases": ["胡椒粉"], "quantity": null, "unit": "1/2小勺", "role": "调味料", "required": true },
+        { "name": "香油", "canonicalName": "香油", "aliases": [], "quantity": 1, "unit": "小勺", "role": "调味料", "required": true },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "2克面团+1/2小勺臊子", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "土豆淀粉、盐和水拌匀，加入面粉揉成团；醒15分钟后揉至光滑，再醒1小时。", "durationMinutes": 75, "tips": ["水为和面过程用水，不作为库存食材"] },
+        { "order": 2, "action": "鸡腿肉和所有蔬菜切小丁，黄花菜撕开。", "durationMinutes": 15 },
+        { "order": 3, "action": "面团擀成略窄于菜刀的长片，撒足干粉切条、切小丁；用拇指侧面向前一推搓成麻食。", "durationMinutes": 15, "cue": "小面坨有凹槽、彼此不粘连" },
+        { "order": 4, "action": "炒锅中油热后炒香葱姜，放鸡肉丁炒散；鸡肉发白后加花椒粉、盐、八角和生抽炒入味，再加入番茄炒至成糊状。", "heat": "中火", "durationMinutes": 8 },
+        { "order": 5, "action": "加入除蒜苗外的配菜炒几分钟。另起锅水开后分2至3次下麻食，每次搅散；全部浮起约1分钟后连汤倒入臊子。", "heat": "中火", "durationMinutes": 8 },
+        { "order": 6, "action": "让麻食与土豆在汤汁中煮熟，关火后加入蒜苗、白胡椒粉和香油，尝味即可。", "durationMinutes": 5, "cue": "土豆熟透、麻食不夹生" }
+      ],
+      "notes": ["黄花菜、木耳和花菇的组合可随家里蔬菜调整，但鸡腿肉、番茄和面团是本版本核心。", "手、米饭勺、竹帘和滤水盆是原文列出的成型工具，不作为食材。", "已保留图文整理者、原作者主页和原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["中筋面粉", "鸡腿肉", "番茄"], "ingredientConfidence": 0.95, "quantityConfidence": 0.9, "stepConfidence": 0.95, "reviewNote": "图文提供面团、臊子、四种成型工具和下锅状态；已核对原视频。" }
+    },
+    {
+      "id": "mogu-cv24831108",
+      "title": "空心葱油饼",
+      "aliases": ["炸葱油饼"],
+      "summary": "含少量酵母的葱花面团冷藏松弛后高温炸制，形成鼓起的空心饼。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv24831108", "originalCreator": "小高姐的魔法调料", "originalCreatorUrl": "https://space.bilibili.com/216156027", "originalVideoUrl": "https://www.bilibili.com/video/BV1414y1o7oX/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主食", "早餐"], "flavor": ["葱香", "酥脆"], "methods": ["和面", "醒发", "炸"], "difficulty": "中等", "estimatedMinutes": 50, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "面粉", "canonicalName": "面粉", "aliases": [], "quantity": 300, "unit": "克", "role": "主料", "required": true },
+        { "name": "小葱", "canonicalName": "小葱", "aliases": ["香葱"], "quantity": null, "unit": "1小把", "role": "辅料", "required": true, "prep": "切末" },
+        { "name": "酵母", "canonicalName": "酵母", "aliases": ["酵母粉"], "quantity": null, "unit": "1/8小勺", "role": "辅料", "required": true },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "2小勺（另备宽油炸制）", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "1/2小勺", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "小葱切末，与盐拌匀。", "durationMinutes": 3 },
+        { "order": 2, "action": "酵母、水、油、面粉和葱末拌成面团，醒15分钟；揉光滑后再醒15分钟。", "durationMinutes": 30, "tips": ["水为和面过程用水，不作为库存食材"] },
+        { "order": 3, "action": "面团搓长并分成8个剂子，收圆成小面团；表面蘸油、压扁后可冷藏过夜，也可直接制作。", "durationMinutes": 10 },
+        { "order": 4, "action": "面饼擀薄，油温约200℃下锅；浮起后不断用勺淋热油，鼓起后翻面，炸至浅焦黄色出锅。", "heat": "中大火", "durationMinutes": 5, "cue": "面皮鼓成空心、两面浅金黄" }
+      ],
+      "notes": ["原方可做8个；冷藏隔夜便于把备料拆到前一天。", "宽油是烹饪用油量，不会作为库存匹配条件。", "已保留图文整理者、原作者主页和原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["面粉", "小葱", "酵母"], "ingredientConfidence": 0.95, "quantityConfidence": 0.9, "stepConfidence": 0.95, "reviewNote": "图文提供完整配方、冷藏选项、油温和鼓起状态；已核对原视频。" }
+    },
+    {
+      "id": "mogu-cv41731150",
+      "title": "青酱意面",
+      "aliases": ["罗勒青酱意面"],
+      "summary": "罗勒、松子和帕玛森奶酪打成青酱，拌入意面和虾仁；十分钟快版适合日常制作。",
+      "source": {
+        "platform": "bilibili", "creator": "采蘑菇的小姑娘ヽ", "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv41731150", "originalCreator": "小高姐的魔法调料", "originalCreatorUrl": "https://space.bilibili.com/216156027", "originalVideoUrl": "https://www.bilibili.com/video/BV1q5EQzzEoT/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点", "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主食", "家常菜"], "flavor": ["罗勒", "奶酪"], "methods": ["打酱", "煮", "拌"], "difficulty": "简单", "estimatedMinutes": 15, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "意大利面", "canonicalName": "意大利面", "aliases": ["意面"], "quantity": null, "unit": "2人份", "role": "主料", "required": true },
+        { "name": "虾仁", "canonicalName": "虾仁", "aliases": ["虾"], "quantity": 6, "unit": "个", "role": "主料", "required": true },
+        { "name": "罗勒叶", "canonicalName": "罗勒叶", "aliases": ["罗勒"], "quantity": 40, "unit": "克", "role": "辅料", "required": true },
+        { "name": "松子", "canonicalName": "松子", "aliases": [], "quantity": 30, "unit": "克", "role": "辅料", "required": true },
+        { "name": "帕玛森奶酪", "canonicalName": "帕玛森奶酪", "aliases": ["帕尔马干酪"], "quantity": 25, "unit": "克", "role": "辅料", "required": true },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 3, "unit": "瓣", "role": "辅料", "required": true },
+        { "name": "橄榄油", "canonicalName": "橄榄油", "aliases": [], "quantity": 60, "unit": "克", "role": "调味料", "required": true },
+        { "name": "黑胡椒", "canonicalName": "黑胡椒", "aliases": ["黑胡椒粉"], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "柠檬", "canonicalName": "柠檬", "aliases": [], "quantity": 1, "unit": "小勺汁", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "罗勒叶洗净并彻底甩干；与松子、帕玛森奶酪、蒜和橄榄油一起打碎成青酱。", "durationMinutes": 5, "cue": "酱体细碎但仍有颗粒感" },
+        { "order": 2, "action": "水开加少许盐，下意大利面；接近煮熟时放虾仁焯至变色，与面一同捞出。", "heat": "中火", "durationMinutes": 8, "cue": "虾仁刚变粉红、面仍有一点嚼劲" },
+        { "order": 3, "action": "面和虾仁加入2大勺青酱拌匀，撒帕玛森奶酪、黑胡椒、松子和罗勒叶即可。", "durationMinutes": 2, "tips": ["原图文另附手工意面和手工研磨青酱的慢版；本站收录十分钟快版"] }
+      ],
+      "notes": ["罗勒、松子和帕玛森奶酪是青酱的关键材料，会作为库存匹配条件。", "原文另有手工意面慢版，需鸡蛋与面粉；本条为日常更适用的快版。", "已保留图文整理者、原作者主页和原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["意大利面", "罗勒叶", "帕玛森奶酪"], "ingredientConfidence": 0.95, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "图文明确区分快版和手工慢版；本站只收录步骤更短的快版，已核对原视频。" }
     }
   ]
 }
