@@ -1052,9 +1052,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 10,
           "unit": "g",
           "role": "原料",
@@ -1734,8 +1736,8 @@
           "required": true
         },
         {
-          "name": "黑胡椒粒 大概",
-          "canonicalName": "黑胡椒粒 大概",
+          "name": "黑胡椒粒大概",
+          "canonicalName": "黑胡椒粒大概",
           "aliases": [],
           "quantity": 15,
           "unit": "ml",
@@ -1873,9 +1875,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -2008,8 +2012,8 @@
           "required": false
         },
         {
-          "name": "草鱼 大约三斤",
-          "canonicalName": "草鱼 大约三斤",
+          "name": "草鱼大约三斤",
+          "canonicalName": "草鱼大约三斤",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -2026,8 +2030,8 @@
           "required": true
         },
         {
-          "name": "桂皮 一小片",
-          "canonicalName": "桂皮 一小片",
+          "name": "桂皮一小片",
+          "canonicalName": "桂皮一小片",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -2044,8 +2048,8 @@
           "required": true
         },
         {
-          "name": "青花椒 一小把",
-          "canonicalName": "青花椒 一小把",
+          "name": "青花椒一小把",
+          "canonicalName": "青花椒一小把",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -2380,8 +2384,8 @@
           "name": "黄油",
           "canonicalName": "黄油",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 20,
+          "unit": "g",
           "role": "原料",
           "required": true
         },
@@ -2431,13 +2435,16 @@
           "required": true
         },
         {
-          "name": "料酒、朗姆酒或啤酒",
-          "canonicalName": "料酒、朗姆酒或啤酒",
+          "name": "料酒、朗姆酒",
+          "canonicalName": "料酒、朗姆酒",
           "aliases": [],
           "quantity": 15,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "啤酒"
+          ]
         },
         {
           "name": "香菜",
@@ -2454,15 +2461,6 @@
           "aliases": [],
           "quantity": 5,
           "unit": "颗",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黄油 约",
-          "canonicalName": "黄油 约",
-          "aliases": [],
-          "quantity": 20,
-          "unit": "g",
           "role": "原料",
           "required": true
         }
@@ -2602,9 +2600,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 5,
           "unit": "瓣",
           "role": "原料",
@@ -2758,13 +2758,16 @@
           "required": true
         },
         {
-          "name": "白菜心/娃娃菜",
-          "canonicalName": "白菜心/娃娃菜",
+          "name": "白菜心",
+          "canonicalName": "白菜心",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "娃娃菜"
+          ]
         },
         {
           "name": "盐",
@@ -3133,8 +3136,8 @@
           "required": true
         },
         {
-          "name": "酱油 每个生蚝",
-          "canonicalName": "酱油 每个生蚝",
+          "name": "酱油每个生蚝",
+          "canonicalName": "酱油每个生蚝",
           "aliases": [],
           "quantity": 1,
           "unit": "ml",
@@ -3260,9 +3263,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 20,
           "unit": "g",
           "role": "原料",
@@ -3594,8 +3599,8 @@
           "required": true
         },
         {
-          "name": "蔬菜 可有不同搭配",
-          "canonicalName": "蔬菜 可有不同搭配",
+          "name": "蔬菜可有不同搭配",
+          "canonicalName": "蔬菜可有不同搭配",
           "aliases": [],
           "quantity": 300,
           "unit": "g",
@@ -3612,9 +3617,11 @@
           "required": false
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -3842,9 +3849,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -4649,9 +4658,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 40,
           "unit": "g",
           "role": "原料",
@@ -4849,7 +4860,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "鳝丝",
-          "大蒜"
+          "蒜"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -5119,13 +5130,16 @@
       },
       "ingredients": [
         {
-          "name": "剑骨鱼或鲤鱼",
-          "canonicalName": "剑骨鱼或鲤鱼",
+          "name": "剑骨鱼",
+          "canonicalName": "剑骨鱼",
           "aliases": [],
-          "quantity": 1,
-          "unit": "条",
+          "quantity": 1.5,
+          "unit": "斤",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "鲤鱼"
+          ]
         },
         {
           "name": "漓泉啤酒",
@@ -5164,9 +5178,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 6,
           "unit": "瓣",
           "role": "原料",
@@ -5315,7 +5331,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "剑骨鱼或鲤鱼",
+          "剑骨鱼",
           "漓泉啤酒"
         ],
         "ingredientConfidence": 0.8,
@@ -5535,13 +5551,16 @@
           "required": true
         },
         {
-          "name": "白糖或红糖",
-          "canonicalName": "白糖或红糖",
+          "name": "白糖",
+          "canonicalName": "白糖",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "红糖"
+          ]
         },
         {
           "name": "红糖",
@@ -6062,13 +6081,16 @@
           "required": true
         },
         {
-          "name": "芝麻、葱花或其他配料",
-          "canonicalName": "芝麻、葱花或其他配料",
+          "name": "芝麻、葱花",
+          "canonicalName": "芝麻、葱花",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "其他配料"
+          ]
         },
         {
           "name": "饺子一包",
@@ -6141,7 +6163,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "饺子",
-          "芝麻、葱花或其他配料"
+          "芝麻、葱花"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -6327,13 +6349,16 @@
           "required": true
         },
         {
-          "name": "全脂牛奶/奶油",
-          "canonicalName": "全脂牛奶/奶油",
+          "name": "全脂牛奶",
+          "canonicalName": "全脂牛奶",
           "aliases": [],
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "奶油"
+          ]
         },
         {
           "name": "黄油",
@@ -6384,7 +6409,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "鸡蛋",
-          "全脂牛奶/奶油"
+          "全脂牛奶"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -6448,8 +6473,8 @@
           "required": true
         },
         {
-          "name": "🥛 牛奶",
-          "canonicalName": "🥛 牛奶",
+          "name": "🥛牛奶",
+          "canonicalName": "🥛牛奶",
           "aliases": [],
           "quantity": 280,
           "unit": "ml",
@@ -6457,8 +6482,8 @@
           "required": true
         },
         {
-          "name": "🍳 鸡蛋",
-          "canonicalName": "🍳 鸡蛋",
+          "name": "🍳鸡蛋",
+          "canonicalName": "🍳鸡蛋",
           "aliases": [],
           "quantity": 1,
           "unit": "个",
@@ -6466,8 +6491,8 @@
           "required": true
         },
         {
-          "name": "🍚 燕麦",
-          "canonicalName": "🍚 燕麦",
+          "name": "🍚燕麦",
+          "canonicalName": "🍚燕麦",
           "aliases": [],
           "quantity": 40,
           "unit": "g",
@@ -7023,15 +7048,6 @@
           "unit": "mL",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "筷子或牙签",
-          "canonicalName": "筷子或牙签",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -7354,8 +7370,8 @@
           "required": true
         },
         {
-          "name": "100°C 沸水",
-          "canonicalName": "100°C 沸水",
+          "name": "100°C沸水",
+          "canonicalName": "100°C沸水",
           "aliases": [],
           "quantity": 1500,
           "unit": "ml",
@@ -7363,8 +7379,8 @@
           "required": true
         },
         {
-          "name": "30°C 温水",
-          "canonicalName": "30°C 温水",
+          "name": "30°C温水",
+          "canonicalName": "30°C温水",
           "aliases": [],
           "quantity": 1500,
           "unit": "ml",
@@ -7772,13 +7788,16 @@
           "required": true
         },
         {
-          "name": "温水或高汤",
-          "canonicalName": "温水或高汤",
+          "name": "温水",
+          "canonicalName": "温水",
           "aliases": [],
           "quantity": 100,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "高汤"
+          ]
         },
         {
           "name": "食盐",
@@ -7848,7 +7867,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "鸡蛋",
-          "温水或高汤"
+          "温水"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -8054,8 +8073,8 @@
           "required": true
         },
         {
-          "name": "牛奶一盒 约",
-          "canonicalName": "牛奶一盒 约",
+          "name": "牛奶一盒",
+          "canonicalName": "牛奶一盒",
           "aliases": [],
           "quantity": 250,
           "unit": "ml",
@@ -8158,8 +8177,8 @@
       },
       "ingredients": [
         {
-          "name": "意式猪肉香肠、辣香肠  或",
-          "canonicalName": "意式猪肉香肠、辣香肠  或",
+          "name": "意式猪肉香肠、辣香肠",
+          "canonicalName": "意式猪肉香肠、辣香肠",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -8167,11 +8186,11 @@
           "required": true
         },
         {
-          "name": "百味来  拿坡里意面酱",
-          "canonicalName": "百味来  拿坡里意面酱",
+          "name": "百味来拿坡里意面酱",
+          "canonicalName": "百味来拿坡里意面酱",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 1,
+          "unit": "罐",
           "role": "原料",
           "required": true
         },
@@ -8255,15 +8274,6 @@
           "unit": "g",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "百味来拿坡里意面酱",
-          "canonicalName": "百味来拿坡里意面酱",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "罐",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -8327,7 +8337,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "意式猪肉香肠、辣香肠或",
+          "意式猪肉香肠、辣香肠",
           "百味来拿坡里意面酱"
         ],
         "ingredientConfidence": 0.8,
@@ -8729,7 +8739,7 @@
           "name": "香草精",
           "canonicalName": "香草精",
           "aliases": [],
-          "quantity": 5,
+          "quantity": 1,
           "unit": "克",
           "role": "原料",
           "required": true
@@ -8859,13 +8869,16 @@
           "required": true
         },
         {
-          "name": "白砂糖或冰糖",
-          "canonicalName": "白砂糖或冰糖",
+          "name": "白砂糖",
+          "canonicalName": "白砂糖",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 30,
+          "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "冰糖"
+          ]
         },
         {
           "name": "水",
@@ -8882,15 +8895,6 @@
           "aliases": [],
           "quantity": null,
           "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "白砂糖",
-          "canonicalName": "白砂糖",
-          "aliases": [],
-          "quantity": 30,
-          "unit": "g",
           "role": "原料",
           "required": true
         }
@@ -8939,7 +8943,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "荔浦芋头",
-          "白砂糖或冰糖"
+          "白砂糖"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -9271,8 +9275,8 @@
           "required": true
         },
         {
-          "name": "酥油— 可用黄油替代",
-          "canonicalName": "酥油— 可用黄油替代",
+          "name": "酥油—可用黄油替代",
+          "canonicalName": "酥油—可用黄油替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -9461,8 +9465,8 @@
           "required": true
         },
         {
-          "name": "espresso 意式浓缩",
-          "canonicalName": "espresso 意式浓缩",
+          "name": "espresso意式浓缩",
+          "canonicalName": "espresso意式浓缩",
           "aliases": [],
           "quantity": 35,
           "unit": "ml",
@@ -9583,8 +9587,8 @@
       },
       "ingredients": [
         {
-          "name": "蛋挞皮 品牌不限",
-          "canonicalName": "蛋挞皮 品牌不限",
+          "name": "蛋挞皮品牌不限",
+          "canonicalName": "蛋挞皮品牌不限",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -9637,8 +9641,8 @@
           "required": true
         },
         {
-          "name": "筛网 网孔约为",
-          "canonicalName": "筛网 网孔约为",
+          "name": "筛网网孔约为",
+          "canonicalName": "筛网网孔约为",
           "aliases": [],
           "quantity": 1,
           "unit": "适量",
@@ -9646,8 +9650,8 @@
           "required": true
         },
         {
-          "name": "蛋挞皮 品牌不限 整包蛋挞皮约为",
-          "canonicalName": "蛋挞皮 品牌不限 整包蛋挞皮约为",
+          "name": "蛋挞皮品牌不限整包蛋挞皮约为",
+          "canonicalName": "蛋挞皮品牌不限整包蛋挞皮约为",
           "aliases": [],
           "quantity": 30,
           "unit": "只",
@@ -10048,8 +10052,8 @@
           "required": true
         },
         {
-          "name": "[可选] 分蛋器",
-          "canonicalName": "[可选] 分蛋器",
+          "name": "[可选]分蛋器",
+          "canonicalName": "[可选]分蛋器",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -10102,8 +10106,8 @@
           "required": true
         },
         {
-          "name": "3 个鸡蛋",
-          "canonicalName": "3 个鸡蛋",
+          "name": "3个鸡蛋",
+          "canonicalName": "3个鸡蛋",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -10311,13 +10315,16 @@
           "required": true
         },
         {
-          "name": "[可选] 柠檬汁或白醋",
-          "canonicalName": "[可选] 柠檬汁或白醋",
+          "name": "[可选]柠檬汁",
+          "canonicalName": "[可选]柠檬汁",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "白醋"
+          ]
         }
       ],
       "steps": [
@@ -11256,8 +11263,8 @@
           "required": true
         },
         {
-          "name": "糯米粉 a",
-          "canonicalName": "糯米粉 a",
+          "name": "糯米粉a",
+          "canonicalName": "糯米粉a",
           "aliases": [],
           "quantity": 50,
           "unit": "g",
@@ -11265,8 +11272,8 @@
           "required": true
         },
         {
-          "name": "糯米粉 b",
-          "canonicalName": "糯米粉 b",
+          "name": "糯米粉b",
+          "canonicalName": "糯米粉b",
           "aliases": [],
           "quantity": 75,
           "unit": "g",
@@ -11388,13 +11395,16 @@
           "required": true
         },
         {
-          "name": "低筋面粉或普通面粉",
-          "canonicalName": "低筋面粉或普通面粉",
+          "name": "低筋面粉",
+          "canonicalName": "低筋面粉",
           "aliases": [],
           "quantity": 40,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "普通面粉"
+          ]
         },
         {
           "name": "面包糠",
@@ -11663,13 +11673,16 @@
           "required": true
         },
         {
-          "name": "茉莉绿茶茶叶/苏打气",
-          "canonicalName": "茉莉绿茶茶叶/苏打气",
+          "name": "茉莉绿茶茶叶",
+          "canonicalName": "茉莉绿茶茶叶",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 3,
+          "unit": "克",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "苏打气"
+          ]
         },
         {
           "name": "白砂糖",
@@ -11699,13 +11712,16 @@
           "required": true
         },
         {
-          "name": "薄荷叶或其他绿叶",
-          "canonicalName": "薄荷叶或其他绿叶",
+          "name": "薄荷叶",
+          "canonicalName": "薄荷叶",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "其他绿叶"
+          ]
         },
         {
           "name": "工具",
@@ -11731,15 +11747,6 @@
           "aliases": [],
           "quantity": 380,
           "unit": "毫升",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "茉莉绿茶茶叶",
-          "canonicalName": "茉莉绿茶茶叶",
-          "aliases": [],
-          "quantity": 3,
-          "unit": "克",
           "role": "原料",
           "required": true
         },
@@ -12175,8 +12182,8 @@
           "required": true
         },
         {
-          "name": "NFC 橙汁",
-          "canonicalName": "NFC 橙汁",
+          "name": "NFC橙汁",
+          "canonicalName": "NFC橙汁",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -13008,13 +13015,16 @@
           "required": true
         },
         {
-          "name": "全脂奶粉或淡奶",
-          "canonicalName": "全脂奶粉或淡奶",
+          "name": "全脂奶粉",
+          "canonicalName": "全脂奶粉",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "淡奶"
+          ]
         },
         {
           "name": "奶粉",
@@ -13065,7 +13075,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "袋",
-          "全脂奶粉或淡奶"
+          "全脂奶粉"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -13266,13 +13276,16 @@
           "required": false
         },
         {
-          "name": "薄荷叶或坚果碎",
-          "canonicalName": "薄荷叶或坚果碎",
+          "name": "薄荷叶",
+          "canonicalName": "薄荷叶",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "坚果碎"
+          ]
         }
       ],
       "steps": [
@@ -13370,8 +13383,8 @@
           "name": "菠菜叶",
           "canonicalName": "菠菜叶",
           "aliases": [],
-          "quantity": 4,
-          "unit": "适量",
+          "quantity": 2,
+          "unit": "片",
           "role": "原料",
           "required": true
         },
@@ -13847,15 +13860,6 @@
           "canonicalName": "冰块",
           "aliases": [],
           "quantity": 2,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "调理机/果汁机",
-          "canonicalName": "调理机/果汁机",
-          "aliases": [],
-          "quantity": null,
           "unit": "适量",
           "role": "原料",
           "required": true
@@ -14683,8 +14687,8 @@
           "required": true
         },
         {
-          "name": "水 ≥30 mL",
-          "canonicalName": "水 ≥30 mL",
+          "name": "水≥30mL",
+          "canonicalName": "水≥30mL",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -14930,8 +14934,8 @@
           "required": true
         },
         {
-          "name": "老抽 半汤匙",
-          "canonicalName": "老抽 半汤匙",
+          "name": "老抽半汤匙",
+          "canonicalName": "老抽半汤匙",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -14939,8 +14943,8 @@
           "required": true
         },
         {
-          "name": "白糖 半汤匙",
-          "canonicalName": "白糖 半汤匙",
+          "name": "白糖半汤匙",
+          "canonicalName": "白糖半汤匙",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -15049,8 +15053,8 @@
       },
       "ingredients": [
         {
-          "name": "Masala 粉",
-          "canonicalName": "Masala 粉",
+          "name": "Masala粉",
+          "canonicalName": "Masala粉",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -15121,8 +15125,8 @@
           "required": true
         },
         {
-          "name": "Masala 粉一包",
-          "canonicalName": "Masala 粉一包",
+          "name": "Masala粉一包",
+          "canonicalName": "Masala粉一包",
           "aliases": [],
           "quantity": 50,
           "unit": "g",
@@ -15290,13 +15294,16 @@
           "required": true
         },
         {
-          "name": "料酒或花雕酒",
-          "canonicalName": "料酒或花雕酒",
+          "name": "料酒",
+          "canonicalName": "料酒",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 10,
+          "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "花雕酒"
+          ]
         },
         {
           "name": "盐",
@@ -15342,15 +15349,6 @@
           "unit": "适量",
           "role": "原料",
           "required": false
-        },
-        {
-          "name": "料酒",
-          "canonicalName": "料酒",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
         }
       ],
       "steps": [
@@ -15698,7 +15696,7 @@
           "quantity": 1,
           "unit": "个",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "葱",
@@ -16098,13 +16096,16 @@
           "required": true
         },
         {
-          "name": "干罗勒或百里香",
-          "canonicalName": "干罗勒或百里香",
+          "name": "干罗勒",
+          "canonicalName": "干罗勒",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "百里香"
+          ]
         },
         {
           "name": "黑胡椒粉",
@@ -16405,9 +16406,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -16717,7 +16720,7 @@
           "name": "淀粉",
           "canonicalName": "淀粉",
           "aliases": [],
-          "quantity": 10,
+          "quantity": 15,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -17079,8 +17082,8 @@
           "required": true
         },
         {
-          "name": "1 汤匙",
-          "canonicalName": "1 汤匙",
+          "name": "1汤匙",
+          "canonicalName": "1汤匙",
           "aliases": [],
           "quantity": 15,
           "unit": "ml",
@@ -17088,8 +17091,8 @@
           "required": true
         },
         {
-          "name": "1 茶匙",
-          "canonicalName": "1 茶匙",
+          "name": "1茶匙",
+          "canonicalName": "1茶匙",
           "aliases": [],
           "quantity": 5,
           "unit": "ml",
@@ -17481,9 +17484,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -17517,8 +17522,8 @@
           "required": true
         },
         {
-          "name": "花椒 or 麻椒",
-          "canonicalName": "花椒 or 麻椒",
+          "name": "花椒or麻椒",
+          "canonicalName": "花椒or麻椒",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -17849,8 +17854,8 @@
           "name": "荷兰豆",
           "canonicalName": "荷兰豆",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 50,
+          "unit": "个",
           "role": "原料",
           "required": true
         },
@@ -17858,8 +17863,8 @@
           "name": "腊肠",
           "canonicalName": "腊肠",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 100,
+          "unit": "g",
           "role": "原料",
           "required": true
         },
@@ -17878,24 +17883,6 @@
           "aliases": [],
           "quantity": 10,
           "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "荷兰豆大约",
-          "canonicalName": "荷兰豆大约",
-          "aliases": [],
-          "quantity": 50,
-          "unit": "个",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "腊肠约",
-          "canonicalName": "腊肠约",
-          "aliases": [],
-          "quantity": 100,
-          "unit": "g",
           "role": "原料",
           "required": true
         }
@@ -18178,9 +18165,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 3,
           "unit": "瓣",
           "role": "原料",
@@ -18223,13 +18212,16 @@
           "required": true
         },
         {
-          "name": "黄酒或料酒",
-          "canonicalName": "黄酒或料酒",
+          "name": "黄酒",
+          "canonicalName": "黄酒",
           "aliases": [],
           "quantity": 35,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "料酒"
+          ]
         },
         {
           "name": "生抽",
@@ -18734,9 +18726,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 25,
           "unit": "g",
           "role": "原料",
@@ -19513,8 +19507,8 @@
           "required": true
         },
         {
-          "name": "1 汤匙",
-          "canonicalName": "1 汤匙",
+          "name": "1汤匙",
+          "canonicalName": "1汤匙",
           "aliases": [],
           "quantity": 15,
           "unit": "ml",
@@ -19522,8 +19516,8 @@
           "required": true
         },
         {
-          "name": "1 茶匙",
-          "canonicalName": "1 茶匙",
+          "name": "1茶匙",
+          "canonicalName": "1茶匙",
           "aliases": [],
           "quantity": 5,
           "unit": "ml",
@@ -19986,9 +19980,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -20058,8 +20054,8 @@
           "required": true
         },
         {
-          "name": "干葫芦巴叶— 可选但强烈推荐",
-          "canonicalName": "干葫芦巴叶— 可选但强烈推荐",
+          "name": "干葫芦巴叶—可选但强烈推荐",
+          "canonicalName": "干葫芦巴叶—可选但强烈推荐",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -20079,7 +20075,7 @@
           "name": "盐",
           "canonicalName": "盐",
           "aliases": [],
-          "quantity": 5,
+          "quantity": 3,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -20349,9 +20345,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 3,
           "unit": "颗",
           "role": "原料",
@@ -20924,9 +20922,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 30,
           "unit": "克",
           "role": "原料",
@@ -21423,9 +21423,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 3,
           "unit": "适量",
           "role": "原料",
@@ -22720,13 +22722,16 @@
           "required": true
         },
         {
-          "name": "料酒或啤酒",
-          "canonicalName": "料酒或啤酒",
+          "name": "料酒",
+          "canonicalName": "料酒",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 20,
+          "unit": "毫升",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "啤酒"
+          ]
         },
         {
           "name": "小葱",
@@ -22752,15 +22757,6 @@
           "aliases": [],
           "quantity": 3,
           "unit": "克",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "料酒",
-          "canonicalName": "料酒",
-          "aliases": [],
-          "quantity": 20,
-          "unit": "毫升",
           "role": "原料",
           "required": true
         }
@@ -22929,13 +22925,16 @@
           "required": true
         },
         {
-          "name": "酸奶或牛奶",
-          "canonicalName": "酸奶或牛奶",
+          "name": "酸奶",
+          "canonicalName": "酸奶",
           "aliases": [],
           "quantity": 5,
           "unit": "ml",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "牛奶"
+          ]
         },
         {
           "name": "鸡蛋",
@@ -23891,13 +23890,18 @@
           "required": true
         },
         {
-          "name": "小葱/大葱/洋葱",
-          "canonicalName": "小葱/大葱/洋葱",
+          "name": "小葱",
+          "canonicalName": "小葱",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 15,
+          "unit": "克",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "大葱",
+            "洋葱总",
+            "洋葱"
+          ]
         },
         {
           "name": "干辣椒",
@@ -23986,15 +23990,6 @@
           "aliases": [],
           "quantity": 0.9,
           "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "小葱/大葱/洋葱总",
-          "canonicalName": "小葱/大葱/洋葱总",
-          "aliases": [],
-          "quantity": 15,
-          "unit": "克",
           "role": "原料",
           "required": true
         }
@@ -24578,9 +24573,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 40,
           "unit": "g",
           "role": "原料",
@@ -24650,8 +24647,8 @@
           "required": true
         },
         {
-          "name": "清水 足",
-          "canonicalName": "清水 足",
+          "name": "清水足",
+          "canonicalName": "清水足",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -24861,13 +24858,16 @@
           "required": true
         },
         {
-          "name": "料酒或者黄酒",
-          "canonicalName": "料酒或者黄酒",
+          "name": "料酒",
+          "canonicalName": "料酒",
           "aliases": [],
           "quantity": 30,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "者黄酒"
+          ]
         },
         {
           "name": "食用盐",
@@ -25439,22 +25439,27 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
           "required": true
         },
         {
-          "name": "培根或其他肉类",
-          "canonicalName": "培根或其他肉类",
+          "name": "培根",
+          "canonicalName": "培根",
           "aliases": [],
           "quantity": 100,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "其他肉类"
+          ]
         },
         {
           "name": "大蒜半瓣",
@@ -25666,9 +25671,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 1,
           "unit": "个",
           "role": "原料",
@@ -26214,9 +26221,11 @@
           "required": false
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -27745,9 +27754,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -28254,9 +28265,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 25,
           "unit": "g",
           "role": "原料",
@@ -28626,8 +28639,8 @@
           "name": "猪肉",
           "canonicalName": "猪肉",
           "aliases": [],
-          "quantity": 250,
-          "unit": "g",
+          "quantity": 3,
+          "unit": "适量",
           "role": "原料",
           "required": true
         },
@@ -28713,9 +28726,11 @@
           "required": false
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 5,
           "unit": "瓣",
           "role": "原料",
@@ -29435,9 +29450,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 10,
           "unit": "瓣",
           "role": "原料",
@@ -29697,9 +29714,11 @@
       },
       "ingredients": [
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 3,
           "unit": "个",
           "role": "原料",
@@ -29724,8 +29743,8 @@
           "required": true
         },
         {
-          "name": "2cm 两段葱段、两片姜片",
-          "canonicalName": "2cm 两段葱段、两片姜片",
+          "name": "2cm两段葱段、两片姜片",
+          "canonicalName": "2cm两段葱段、两片姜片",
           "aliases": [],
           "quantity": 10,
           "unit": "g",
@@ -29797,7 +29816,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "西红柿",
+          "番茄",
           "牛腩"
         ],
         "ingredientConfidence": 0.8,
@@ -29869,9 +29888,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "颗",
           "role": "原料",
@@ -30088,11 +30109,13 @@
           "required": true
         },
         {
-          "name": "香芹/芹菜",
-          "canonicalName": "香芹/芹菜",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "name": "芹菜",
+          "canonicalName": "芹菜",
+          "aliases": [
+            "香芹"
+          ],
+          "quantity": 4,
+          "unit": "根",
           "role": "原料",
           "required": true
         },
@@ -30106,11 +30129,14 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头",
+            "大蒜"
+          ],
+          "quantity": 2,
+          "unit": "瓣",
           "role": "原料",
           "required": true
         },
@@ -30174,24 +30200,6 @@
           "aliases": [],
           "quantity": 10,
           "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香芹",
-          "canonicalName": "香芹",
-          "aliases": [],
-          "quantity": 4,
-          "unit": "根",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
-          "quantity": 2,
-          "unit": "瓣",
           "role": "原料",
           "required": true
         }
@@ -30263,7 +30271,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "豆干",
-          "香芹/芹菜"
+          "芹菜"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -30344,9 +30352,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 5,
           "unit": "g",
           "role": "原料",
@@ -31430,13 +31440,16 @@
           "required": true
         },
         {
-          "name": "烧烤料或孜然粉",
-          "canonicalName": "烧烤料或孜然粉",
+          "name": "烧烤料",
+          "canonicalName": "烧烤料",
           "aliases": [],
           "quantity": 10,
           "unit": "g",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "孜然粉"
+          ]
         },
         {
           "name": "芝麻",
@@ -31803,13 +31816,16 @@
           "required": true
         },
         {
-          "name": "五花肉/瘦肉",
-          "canonicalName": "五花肉/瘦肉",
+          "name": "五花肉",
+          "canonicalName": "五花肉",
           "aliases": [],
           "quantity": 200,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "瘦肉"
+          ]
         },
         {
           "name": "盐",
@@ -31839,9 +31855,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -32050,9 +32068,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -32207,7 +32227,7 @@
           "quantity": 1000,
           "unit": "g",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "酒",
@@ -32599,9 +32619,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -33175,13 +33197,16 @@
           "required": true
         },
         {
-          "name": "洋葱或红葱头",
-          "canonicalName": "洋葱或红葱头",
+          "name": "洋葱",
+          "canonicalName": "洋葱",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 1,
+          "unit": "个",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "红葱头"
+          ]
         },
         {
           "name": "蒜瓣",
@@ -33252,15 +33277,6 @@
           "aliases": [],
           "quantity": 5,
           "unit": "根",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "洋葱",
-          "canonicalName": "洋葱",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "个",
           "role": "原料",
           "required": true
         }
@@ -33520,13 +33536,16 @@
       },
       "ingredients": [
         {
-          "name": "猪五花肉或猪肉排骨",
-          "canonicalName": "猪五花肉或猪肉排骨",
+          "name": "猪五花肉",
+          "canonicalName": "猪五花肉",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "猪肉排骨"
+          ]
         },
         {
           "name": "东北酸菜",
@@ -33610,13 +33629,16 @@
           "required": true
         },
         {
-          "name": "猪排骨或者五花肉",
-          "canonicalName": "猪排骨或者五花肉",
+          "name": "猪排骨",
+          "canonicalName": "猪排骨",
           "aliases": [],
           "quantity": 1500,
           "unit": "克",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "者五花肉"
+          ]
         }
       ],
       "steps": [
@@ -33690,7 +33712,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "猪五花肉或猪肉排骨",
+          "猪五花肉",
           "东北酸菜"
         ],
         "ingredientConfidence": 0.8,
@@ -34116,13 +34138,16 @@
           "required": true
         },
         {
-          "name": "炭火或燃气",
-          "canonicalName": "炭火或燃气",
+          "name": "炭火",
+          "canonicalName": "炭火",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "燃气"
+          ]
         }
       ],
       "steps": [
@@ -34275,9 +34300,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "适量",
           "role": "原料",
@@ -34392,13 +34419,16 @@
       },
       "ingredients": [
         {
-          "name": "昂刺鱼或者沙光鱼",
-          "canonicalName": "昂刺鱼或者沙光鱼",
+          "name": "昂刺鱼",
+          "canonicalName": "昂刺鱼",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "者沙光鱼"
+          ]
         },
         {
           "name": "豆腐",
@@ -34511,7 +34541,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "昂刺鱼或者沙光鱼",
+          "昂刺鱼",
           "豆腐"
         ],
         "ingredientConfidence": 0.8,
@@ -35042,9 +35072,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -35934,8 +35966,8 @@
           "required": true
         },
         {
-          "name": "中断大火加热的最晚时间 T1",
-          "canonicalName": "中断大火加热的最晚时间 T1",
+          "name": "中断大火加热的最晚时间T1",
+          "canonicalName": "中断大火加热的最晚时间T1",
           "aliases": [],
           "quantity": 1.5,
           "unit": "适量",
@@ -35943,8 +35975,8 @@
           "required": true
         },
         {
-          "name": "米粥能够食用的最早时间 Tr",
-          "canonicalName": "米粥能够食用的最早时间 Tr",
+          "name": "米粥能够食用的最早时间Tr",
+          "canonicalName": "米粥能够食用的最早时间Tr",
           "aliases": [],
           "quantity": 10,
           "unit": "适量",
@@ -35961,8 +35993,8 @@
           "required": true
         },
         {
-          "name": "冷藏时间 Tc",
-          "canonicalName": "冷藏时间 Tc",
+          "name": "冷藏时间Tc",
+          "canonicalName": "冷藏时间Tc",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -36921,9 +36953,11 @@
       },
       "ingredients": [
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 1,
           "unit": "个",
           "role": "原料",
@@ -36954,7 +36988,7 @@
           "quantity": 5,
           "unit": "克",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "盐",
@@ -37033,7 +37067,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "西红柿",
+          "番茄",
           "鸡蛋"
         ],
         "ingredientConfidence": 0.8,
@@ -37160,13 +37194,16 @@
       },
       "ingredients": [
         {
-          "name": "羊肉或羊杂",
-          "canonicalName": "羊肉或羊杂",
+          "name": "羊肉",
+          "canonicalName": "羊肉",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 300,
+          "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "羊杂"
+          ]
         },
         {
           "name": "食用油",
@@ -37232,15 +37269,6 @@
           "required": true
         },
         {
-          "name": "羊肉",
-          "canonicalName": "羊肉",
-          "aliases": [],
-          "quantity": 300,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
           "name": "开水",
           "canonicalName": "开水",
           "aliases": [],
@@ -37301,7 +37329,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "羊肉或羊杂",
+          "羊肉",
           "食用油"
         ],
         "ingredientConfidence": 0.8,
@@ -37731,8 +37759,8 @@
           "required": true
         },
         {
-          "name": "20 克白糖",
-          "canonicalName": "20 克白糖",
+          "name": "20克白糖",
+          "canonicalName": "20克白糖",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -38146,9 +38174,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -38496,13 +38526,16 @@
           "required": true
         },
         {
-          "name": "番茄酱 / 黑胡椒酱",
-          "canonicalName": "番茄酱 / 黑胡椒酱",
+          "name": "番茄酱",
+          "canonicalName": "番茄酱",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "黑胡椒酱"
+          ]
         },
         {
           "name": "菜籽油",
@@ -38665,13 +38698,16 @@
           "required": true
         },
         {
-          "name": "牛油一汤匙 / 人",
-          "canonicalName": "牛油一汤匙 / 人",
+          "name": "牛油一汤匙",
+          "canonicalName": "牛油一汤匙",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "人"
+          ]
         }
       ],
       "steps": [
@@ -38854,11 +38890,13 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
+          "quantity": 10,
+          "unit": "g",
           "role": "原料",
           "required": true
         },
@@ -38886,15 +38924,6 @@
           "aliases": [],
           "quantity": 10,
           "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蒜",
-          "canonicalName": "蒜",
-          "aliases": [],
-          "quantity": 10,
-          "unit": "g",
           "role": "原料",
           "required": true
         }
@@ -39245,8 +39274,8 @@
           "required": true
         },
         {
-          "name": "葱 + 姜 + 蒜 + 料酒",
-          "canonicalName": "葱 + 姜 + 蒜 + 料酒",
+          "name": "葱+姜+蒜+料酒",
+          "canonicalName": "葱+姜+蒜+料酒",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -39254,8 +39283,8 @@
           "required": true
         },
         {
-          "name": "盐 + 鸡精 + 十三香",
-          "canonicalName": "盐 + 鸡精 + 十三香",
+          "name": "盐+鸡精+十三香",
+          "canonicalName": "盐+鸡精+十三香",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -39263,8 +39292,8 @@
           "required": true
         },
         {
-          "name": "生抽 + 老抽 + 蚝油",
-          "canonicalName": "生抽 + 老抽 + 蚝油",
+          "name": "生抽+老抽+蚝油",
+          "canonicalName": "生抽+老抽+蚝油",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -39561,13 +39590,16 @@
           "required": true
         },
         {
-          "name": "巴斯马蒂香米或普通大米",
-          "canonicalName": "巴斯马蒂香米或普通大米",
+          "name": "巴斯马蒂香米",
+          "canonicalName": "巴斯马蒂香米",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "普通大米"
+          ]
         },
         {
           "name": "洋葱",
@@ -39597,9 +39629,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -39624,13 +39658,16 @@
           "required": true
         },
         {
-          "name": "食用油或酥油",
-          "canonicalName": "食用油或酥油",
+          "name": "食用油",
+          "canonicalName": "食用油",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 30,
+          "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "酥油"
+          ]
         },
         {
           "name": "姜黄粉",
@@ -39705,19 +39742,10 @@
           "required": true
         },
         {
-          "name": "食用油",
-          "canonicalName": "食用油",
-          "aliases": [],
-          "quantity": 30,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
           "name": "水",
           "canonicalName": "水",
           "aliases": [],
-          "quantity": 400,
+          "quantity": 600,
           "unit": "ml",
           "role": "原料",
           "required": true
@@ -39877,7 +39905,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "红芸豆",
-          "巴斯马蒂香米或普通大米"
+          "巴斯马蒂香米"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -39945,7 +39973,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "冷冻玉米粒",
@@ -39954,7 +39982,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "海苔碎",
@@ -39963,7 +39991,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "喜欢的沙拉酱",
@@ -40059,13 +40087,16 @@
       },
       "ingredients": [
         {
-          "name": "高筋或中筋面粉",
-          "canonicalName": "高筋或中筋面粉",
+          "name": "高筋",
+          "canonicalName": "高筋",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "中筋面粉"
+          ]
         },
         {
           "name": "鸡蛋",
@@ -40083,7 +40114,10 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "糖浆⅛cup"
+          ]
         },
         {
           "name": "干酵母",
@@ -40104,22 +40138,31 @@
           "required": true
         },
         {
-          "name": "牛奶或淡奶油或炼乳或奶粉",
-          "canonicalName": "牛奶或淡奶油或炼乳或奶粉",
+          "name": "牛奶",
+          "canonicalName": "牛奶",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "淡奶油",
+            "炼乳",
+            "奶粉"
+          ]
         },
         {
-          "name": "黄油或玉米油",
-          "canonicalName": "黄油或玉米油",
+          "name": "黄油",
+          "canonicalName": "黄油",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "玉米油",
+            "玉米油⅛cup"
+          ]
         },
         {
           "name": "谷朊粉",
@@ -40167,8 +40210,8 @@
           "required": true
         },
         {
-          "name": "30 ℃ 温水",
-          "canonicalName": "30 ℃ 温水",
+          "name": "30℃温水",
+          "canonicalName": "30℃温水",
           "aliases": [],
           "quantity": 1,
           "unit": "适量",
@@ -40203,8 +40246,8 @@
           "required": true
         },
         {
-          "name": "糖或糖浆 ⅛ cup",
-          "canonicalName": "糖或糖浆 ⅛ cup",
+          "name": "奶制品混合后共¼cup",
+          "canonicalName": "奶制品混合后共¼cup",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -40212,26 +40255,8 @@
           "required": true
         },
         {
-          "name": "奶制品 混合后共 ¼ cup",
-          "canonicalName": "奶制品 混合后共 ¼ cup",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "黄油或玉米油 ⅛ cup",
-          "canonicalName": "黄油或玉米油 ⅛ cup",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "谷朊粉 ¼ ~ ½ cup",
-          "canonicalName": "谷朊粉 ¼ ~ ½ cup",
+          "name": "谷朊粉¼~½cup",
+          "canonicalName": "谷朊粉¼~½cup",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -40264,7 +40289,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "高筋或中筋面粉",
+          "高筋",
           "鸡蛋"
         ],
         "ingredientConfidence": 0.8,
@@ -41324,9 +41349,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
@@ -41626,8 +41653,8 @@
           "required": true
         },
         {
-          "name": "烤鹰嘴豆粉— 可用炒熟的鹰嘴豆磨粉替代",
-          "canonicalName": "烤鹰嘴豆粉— 可用炒熟的鹰嘴豆磨粉替代",
+          "name": "烤鹰嘴豆粉—可用炒熟的鹰嘴豆磨粉替代",
+          "canonicalName": "烤鹰嘴豆粉—可用炒熟的鹰嘴豆磨粉替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -41671,9 +41698,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -41692,7 +41721,7 @@
           "name": "青辣椒",
           "canonicalName": "青辣椒",
           "aliases": [],
-          "quantity": 1,
+          "quantity": 2,
           "unit": "根",
           "role": "原料",
           "required": true
@@ -41716,8 +41745,8 @@
           "required": true
         },
         {
-          "name": "芥末油— 可用其他食用油替代",
-          "canonicalName": "芥末油— 可用其他食用油替代",
+          "name": "芥末油—可用其他食用油替代",
+          "canonicalName": "芥末油—可用其他食用油替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -41734,8 +41763,8 @@
           "required": true
         },
         {
-          "name": "印度黑盐— 可用普通盐替代",
-          "canonicalName": "印度黑盐— 可用普通盐替代",
+          "name": "印度黑盐—可用普通盐替代",
+          "canonicalName": "印度黑盐—可用普通盐替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -41773,7 +41802,7 @@
           "name": "盐",
           "canonicalName": "盐",
           "aliases": [],
-          "quantity": 4,
+          "quantity": 3,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -41824,8 +41853,8 @@
           "required": true
         },
         {
-          "name": "温水 约",
-          "canonicalName": "温水 约",
+          "name": "温水",
+          "canonicalName": "温水",
           "aliases": [],
           "quantity": 100,
           "unit": "ml",
@@ -42005,9 +42034,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 3,
           "unit": "瓣",
           "role": "原料",
@@ -42154,7 +42185,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "豌豆淀粉",
-          "大蒜"
+          "蒜"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -42237,24 +42268,6 @@
         {
           "name": "醋包、辣椒油等调味包",
           "canonicalName": "醋包、辣椒油等调味包",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "电磁炉/灶台",
-          "canonicalName": "电磁炉/灶台",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "筷子一双",
-          "canonicalName": "筷子一双",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -42526,13 +42539,16 @@
       },
       "ingredients": [
         {
-          "name": "江南米或北方大米",
-          "canonicalName": "江南米或北方大米",
+          "name": "江南米",
+          "canonicalName": "江南米",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "北方大米"
+          ]
         },
         {
           "name": "水",
@@ -42579,7 +42595,7 @@
       "quality": {
         "status": "excluded_from_recommendations",
         "requiredIngredients": [
-          "江南米或北方大米",
+          "江南米",
           "水"
         ],
         "ingredientConfidence": 0.8,
@@ -43165,9 +43181,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -43192,13 +43210,16 @@
           "required": true
         },
         {
-          "name": "煎蛋或太阳蛋",
-          "canonicalName": "煎蛋或太阳蛋",
+          "name": "煎蛋",
+          "canonicalName": "煎蛋",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "太阳蛋"
+          ]
         }
       ],
       "steps": [
@@ -43544,9 +43565,11 @@
         {
           "name": "蒜",
           "canonicalName": "蒜",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "aliases": [
+            "大蒜"
+          ],
+          "quantity": 3,
+          "unit": "瓣",
           "role": "原料",
           "required": true
         },
@@ -43592,15 +43615,6 @@
           "aliases": [],
           "quantity": 50,
           "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
-          "quantity": 3,
-          "unit": "瓣",
           "role": "原料",
           "required": true
         },
@@ -44930,13 +44944,16 @@
       },
       "ingredients": [
         {
-          "name": "挂面或者鲜面条也行",
-          "canonicalName": "挂面或者鲜面条也行",
+          "name": "挂面",
+          "canonicalName": "挂面",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 1,
+          "unit": "把",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "者鲜面条也行"
+          ]
         },
         {
           "name": "西红柿一个",
@@ -44975,13 +44992,16 @@
           "required": true
         },
         {
-          "name": "酱油、蚝油或者鸡精",
-          "canonicalName": "酱油、蚝油或者鸡精",
+          "name": "酱油、蚝油",
+          "canonicalName": "酱油、蚝油",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "者鸡精"
+          ]
         },
         {
           "name": "白砂糖",
@@ -45011,18 +45031,11 @@
           "required": true
         },
         {
-          "name": "挂面",
-          "canonicalName": "挂面",
-          "aliases": [],
-          "quantity": 1,
-          "unit": "把",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 1,
           "unit": "个",
           "role": "原料",
@@ -45154,7 +45167,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "挂面或者鲜面条也行",
+          "挂面",
           "西红柿一个"
         ],
         "ingredientConfidence": 0.8,
@@ -45203,8 +45216,8 @@
           "name": "猪肉末",
           "canonicalName": "猪肉末",
           "aliases": [],
-          "quantity": 300,
-          "unit": "g",
+          "quantity": 3,
+          "unit": "适量",
           "role": "原料",
           "required": true
         },
@@ -45281,13 +45294,16 @@
           "required": true
         },
         {
-          "name": "高汤或浓汤宝",
-          "canonicalName": "高汤或浓汤宝",
+          "name": "高汤",
+          "canonicalName": "高汤",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 30,
+          "unit": "mL",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "浓汤宝"
+          ]
         },
         {
           "name": "冬笋",
@@ -45338,17 +45354,8 @@
           "name": "复配食品增稠剂",
           "canonicalName": "复配食品增稠剂",
           "aliases": [],
-          "quantity": 1.2,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "高汤",
-          "canonicalName": "高汤",
-          "aliases": [],
-          "quantity": 30,
-          "unit": "mL",
+          "quantity": 45,
+          "unit": "适量",
           "role": "原料",
           "required": true
         },
@@ -45362,8 +45369,8 @@
           "required": true
         },
         {
-          "name": "猪油15 g",
-          "canonicalName": "猪油15 g",
+          "name": "猪油15g",
+          "canonicalName": "猪油15g",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -46082,13 +46089,16 @@
           "required": true
         },
         {
-          "name": "酥油或黄油",
-          "canonicalName": "酥油或黄油",
+          "name": "酥油",
+          "canonicalName": "酥油",
           "aliases": [],
           "quantity": 30,
           "unit": "g",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "黄油"
+          ]
         },
         {
           "name": "温水",
@@ -46100,13 +46110,16 @@
           "required": true
         },
         {
-          "name": "黑芝麻或白芝麻",
-          "canonicalName": "黑芝麻或白芝麻",
+          "name": "黑芝麻",
+          "canonicalName": "黑芝麻",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 5,
+          "unit": "g",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "白芝麻"
+          ]
         },
         {
           "name": "香菜叶",
@@ -46118,9 +46131,11 @@
           "required": false
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 3,
           "unit": "瓣",
           "role": "原料",
@@ -46152,15 +46167,6 @@
           "unit": "ml",
           "role": "原料",
           "required": true
-        },
-        {
-          "name": "黑芝麻",
-          "canonicalName": "黑芝麻",
-          "aliases": [],
-          "quantity": 5,
-          "unit": "g",
-          "role": "原料",
-          "required": false
         }
       ],
       "steps": [
@@ -46408,9 +46414,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 6,
           "unit": "瓣",
           "role": "原料",
@@ -46444,8 +46452,8 @@
           "required": true
         },
         {
-          "name": "藏红花— 可用食用黄色素替代",
-          "canonicalName": "藏红花— 可用食用黄色素替代",
+          "name": "藏红花—可用食用黄色素替代",
+          "canonicalName": "藏红花—可用食用黄色素替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -46519,7 +46527,7 @@
           "name": "盐",
           "canonicalName": "盐",
           "aliases": [],
-          "quantity": 10,
+          "quantity": 5,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -46851,9 +46859,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -46890,7 +46900,7 @@
           "name": "食用油",
           "canonicalName": "食用油",
           "aliases": [],
-          "quantity": 500,
+          "quantity": 30,
           "unit": "ml",
           "role": "原料",
           "required": true
@@ -46941,8 +46951,8 @@
           "required": true
         },
         {
-          "name": "石榴粉— 可用柠檬汁替代",
-          "canonicalName": "石榴粉— 可用柠檬汁替代",
+          "name": "石榴粉—可用柠檬汁替代",
+          "canonicalName": "石榴粉—可用柠檬汁替代",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -46953,7 +46963,7 @@
           "name": "盐",
           "canonicalName": "盐",
           "aliases": [],
-          "quantity": 3,
+          "quantity": 6,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -46995,8 +47005,8 @@
           "required": true
         },
         {
-          "name": "温水 约",
-          "canonicalName": "温水 约",
+          "name": "温水",
+          "canonicalName": "温水",
           "aliases": [],
           "quantity": 60,
           "unit": "ml",
@@ -47311,9 +47321,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 5,
           "unit": "瓣",
           "role": "原料",
@@ -47540,9 +47552,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -48299,8 +48313,8 @@
           "required": true
         },
         {
-          "name": "包菜 半 颗",
-          "canonicalName": "包菜 半 颗",
+          "name": "包菜半颗",
+          "canonicalName": "包菜半颗",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -48308,8 +48322,8 @@
           "required": true
         },
         {
-          "name": "胡萝卜 半 根",
-          "canonicalName": "胡萝卜 半 根",
+          "name": "胡萝卜半根",
+          "canonicalName": "胡萝卜半根",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -48326,8 +48340,8 @@
           "required": true
         },
         {
-          "name": "葱 半 根、蒜瓣",
-          "canonicalName": "葱 半 根、蒜瓣",
+          "name": "葱半根、蒜瓣",
+          "canonicalName": "葱半根、蒜瓣",
           "aliases": [],
           "quantity": 2,
           "unit": "片",
@@ -48678,7 +48692,7 @@
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": false
+          "required": true
         },
         {
           "name": "香葱",
@@ -48726,13 +48740,16 @@
           "required": true
         },
         {
-          "name": "菜籽油或花生油",
-          "canonicalName": "菜籽油或花生油",
+          "name": "菜籽油",
+          "canonicalName": "菜籽油",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "花生油"
+          ]
         }
       ],
       "steps": [
@@ -49719,9 +49736,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 2,
           "unit": "瓣",
           "role": "原料",
@@ -49837,7 +49856,7 @@
         "status": "source_structured",
         "requiredIngredients": [
           "青椒",
-          "大蒜"
+          "蒜"
         ],
         "ingredientConfidence": 0.8,
         "quantityConfidence": 0.7,
@@ -49989,13 +50008,16 @@
           "required": true
         },
         {
-          "name": "生抽 / 味极鲜",
-          "canonicalName": "生抽 / 味极鲜",
+          "name": "生抽",
+          "canonicalName": "生抽",
           "aliases": [],
           "quantity": 8,
           "unit": "ml",
           "role": "原料",
-          "required": true
+          "required": true,
+          "alternatives": [
+            "味极鲜"
+          ]
         },
         {
           "name": "白醋",
@@ -50313,19 +50335,13 @@
           "name": "生抽",
           "canonicalName": "生抽",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": false
-        },
-        {
-          "name": "生抽 / 味极鲜",
-          "canonicalName": "生抽 / 味极鲜",
-          "aliases": [],
           "quantity": 6,
           "unit": "ml",
           "role": "原料",
-          "required": false
+          "required": false,
+          "alternatives": [
+            "味极鲜"
+          ]
         }
       ],
       "steps": [
@@ -51749,9 +51765,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 10,
           "unit": "g",
           "role": "原料",
@@ -52286,9 +52304,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "适量",
           "role": "原料",
@@ -52611,8 +52631,8 @@
           "required": true
         },
         {
-          "name": "1 个长的上小下大的茄子",
-          "canonicalName": "1 个长的上小下大的茄子",
+          "name": "1个长的上小下大的茄子",
+          "canonicalName": "1个长的上小下大的茄子",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -52620,8 +52640,8 @@
           "required": true
         },
         {
-          "name": "1 份蒲烧汁",
-          "canonicalName": "1 份蒲烧汁",
+          "name": "1份蒲烧汁",
+          "canonicalName": "1份蒲烧汁",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -52892,8 +52912,8 @@
           "name": "蚝油",
           "canonicalName": "蚝油",
           "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "quantity": 7,
+          "unit": "ml",
           "role": "原料",
           "required": true
         },
@@ -52909,24 +52929,6 @@
         {
           "name": "食用盐",
           "canonicalName": "食用盐",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "蚝油 大约",
-          "canonicalName": "蚝油 大约",
-          "aliases": [],
-          "quantity": 7,
-          "unit": "ml",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "食用盐 大约",
-          "canonicalName": "食用盐 大约",
           "aliases": [],
           "quantity": 2,
           "unit": "g",
@@ -53037,9 +53039,11 @@
           "required": true
         },
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 1,
           "unit": "个",
           "role": "原料",
@@ -53118,8 +53122,8 @@
           "required": true
         },
         {
-          "name": "螺丝椒2 个",
-          "canonicalName": "螺丝椒2 个",
+          "name": "螺丝椒2个",
+          "canonicalName": "螺丝椒2个",
           "aliases": [],
           "quantity": 2,
           "unit": "适量",
@@ -53503,9 +53507,11 @@
           "required": true
         },
         {
-          "name": "蒜头",
-          "canonicalName": "蒜头",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "蒜头"
+          ],
           "quantity": 2,
           "unit": "适量",
           "role": "原料",
@@ -53880,9 +53886,11 @@
         {
           "name": "芹菜",
           "canonicalName": "芹菜",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
+          "aliases": [
+            "香芹"
+          ],
+          "quantity": 300,
+          "unit": "g",
           "role": "原料",
           "required": true
         },
@@ -53909,15 +53917,6 @@
           "canonicalName": "盐",
           "aliases": [],
           "quantity": 2,
-          "unit": "g",
-          "role": "原料",
-          "required": true
-        },
-        {
-          "name": "香芹",
-          "canonicalName": "香芹",
-          "aliases": [],
-          "quantity": 300,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -54038,15 +54037,6 @@
           "required": true
         },
         {
-          "name": "筷子",
-          "canonicalName": "筷子",
-          "aliases": [],
-          "quantity": null,
-          "unit": "适量",
-          "role": "原料",
-          "required": true
-        },
-        {
           "name": "新鲜空心菜",
           "canonicalName": "新鲜空心菜",
           "aliases": [],
@@ -54158,9 +54148,11 @@
       },
       "ingredients": [
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 2,
           "unit": "个",
           "role": "原料",
@@ -54225,7 +54217,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "西红柿",
+          "番茄",
           "白砂糖"
         ],
         "ingredientConfidence": 0.8,
@@ -54376,9 +54368,11 @@
       },
       "ingredients": [
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 1,
           "unit": "个",
           "role": "原料",
@@ -54499,7 +54493,7 @@
       "quality": {
         "status": "source_structured",
         "requiredIngredients": [
-          "西红柿",
+          "番茄",
           "鸡蛋"
         ],
         "ingredientConfidence": 0.8,
@@ -54553,9 +54547,11 @@
           "required": true
         },
         {
-          "name": "西红柿",
-          "canonicalName": "西红柿",
-          "aliases": [],
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "西红柿"
+          ],
           "quantity": 100,
           "unit": "g",
           "role": "原料",
@@ -54891,8 +54887,8 @@
           "required": true
         },
         {
-          "name": "葱 半 根",
-          "canonicalName": "葱 半 根",
+          "name": "葱半根",
+          "canonicalName": "葱半根",
           "aliases": [],
           "quantity": null,
           "unit": "适量",
@@ -55007,9 +55003,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 4,
           "unit": "瓣",
           "role": "原料",
@@ -55046,7 +55044,7 @@
           "name": "红辣椒粉",
           "canonicalName": "红辣椒粉",
           "aliases": [],
-          "quantity": 5,
+          "quantity": 3,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -55055,7 +55053,7 @@
           "name": "香菜粉",
           "canonicalName": "香菜粉",
           "aliases": [],
-          "quantity": 5,
+          "quantity": 3,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -55082,7 +55080,7 @@
           "name": "盐",
           "canonicalName": "盐",
           "aliases": [],
-          "quantity": 5,
+          "quantity": 3,
           "unit": "g",
           "role": "原料",
           "required": true
@@ -55097,8 +55095,8 @@
           "required": true
         },
         {
-          "name": "瓠瓜1 根",
-          "canonicalName": "瓠瓜1 根",
+          "name": "瓠瓜1根",
+          "canonicalName": "瓠瓜1根",
           "aliases": [],
           "quantity": 400,
           "unit": "g",
@@ -55321,9 +55319,11 @@
           "required": true
         },
         {
-          "name": "大蒜",
-          "canonicalName": "大蒜",
-          "aliases": [],
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
           "quantity": 3,
           "unit": "瓣",
           "role": "原料",

@@ -1,9 +1,10 @@
-const CACHE = "meishiqiang-recipes-v8";
+const CACHE = "meishiqiang-recipes-v9";
 const appShell = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./shared/ingredient-taxonomy.mjs",
   "./data/recipes.json",
   "./data/recipes-howtocook.json",
   "./data/recipes-howtocook-batch.json",

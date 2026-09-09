@@ -4,7 +4,9 @@
     {
       "id": "howtocook-tomato-eggs",
       "title": "西红柿炒鸡蛋",
-      "aliases": ["番茄炒蛋"],
+      "aliases": [
+        "番茄炒蛋"
+      ],
       "summary": "番茄炒出汁后与嫩鸡蛋合炒，酸甜开胃；按 1 人份整理，可在详情中换算份数。",
       "source": {
         "platform": "github",
@@ -13,29 +15,148 @@
         "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md",
         "license": "Unlicense"
       },
-      "tags": { "meal": ["主菜", "快手菜"], "flavor": ["酸甜", "咸鲜"], "methods": ["炒"], "difficulty": "简单", "estimatedMinutes": 15, "spicyLevel": 0 },
+      "tags": {
+        "meal": [
+          "主菜",
+          "快手菜"
+        ],
+        "flavor": [
+          "酸甜",
+          "咸鲜"
+        ],
+        "methods": [
+          "炒"
+        ],
+        "difficulty": "简单",
+        "estimatedMinutes": 15,
+        "spicyLevel": 0
+      },
       "servings": 1,
       "ingredients": [
-        { "name": "西红柿", "canonicalName": "西红柿", "aliases": ["番茄"], "quantity": 180, "unit": "克", "role": "主料", "required": true, "prep": "洗净去蒂，切块" },
-        { "name": "鸡蛋", "canonicalName": "鸡蛋", "aliases": [], "quantity": 2, "unit": "个", "role": "主料", "required": true, "prep": "加约 1 克盐打散" },
-        { "name": "食用油", "canonicalName": "食用油", "aliases": ["植物油"], "quantity": 8, "unit": "毫升", "role": "调味料", "required": true },
-        { "name": "食盐", "canonicalName": "食盐", "aliases": ["盐"], "quantity": 2, "unit": "克", "role": "调味料", "required": true },
-        { "name": "白糖", "canonicalName": "白糖", "aliases": ["糖"], "quantity": 2, "unit": "克", "role": "调味料", "required": false, "prep": "用于平衡酸味" },
-        { "name": "葱花", "canonicalName": "葱", "aliases": ["小葱"], "quantity": 5, "unit": "克", "role": "配料", "required": false }
+        {
+          "name": "番茄",
+          "canonicalName": "番茄",
+          "aliases": [
+            "番茄",
+            "西红柿"
+          ],
+          "quantity": 180,
+          "unit": "克",
+          "role": "主料",
+          "required": true,
+          "prep": "洗净去蒂，切块"
+        },
+        {
+          "name": "鸡蛋",
+          "canonicalName": "鸡蛋",
+          "aliases": [],
+          "quantity": 2,
+          "unit": "个",
+          "role": "主料",
+          "required": true,
+          "prep": "加约 1 克盐打散"
+        },
+        {
+          "name": "食用油",
+          "canonicalName": "食用油",
+          "aliases": [
+            "植物油"
+          ],
+          "quantity": 8,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "盐",
+          "canonicalName": "盐",
+          "aliases": [
+            "盐",
+            "食盐"
+          ],
+          "quantity": 2,
+          "unit": "克",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "糖",
+          "canonicalName": "糖",
+          "aliases": [
+            "糖",
+            "白糖"
+          ],
+          "quantity": 2,
+          "unit": "克",
+          "role": "调味料",
+          "required": false,
+          "prep": "用于平衡酸味"
+        },
+        {
+          "name": "小葱",
+          "canonicalName": "葱",
+          "aliases": [
+            "小葱"
+          ],
+          "quantity": 5,
+          "unit": "克",
+          "role": "配料",
+          "required": false
+        }
       ],
       "steps": [
-        { "order": 1, "action": "番茄切块；鸡蛋打散，葱切葱花。", "cue": "食材处理完成" },
-        { "order": 2, "action": "锅烧热后下油，倒入蛋液，快速推动至刚凝固，盛出。", "heat": "中大火", "durationMinutes": 1, "cue": "蛋液半熟、仍湿润", "tips": ["鸡蛋不要炒到全熟，回锅后还会继续受热"] },
-        { "order": 3, "action": "原锅下番茄炒出汁；喜欢软烂口感可多炒一会儿。", "heat": "中火", "durationMinutes": 3, "cue": "番茄边缘变软、锅底有汁" },
-        { "order": 4, "action": "倒回鸡蛋，加盐和可选的糖，翻匀后撒葱花出锅。", "heat": "中火", "durationMinutes": 1, "cue": "鸡蛋裹上番茄汁" }
+        {
+          "order": 1,
+          "action": "番茄切块；鸡蛋打散，葱切葱花。",
+          "cue": "食材处理完成"
+        },
+        {
+          "order": 2,
+          "action": "锅烧热后下油，倒入蛋液，快速推动至刚凝固，盛出。",
+          "heat": "中大火",
+          "durationMinutes": 1,
+          "cue": "蛋液半熟、仍湿润",
+          "tips": [
+            "鸡蛋不要炒到全熟，回锅后还会继续受热"
+          ]
+        },
+        {
+          "order": 3,
+          "action": "原锅下番茄炒出汁；喜欢软烂口感可多炒一会儿。",
+          "heat": "中火",
+          "durationMinutes": 3,
+          "cue": "番茄边缘变软、锅底有汁"
+        },
+        {
+          "order": 4,
+          "action": "倒回鸡蛋，加盐和可选的糖，翻匀后撒葱花出锅。",
+          "heat": "中火",
+          "durationMinutes": 1,
+          "cue": "鸡蛋裹上番茄汁"
+        }
       ],
-      "notes": ["番茄去皮属于口感选择，不影响完成。", "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"],
-      "quality": { "status": "reference_verified", "requiredIngredients": ["西红柿", "鸡蛋"], "ingredientConfidence": 1, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "已核对食材、份数、步骤和状态提示。" }
+      "notes": [
+        "番茄去皮属于口感选择，不影响完成。",
+        "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"
+      ],
+      "quality": {
+        "status": "reference_verified",
+        "requiredIngredients": [
+          "番茄",
+          "鸡蛋"
+        ],
+        "ingredientConfidence": 1,
+        "quantityConfidence": 0.95,
+        "stepConfidence": 0.95,
+        "reviewNote": "已核对食材、份数、步骤和状态提示。"
+      }
     },
     {
       "id": "howtocook-cold-cucumber",
       "title": "凉拌黄瓜",
-      "aliases": ["拍黄瓜"],
+      "aliases": [
+        "拍黄瓜"
+      ],
       "summary": "先用糖盐略腌黄瓜，再拌入蒜香酸味调料；清爽、无需开火。",
       "source": {
         "platform": "github",
@@ -44,30 +165,157 @@
         "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E9%BB%84%E7%93%9C.md",
         "license": "Unlicense"
       },
-      "tags": { "meal": ["凉菜", "快手菜"], "flavor": ["酸爽", "蒜香"], "methods": ["拌"], "difficulty": "简单", "estimatedMinutes": 20, "spicyLevel": 0 },
+      "tags": {
+        "meal": [
+          "凉菜",
+          "快手菜"
+        ],
+        "flavor": [
+          "酸爽",
+          "蒜香"
+        ],
+        "methods": [
+          "拌"
+        ],
+        "difficulty": "简单",
+        "estimatedMinutes": 20,
+        "spicyLevel": 0
+      },
       "servings": 1,
       "ingredients": [
-        { "name": "黄瓜", "canonicalName": "黄瓜", "aliases": [], "quantity": 200, "unit": "克", "role": "主料", "required": true, "prep": "洗净，拍裂后切段" },
-        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 3, "unit": "瓣", "role": "调味料", "required": true, "prep": "切末" },
-        { "name": "米醋", "canonicalName": "醋", "aliases": ["陈醋", "香醋"], "quantity": 12, "unit": "毫升", "role": "调味料", "required": true },
-        { "name": "生抽", "canonicalName": "生抽", "aliases": ["酱油"], "quantity": 8, "unit": "毫升", "role": "调味料", "required": true },
-        { "name": "白糖", "canonicalName": "白糖", "aliases": ["糖"], "quantity": 5, "unit": "克", "role": "调味料", "required": true },
-        { "name": "食盐", "canonicalName": "食盐", "aliases": ["盐"], "quantity": 1, "unit": "克", "role": "调味料", "required": true },
-        { "name": "香油", "canonicalName": "香油", "aliases": ["芝麻油"], "quantity": 7, "unit": "毫升", "role": "调味料", "required": false },
-        { "name": "蚝油", "canonicalName": "蚝油", "aliases": [], "quantity": 5, "unit": "毫升", "role": "调味料", "required": false }
+        {
+          "name": "黄瓜",
+          "canonicalName": "黄瓜",
+          "aliases": [],
+          "quantity": 200,
+          "unit": "克",
+          "role": "主料",
+          "required": true,
+          "prep": "洗净，拍裂后切段"
+        },
+        {
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
+          "quantity": 3,
+          "unit": "瓣",
+          "role": "调味料",
+          "required": true,
+          "prep": "切末"
+        },
+        {
+          "name": "醋",
+          "canonicalName": "醋",
+          "aliases": [
+            "陈醋",
+            "香醋"
+          ],
+          "quantity": 12,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "生抽",
+          "canonicalName": "生抽",
+          "aliases": [
+            "酱油"
+          ],
+          "quantity": 8,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "糖",
+          "canonicalName": "糖",
+          "aliases": [
+            "糖",
+            "白糖"
+          ],
+          "quantity": 5,
+          "unit": "克",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "盐",
+          "canonicalName": "盐",
+          "aliases": [
+            "盐",
+            "食盐"
+          ],
+          "quantity": 1,
+          "unit": "克",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "香油",
+          "canonicalName": "香油",
+          "aliases": [
+            "芝麻油"
+          ],
+          "quantity": 7,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": false
+        },
+        {
+          "name": "蚝油",
+          "canonicalName": "蚝油",
+          "aliases": [],
+          "quantity": 5,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": false
+        }
       ],
       "steps": [
-        { "order": 1, "action": "黄瓜拍裂切段，加入糖和盐抓匀，静置。", "durationMinutes": 15, "cue": "黄瓜渗出少量水分", "tips": ["拍裂比整齐切片更容易入味"] },
-        { "order": 2, "action": "将蒜末、醋、生抽，以及可选的香油和蚝油调成料汁。", "cue": "糖基本融化" },
-        { "order": 3, "action": "黄瓜无需冲洗，直接倒掉多余水分，加入料汁拌匀。", "durationMinutes": 1, "cue": "每块黄瓜均匀裹汁" }
+        {
+          "order": 1,
+          "action": "黄瓜拍裂切段，加入糖和盐抓匀，静置。",
+          "durationMinutes": 15,
+          "cue": "黄瓜渗出少量水分",
+          "tips": [
+            "拍裂比整齐切片更容易入味"
+          ]
+        },
+        {
+          "order": 2,
+          "action": "将蒜末、醋、生抽，以及可选的香油和蚝油调成料汁。",
+          "cue": "糖基本融化"
+        },
+        {
+          "order": 3,
+          "action": "黄瓜无需冲洗，直接倒掉多余水分，加入料汁拌匀。",
+          "durationMinutes": 1,
+          "cue": "每块黄瓜均匀裹汁"
+        }
       ],
-      "notes": ["做好后冷藏并在 8 小时内食用。", "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"],
-      "quality": { "status": "reference_verified", "requiredIngredients": ["黄瓜"], "ingredientConfidence": 1, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "已核对食材、份数、步骤和食品保存提示。" }
+      "notes": [
+        "做好后冷藏并在 8 小时内食用。",
+        "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"
+      ],
+      "quality": {
+        "status": "reference_verified",
+        "requiredIngredients": [
+          "黄瓜"
+        ],
+        "ingredientConfidence": 1,
+        "quantityConfidence": 0.95,
+        "stepConfidence": 0.95,
+        "reviewNote": "已核对食材、份数、步骤和食品保存提示。"
+      }
     },
     {
       "id": "howtocook-hot-sour-potato",
       "title": "酸辣土豆丝",
-      "aliases": ["炒土豆丝"],
+      "aliases": [
+        "炒土豆丝"
+      ],
       "summary": "土豆丝先洗去表面淀粉，再以干辣椒、醋和大火快炒保持脆爽。",
       "source": {
         "platform": "github",
@@ -76,27 +324,172 @@
         "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
         "license": "Unlicense"
       },
-      "tags": { "meal": ["主菜", "快手菜"], "flavor": ["酸辣", "爽脆"], "methods": ["炒"], "difficulty": "简单", "estimatedMinutes": 20, "spicyLevel": 2 },
+      "tags": {
+        "meal": [
+          "主菜",
+          "快手菜"
+        ],
+        "flavor": [
+          "酸辣",
+          "爽脆"
+        ],
+        "methods": [
+          "炒"
+        ],
+        "difficulty": "简单",
+        "estimatedMinutes": 20,
+        "spicyLevel": 2
+      },
       "servings": 1,
       "ingredients": [
-        { "name": "土豆", "canonicalName": "土豆", "aliases": ["马铃薯"], "quantity": 240, "unit": "克", "role": "主料", "required": true, "prep": "去皮切细丝，洗两遍" },
-        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 4, "unit": "瓣", "role": "配料", "required": true, "prep": "切片或拍裂" },
-        { "name": "青椒", "canonicalName": "青椒", "aliases": [], "quantity": 0.5, "unit": "个", "role": "配料", "required": false, "prep": "切丝" },
-        { "name": "红椒", "canonicalName": "红椒", "aliases": [], "quantity": 0.5, "unit": "个", "role": "配料", "required": false, "prep": "切丝" },
-        { "name": "干辣椒", "canonicalName": "干辣椒", "aliases": ["辣椒"], "quantity": 3, "unit": "个", "role": "调味料", "required": true, "prep": "剪段去籽可减辣" },
-        { "name": "生抽", "canonicalName": "生抽", "aliases": ["酱油"], "quantity": 5, "unit": "毫升", "role": "调味料", "required": true },
-        { "name": "米醋", "canonicalName": "醋", "aliases": ["陈醋", "香醋"], "quantity": 10, "unit": "毫升", "role": "调味料", "required": true },
-        { "name": "食盐", "canonicalName": "食盐", "aliases": ["盐"], "quantity": 2, "unit": "克", "role": "调味料", "required": true },
-        { "name": "食用油", "canonicalName": "食用油", "aliases": ["植物油"], "quantity": 12, "unit": "毫升", "role": "调味料", "required": true }
+        {
+          "name": "土豆",
+          "canonicalName": "土豆",
+          "aliases": [
+            "马铃薯"
+          ],
+          "quantity": 240,
+          "unit": "克",
+          "role": "主料",
+          "required": true,
+          "prep": "去皮切细丝，洗两遍"
+        },
+        {
+          "name": "蒜",
+          "canonicalName": "蒜",
+          "aliases": [
+            "大蒜"
+          ],
+          "quantity": 4,
+          "unit": "瓣",
+          "role": "配料",
+          "required": true,
+          "prep": "切片或拍裂"
+        },
+        {
+          "name": "青椒",
+          "canonicalName": "青椒",
+          "aliases": [],
+          "quantity": 0.5,
+          "unit": "个",
+          "role": "配料",
+          "required": false,
+          "prep": "切丝"
+        },
+        {
+          "name": "红椒",
+          "canonicalName": "红椒",
+          "aliases": [],
+          "quantity": 0.5,
+          "unit": "个",
+          "role": "配料",
+          "required": false,
+          "prep": "切丝"
+        },
+        {
+          "name": "干辣椒",
+          "canonicalName": "干辣椒",
+          "aliases": [
+            "辣椒"
+          ],
+          "quantity": 3,
+          "unit": "个",
+          "role": "调味料",
+          "required": true,
+          "prep": "剪段去籽可减辣"
+        },
+        {
+          "name": "生抽",
+          "canonicalName": "生抽",
+          "aliases": [
+            "酱油"
+          ],
+          "quantity": 5,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "醋",
+          "canonicalName": "醋",
+          "aliases": [
+            "陈醋",
+            "香醋"
+          ],
+          "quantity": 10,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "盐",
+          "canonicalName": "盐",
+          "aliases": [
+            "盐",
+            "食盐"
+          ],
+          "quantity": 2,
+          "unit": "克",
+          "role": "调味料",
+          "required": true
+        },
+        {
+          "name": "食用油",
+          "canonicalName": "食用油",
+          "aliases": [
+            "植物油"
+          ],
+          "quantity": 12,
+          "unit": "毫升",
+          "role": "调味料",
+          "required": true
+        }
       ],
       "steps": [
-        { "order": 1, "action": "土豆切丝后清水淘洗两遍；喜欢更脆可再焯水约 10 秒后沥干。", "cue": "洗掉浑浊淀粉水", "tips": ["下锅前务必沥干，避免溅油"] },
-        { "order": 2, "action": "热锅下油，放蒜和干辣椒炒出香味。", "heat": "中火", "durationMinutes": 1, "cue": "蒜边微黄、辣椒有香气" },
-        { "order": 3, "action": "下土豆丝和可选的青红椒，大火快速翻炒。", "heat": "大火", "durationMinutes": 2, "cue": "土豆丝变得透亮但仍挺" },
-        { "order": 4, "action": "沿锅边淋醋，加入生抽和盐，翻匀立刻出锅。", "heat": "大火", "durationMinutes": 1, "cue": "酸香明显、土豆丝仍脆" }
+        {
+          "order": 1,
+          "action": "土豆切丝后清水淘洗两遍；喜欢更脆可再焯水约 10 秒后沥干。",
+          "cue": "洗掉浑浊淀粉水",
+          "tips": [
+            "下锅前务必沥干，避免溅油"
+          ]
+        },
+        {
+          "order": 2,
+          "action": "热锅下油，放蒜和干辣椒炒出香味。",
+          "heat": "中火",
+          "durationMinutes": 1,
+          "cue": "蒜边微黄、辣椒有香气"
+        },
+        {
+          "order": 3,
+          "action": "下土豆丝和可选的青红椒，大火快速翻炒。",
+          "heat": "大火",
+          "durationMinutes": 2,
+          "cue": "土豆丝变得透亮但仍挺"
+        },
+        {
+          "order": 4,
+          "action": "沿锅边淋醋，加入生抽和盐，翻匀立刻出锅。",
+          "heat": "大火",
+          "durationMinutes": 1,
+          "cue": "酸香明显、土豆丝仍脆"
+        }
       ],
-      "notes": ["不想吃辣可去掉干辣椒，醋仍保留。", "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"],
-      "quality": { "status": "reference_verified", "requiredIngredients": ["土豆"], "ingredientConfidence": 1, "quantityConfidence": 0.95, "stepConfidence": 0.95, "reviewNote": "已核对食材、份数、步骤和火候状态提示。" }
+      "notes": [
+        "不想吃辣可去掉干辣椒，醋仍保留。",
+        "用量基于 HowToCook 原始公开菜谱归一为 1 人份。"
+      ],
+      "quality": {
+        "status": "reference_verified",
+        "requiredIngredients": [
+          "土豆"
+        ],
+        "ingredientConfidence": 1,
+        "quantityConfidence": 0.95,
+        "stepConfidence": 0.95,
+        "reviewNote": "已核对食材、份数、步骤和火候状态提示。"
+      }
     }
   ]
 }

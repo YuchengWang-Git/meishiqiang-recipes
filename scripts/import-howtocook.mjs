@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { resolve, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { mergeNormalizedIngredients } from "../shared/ingredient-taxonomy.mjs";
 
 const projectRoot = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const sourceRoot = resolve(projectRoot, "..", "howtocook-full-reference", "dishes");
@@ -84,20 +85,9 @@ function parseIngredient(line) {
 function parseIngredients(markdown) {
   const essentialRows = listLines(section(markdown, "必备原料和工具"));
   const calculationRows = listLines(section(markdown, "计算"));
-  const merged = new Map();
-  for (const row of essentialRows) {
-    const ingredient = parseIngredient(row);
-    if (!ingredient) continue;
-    const previous = merged.get(ingredient.canonicalName);
-    if (!previous || (previous.quantity === null && ingredient.quantity !== null)) merged.set(ingredient.canonicalName, ingredient);
-  }
-  for (const row of calculationRows) {
-    const ingredient = parseIngredient(row);
-    if (!ingredient) continue;
-    const previous = merged.get(ingredient.canonicalName);
-    if (!previous || ingredient.quantity !== null) merged.set(ingredient.canonicalName, ingredient);
-  }
-  return [...merged.values()];
+  const ingredients = [...essentialRows, ...calculationRows].map(parseIngredient).filter(Boolean);
+  // 同一来源会在“原料”和“计算”两处重复出现：保留有明确用量的版本，合并同义词与备选项。
+  return mergeNormalizedIngredients(ingredients);
 }
 
 function heatFrom(action) {

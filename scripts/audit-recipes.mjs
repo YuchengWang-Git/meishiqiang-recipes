@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { admissionFailures, normalizedTitle } from "./meishiqiang-admission-rules.mjs";
+import { canonicalIngredientName, ingredientTerms as taxonomyTerms, isToolIngredient } from "../shared/ingredient-taxonomy.mjs";
 
 const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
 const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")));
@@ -11,7 +12,7 @@ for (const recipe of recipes.filter((recipe) => recipe.source?.creator === "美�
 }
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
 const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "creator_attributed", "excluded_from_recommendations", "needs_rebuild"]);
-const malformedHowToCookIngredient = /(?:[=＝]|(?:的)?(?:数量|用量|份数|数)$|秒表|单人|淹过|没过|一般一个人可以食用|手套|容器|塑料杯|玻璃杯|密封罐|刻度)/;
+const malformedIngredient = /(?:[=＝]|(?:的)?(?:数量|用量|份数|数)$|秒表|单人|淹过|没过|一般一个人可以食用|手套|容器|塑料杯|玻璃杯|密封罐|刻度)/;
 const titleIngredientChecks = [
   ["甲鱼", /甲鱼/, /甲鱼/], ["鳜鱼", /鳜鱼/, /鳜/], ["鲫鱼", /鲫鱼/, /鲫/], ["鲈鱼", /鲈鱼/, /鲈/],
   ["虾", /虾/, /虾/], ["蟹", /蟹/, /蟹/], ["羊", /羊/, /羊/], ["牛", /牛/, /牛/], ["猪", /猪/, /猪/], ["鸭", /鸭/, /鸭/],
@@ -21,9 +22,7 @@ const errors = [];
 const ids = new Set();
 
 function terms(ingredient) {
-  return [ingredient.name, ingredient.canonicalName, ...(ingredient.aliases || [])]
-    .filter(Boolean)
-    .map((item) => String(item).replace(/\s/g, ""));
+  return taxonomyTerms(ingredient).map((item) => String(item).replace(/\s/g, ""));
 }
 
 for (const recipe of recipes) {
@@ -38,8 +37,15 @@ for (const recipe of recipes) {
   if (!Array.isArray(recipe.steps) || !recipe.steps.length) errors.push(`${label}: 没有步骤`);
 
   const ingredientTerms = (recipe.ingredients || []).flatMap(terms);
-  if (!hiddenStatuses.has(recipe.quality?.status) && recipe.source?.creator === "HowToCook" && (recipe.ingredients || []).some((item) => malformedHowToCookIngredient.test(item.name) || malformedHowToCookIngredient.test(item.canonicalName))) {
-    errors.push(`${label}: HowToCook 解析出工具或说明文字，不能作为可推荐食材`);
+  const canonicalNames = (recipe.ingredients || []).map((item) => canonicalIngredientName(item.canonicalName || item.name));
+  if ((recipe.ingredients || []).some((item) => malformedIngredient.test(item.name) || malformedIngredient.test(item.canonicalName) || isToolIngredient(item.name) || isToolIngredient(item.canonicalName))) {
+    errors.push(`${label}: 材料中含工具或说明文字，不能作为可推荐食材`);
+  }
+  if (new Set(canonicalNames).size !== canonicalNames.length) {
+    errors.push(`${label}: 材料存在未合并的同义或重复项`);
+  }
+  if ((recipe.ingredients || []).some((item) => /[\/／]/.test(item.name || "") || /[\/／]/.test(item.canonicalName || ""))) {
+    errors.push(`${label}: 材料中的备选项未规范为 alternatives 字段`);
   }
   if (!hiddenStatuses.has(recipe.quality?.status) && recipe.source?.creator === "美食强") {
     const text = ingredientTerms.join(" ");

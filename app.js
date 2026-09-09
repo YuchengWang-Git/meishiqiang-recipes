@@ -1,3 +1,5 @@
+import { canonicalIngredientName, ingredientTerms as taxonomyTerms } from "./shared/ingredient-taxonomy.mjs";
+
 const state = {
   recipes: [],
   selected: [],
@@ -50,11 +52,12 @@ const selectionName = (value) => {
     .replace(/^[\d一二三四五六七八九十半两]+(?:[./、-]\d+)?\s*(?:个|只|枚|颗|根|把|片|块|条|瓣|勺|匙|克|g|毫升|ml|斤)?\s*/iu, "")
     .trim();
   if (normalize(cleaned).includes("鸡蛋")) return "鸡蛋";
+  const canonical = canonicalIngredientName(cleaned) || cleaned;
   const produce = ["西红柿", "番茄", "茄子", "土豆", "青椒", "辣椒", "豆腐"]
-    .find((name) => cleaned.endsWith(name));
+    .find((name) => canonical.endsWith(name));
   // 原始菜谱常把“长的上小下大的茄子”或品种描述当作材料名；搜索池只保留可买到的通用食材名。
-  if (produce && cleaned !== produce) return produce;
-  return cleaned;
+  if (produce && canonical !== produce) return produce;
+  return canonical;
 };
 const ingredientFamilies = [
   ["甲鱼", /甲鱼/], ["鳜鱼", /鳜鱼|桂鱼/], ["鲫鱼", /鲫鱼/], ["鲈鱼", /鲈鱼/], ["鱼", /鱼/],
@@ -89,7 +92,7 @@ const qualityInfo = (recipe) => {
 };
 const madeCount = (recipe) => Number(state.madeCounts[recipe.id] || 0);
 const isVisibleRecipe = (recipe) => !["excluded_from_recommendations", "needs_rebuild"].includes(recipe.quality?.status);
-const ingredientTerms = (ingredient) => [ingredient.name, ingredient.canonicalName, ...(ingredient.aliases || [])].map(normalize);
+const ingredientTerms = (ingredient) => taxonomyTerms(ingredient).map(normalize);
 function ingredientMatchTerms(ingredient) {
   const raw = ingredient.name || ingredient.canonicalName || "";
   return genericAnimalTerms.has(normalize(raw)) ? [raw, ...(ingredient.aliases || [])].map(normalize) : ingredientTerms(ingredient);
@@ -165,8 +168,10 @@ function filteredRecipes() {
     .filter((recipe) => !elements.quality.value || qualityInfo(recipe).rank >= (elements.quality.value === "verified" ? 3 : 2))
     .filter((recipe) => !excluded.some((term) => recipe.ingredients.some((item) => ingredientTerms(item).some((name) => name.includes(term)))))
     .map((recipe) => ({ recipe, quality: qualityInfo(recipe), ...scoreRecipe(recipe) }))
-    .filter((entry) => !state.selected.length || entry.matched.length >= (state.selected.length === 1 ? 1 : 2))
+    // 已有食材是库存，不是必须同时用光的筛选条件；至少命中一项即可，再按覆盖度排序。
+    .filter((entry) => !state.selected.length || entry.matched.length > 0)
     .sort((a, b) => Number(b.mainComplete) - Number(a.mainComplete)
+      || b.matched.length - a.matched.length
       || a.missingMain.length - b.missingMain.length
       || b.mainCoverage - a.mainCoverage
       || b.score - a.score
