@@ -7,6 +7,7 @@
 - `@B站美食强`：原视频链接附在每道菜谱中。
 - `@HowToCook`：结构化开源菜谱来源，原项目链接附在菜谱中。
 - `@B站村驴`：文字数据整理自 [Ryder-MHumble/Cunlv-Skill](https://github.com/Ryder-MHumble/Cunlv-Skill)（MIT）及 [cunlv-menu](https://github.com/eleven71/cunlv-menu)；原始视频教程版权归村驴，每道菜均链接回原视频。
+- `@B站采蘑菇的小姑娘ヽ`：首批图文整理菜谱同时展示图文整理者与原视频作者；每道菜链接回对应图文页，并标为“待人工抽查”。
 
 请勿将本站内容用于商业用途。做菜时请以原作者的完整教程和自己的实际判断为准。
 

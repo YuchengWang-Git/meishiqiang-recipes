@@ -72,7 +72,7 @@ const pantryIngredientTerms = new Set([
   "水", "清水", "开水", "热水", "温水", "冷水", "冰水",
   "油", "食用油", "植物油", "花生油", "菜籽油", "猪油", "香油",
   "盐", "食盐", "海盐", "糖", "白糖", "冰糖", "砂糖",
-  "酱油", "生抽", "老抽", "醋", "米醋", "陈醋", "香醋", "料酒", "淀粉",
+  "酱油", "生抽", "老抽", "醋", "米醋", "陈醋", "香醋", "料酒", "淀粉", "玉米淀粉", "红薯淀粉", "土豆淀粉", "生粉",
   "葱", "小葱", "大葱", "大葱叶", "葱花", "姜", "生姜", "姜片", "蒜", "大蒜", "蒜末", "蒜瓣", "香菜",
   "干辣椒", "辣椒", "花椒", "八角", "桂皮", "香叶", "鸡精", "味精", "白胡椒粉", "胡椒粉", "辣椒面", "辣椒粉", "小米辣", "美人椒",
   "洋葱", "小洋葱", "红葱头", "黄豆酱", "蚝油", "豆瓣酱", "大酱",
@@ -81,7 +81,7 @@ const sourceTag = (recipe) => recipe.source?.label || (() => {
   const platform = recipe.source?.platform === "bilibili" ? "B站" : recipe.source?.platform || "来源";
   return `@${platform}${recipe.source?.creator || ""}`;
 })();
-const sourceGroup = (recipe) => ({ "村驴": "cunlv", "美食强": "meishiqiang", "HowToCook": "howtocook" }[recipe.source?.creator] || "other");
+const sourceGroup = (recipe) => ({ "村驴": "cunlv", "美食强": "meishiqiang", "HowToCook": "howtocook", "采蘑菇的小姑娘ヽ": "mogu" }[recipe.source?.creator] || "other");
 const qualityInfo = (recipe) => {
   const status = recipe.quality?.status;
   if (["reference_verified", "human_verified"].includes(status)) return { rank: 3, label: "已核对", className: "" };
@@ -196,7 +196,8 @@ function renderDetail(recipe) {
   const steps = recipe.steps.map((step) => `<li>${step.action}<div class="step-meta">${step.heat ? `<span>火候：${step.heat}</span>` : ""}${step.durationMinutes ? `<span>约${step.durationMinutes}分钟</span>` : ""}${step.cue ? `<span>状态：${step.cue}</span>` : ""}</div>${step.tips?.length ? `<p><strong>注意：</strong>${step.tips.join("；")}</p>` : ""}</li>`).join("");
   const notes = recipe.notes || recipe.unknowns || [];
   const quality = qualityInfo(recipe);
-  elements.detail.innerHTML = `<article class="detail"><div class="detail-header"><div><p class="eyebrow"><span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h2>${recipe.title}</h2></div><button class="close" data-close aria-label="关闭">×</button></div><p class="detail-summary">${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.methods.join(" · ")}</span></div><div class="made-row"><button class="made-button" data-made="${recipe.id}">我做过一次</button><span>累计 ${made} 次</span></div>${recipe.servings ? `<div class="serving-row"><span>按 <strong>${servings}</strong> 人份准备</span><button data-serving="-1" data-recipe="${recipe.id}" ${servings <= 1 ? "disabled" : ""}>−</button><button data-serving="1" data-recipe="${recipe.id}">＋</button></div>` : ""}<div class="detail-actions"><button class="primary" data-cook="${recipe.id}">进入做菜模式</button><button class="secondary" data-add-shopping="${recipe.id}">补齐缺少食材</button></div><h3>准备食材</h3><ul class="ingredient-list">${ingredientRows(recipe)}</ul><h3>完整步骤</h3><ol class="steps">${steps}</ol>${notes.length ? `<h3>提示与边界</h3><div class="unknowns">${notes.map((item) => `<div>· ${item}</div>`).join("")}</div>` : ""}<p><a class="source-link" href="${recipe.source.url}" target="_blank" rel="noreferrer">查看原始来源</a></p></article>`;
+  const originalSource = recipe.source.originalCreator ? `<p><span>原视频：</span>${recipe.source.originalCreatorUrl ? `<a class="source-link" href="${recipe.source.originalCreatorUrl}" target="_blank" rel="noreferrer">${recipe.source.originalCreator}</a>` : recipe.source.originalCreator}</p>` : "";
+  elements.detail.innerHTML = `<article class="detail"><div class="detail-header"><div><p class="eyebrow"><span class="source-tag">${sourceTag(recipe)}</span><span class="quality-tag ${quality.className}">${quality.label}</span></p><h2>${recipe.title}</h2></div><button class="close" data-close aria-label="关闭">×</button></div><p class="detail-summary">${recipe.summary}</p><div class="meta"><span>${estimatedTime(recipe)}</span><span>${recipe.tags.difficulty}</span><span>${recipe.tags.methods.join(" · ")}</span></div><div class="made-row"><button class="made-button" data-made="${recipe.id}">我做过一次</button><span>累计 ${made} 次</span></div>${recipe.servings ? `<div class="serving-row"><span>按 <strong>${servings}</strong> 人份准备</span><button data-serving="-1" data-recipe="${recipe.id}" ${servings <= 1 ? "disabled" : ""}>−</button><button data-serving="1" data-recipe="${recipe.id}">＋</button></div>` : ""}<div class="detail-actions"><button class="primary" data-cook="${recipe.id}">进入做菜模式</button><button class="secondary" data-add-shopping="${recipe.id}">补齐缺少食材</button></div><h3>准备食材</h3><ul class="ingredient-list">${ingredientRows(recipe)}</ul><h3>完整步骤</h3><ol class="steps">${steps}</ol>${notes.length ? `<h3>提示与边界</h3><div class="unknowns">${notes.map((item) => `<div>· ${item}</div>`).join("")}</div>` : ""}<p><span>图文整理：</span><a class="source-link" href="${recipe.source.url}" target="_blank" rel="noreferrer">${recipe.source.creator}</a></p>${originalSource}</article>`;
   if (!elements.dialog.open) elements.dialog.showModal();
 }
 function renderCookMode(recipe, stepIndex = 0) {
@@ -250,7 +251,7 @@ elements.dialog.addEventListener("click", (event) => {
 });
 elements.shoppingDialog.addEventListener("click", (event) => { const remove = event.target.closest("[data-shopping-remove]"); if (remove) { state.shoppingList.delete(remove.dataset.shoppingRemove); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-clear]")) { state.shoppingList.clear(); persistShoppingList(); render(); renderShoppingList(); return; } if (event.target.closest("[data-shopping-close]") || event.target === elements.shoppingDialog) elements.shoppingDialog.close(); });
 
-const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json", "./data/recipes-howtocook-imported.json", "./data/recipes-cunlv.json"].map((url) => fetch(url).then((response) => response.json())));
+const payloads = await Promise.all(["./data/recipes.json", "./data/recipes-howtocook.json", "./data/recipes-howtocook-batch.json", "./data/recipes-howtocook-imported.json", "./data/recipes-cunlv.json", "./data/recipes-mogu.json"].map((url) => fetch(url).then((response) => response.json())));
 state.recipes = payloads.flatMap((payload) => payload.recipes);
 setConnectionNotice(); render();
 if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => {}));

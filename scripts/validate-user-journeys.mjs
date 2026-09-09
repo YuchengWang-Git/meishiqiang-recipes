@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { canonicalIngredientName, ingredientTerms, isToolIngredient } from "../shared/ingredient-taxonomy.mjs";
 
-const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
+const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json", "recipes-mogu.json"];
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
 const recipes = files.flatMap((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")).recipes);
 const visible = recipes.filter((recipe) => !hiddenStatuses.has(recipe.quality?.status));
@@ -33,6 +33,9 @@ const candidateNames = [...new Set(visible.flatMap((recipe) => recipe.ingredient
 const badCandidates = candidateNames.filter((name) => /(?:[=＝]|(?:的)?(?:数量|用量|份数|数)$|秒表|单人|淹过|没过|手套|容器|塑料杯|玻璃杯|密封罐)/.test(name));
 assert(!badCandidates.length, `食材选择池仍有异常项：${badCandidates.join("、")}`);
 assert(candidateNames.includes("茄子"), "食材选择池缺少“茄子”");
+const moguRecipes = recipes.filter((recipe) => recipe.source?.creator === "采蘑菇的小姑娘ヽ");
+assert(moguRecipes.length === 5, `首批图文整理菜谱数量异常：${moguRecipes.length}`);
+assert(moguRecipes.every((recipe) => recipe.quality?.status === "needs_user_spot_check" && recipe.source?.originalCreator && recipe.source?.originalCreatorUrl), "首批图文整理菜谱缺少待抽查状态或双重来源归属");
 const taxonomyProblems = visible.flatMap((recipe) => {
   const names = recipe.ingredients.map((item) => canonicalIngredientName(item.canonicalName || item.name));
   const duplicates = names.filter((name, index) => name && names.indexOf(name) !== index);

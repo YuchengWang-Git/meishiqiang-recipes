@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { admissionFailures, normalizedTitle } from "./meishiqiang-admission-rules.mjs";
 import { canonicalIngredientName, ingredientTerms as taxonomyTerms, isToolIngredient } from "../shared/ingredient-taxonomy.mjs";
 
-const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
+const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json", "recipes-mogu.json"];
 const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")));
 const recipes = libraries.flatMap((library) => library.recipes);
 const meishiqiangTitleCounts = new Map();
@@ -31,6 +31,9 @@ for (const recipe of recipes) {
   ids.add(recipe.id);
   if (!hiddenStatuses.has(recipe.quality?.status) && (!recipe.title || recipe.title.length > 12)) errors.push(`${label}: 展示菜名为空或超过 12 个字`);
   if (!recipe.source?.creator || !recipe.source?.platform || !recipe.source?.url) errors.push(`${label}: 来源信息不完整`);
+  if (recipe.source?.creator === "采蘑菇的小姑娘ヽ" && (!recipe.source.originalCreator || !recipe.source.originalCreatorUrl)) {
+    errors.push(`${label}: 二次整理来源必须同时标注图文整理者和原视频作者`);
+  }
   if (!recipe.quality?.status) errors.push(`${label}: 缺少质量分层状态`);
   if (recipe.quality?.status && !qualityStatuses.has(recipe.quality.status)) errors.push(`${label}: 使用了未定义的质量分层状态`);
   if (!Array.isArray(recipe.ingredients) || !recipe.ingredients.length) errors.push(`${label}: 没有材料`);

@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { canonicalIngredientName, ingredientTerms, mergeNormalizedIngredients } from "../shared/ingredient-taxonomy.mjs";
 
-const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
+const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json", "recipes-mogu.json"];
 let changedRecipes = 0;
 let removedOrMerged = 0;
 

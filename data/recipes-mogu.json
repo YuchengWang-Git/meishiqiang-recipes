@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-09T08:00:00.000Z",
+  "source": "采蘑菇的小姑娘ヽ对美食作家王刚R公开视频的图文菜谱整理；首批仅供人工抽查，不作为已验证菜谱。",
+  "recipes": [
+    {
+      "id": "mogu-cv52910207",
+      "title": "椒盐虾",
+      "aliases": ["椒盐鲜虾"],
+      "summary": "鲜虾先焯后裹淀粉复炸，再用姜蒜和椒盐粉快速翻匀。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910207",
+        "originalCreator": "美食作家王刚R",
+        "originalCreatorUrl": "https://space.bilibili.com/1381203553",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["椒盐", "酥脆"], "methods": ["焯", "炸", "炒"], "difficulty": "中等", "estimatedMinutes": 30, "spicyLevel": 1 },
+      "ingredients": [
+        { "name": "鲜虾", "canonicalName": "鲜虾", "aliases": ["虾"], "quantity": 500, "unit": "克", "role": "主料", "required": true },
+        { "name": "生姜", "canonicalName": "生姜", "aliases": [], "quantity": 20, "unit": "克", "role": "辅料", "required": true, "prep": "切片后剁碎" },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 20, "unit": "克", "role": "辅料", "required": true, "prep": "切片后剁碎" },
+        { "name": "红椒", "canonicalName": "红椒", "aliases": [], "quantity": null, "unit": "半个", "role": "辅料", "required": false, "prep": "切小粒配色" },
+        { "name": "青椒", "canonicalName": "青椒", "aliases": [], "quantity": null, "unit": "半个", "role": "辅料", "required": false, "prep": "切小粒配色" },
+        { "name": "洋葱", "canonicalName": "洋葱", "aliases": [], "quantity": null, "unit": "1小片", "role": "辅料", "required": false, "prep": "切小颗粒" },
+        { "name": "椒盐粉", "canonicalName": "椒盐粉", "aliases": [], "quantity": 4.5, "unit": "克", "role": "调味料", "required": true, "prep": "可直接购买成品" },
+        { "name": "土豆淀粉", "canonicalName": "土豆淀粉", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "料酒", "canonicalName": "料酒", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "将姜、蒜剁碎；红椒、青椒、洋葱和小葱切小粒备用。", "durationMinutes": 8, "cue": "辅料颗粒大小接近" },
+        { "order": 2, "action": "锅中水烧开，鲜虾加料酒焯至弯曲，捞出沥干。", "heat": "大火", "durationMinutes": 3, "cue": "虾身弯曲" },
+        { "order": 3, "action": "虾裹土豆淀粉，下六成热油炸至定型；油温升至七成热后复炸30秒，捞出并倒出多余油。", "heat": "大火", "durationMinutes": 5, "cue": "外壳酥脆" },
+        { "order": 4, "action": "中火爆香全部辅料，放入鲜虾和椒盐粉，转小火翻匀后出锅。", "heat": "中火转小火", "durationMinutes": 2, "tips": ["不想自制椒盐可用成品", "复炸能减少回软"] }
+      ],
+      "notes": ["图文记录了自制椒盐配方；首批入库采用更适合家庭复做的成品椒盐方案。", "已保留原图文与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鲜虾", "椒盐粉"], "ingredientConfidence": 0.9, "quantityConfidence": 0.8, "stepConfidence": 0.9, "reviewNote": "图文材料、时间点与步骤完整；首批人工抽查对象。" }
+    },
+    {
+      "id": "mogu-cv52910205",
+      "title": "葱烧鲤鱼",
+      "aliases": ["大葱烧鲤鱼"],
+      "summary": "先煎香大葱和鲤鱼，再用肥猪肉、香菇和酱汁中小火烧浓。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910205",
+        "originalCreator": "美食作家王刚R",
+        "originalCreatorUrl": "https://space.bilibili.com/1381203553",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["葱香", "咸鲜"], "methods": ["煎", "烧"], "difficulty": "中等", "estimatedMinutes": 35, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "鲤鱼", "canonicalName": "鲤鱼", "aliases": [], "quantity": null, "unit": "1条（约1kg）", "role": "主料", "required": true, "prep": "去鳞、内脏并打浅一字花刀" },
+        { "name": "大葱", "canonicalName": "大葱", "aliases": [], "quantity": 200, "unit": "克", "role": "辅料", "required": true, "prep": "切2cm小段" },
+        { "name": "生姜", "canonicalName": "生姜", "aliases": [], "quantity": null, "unit": "1小块", "role": "辅料", "required": true, "prep": "切小粒" },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 40, "unit": "克", "role": "辅料", "required": true, "prep": "切颗粒" },
+        { "name": "香菇", "canonicalName": "香菇", "aliases": [], "quantity": null, "unit": "2朵", "role": "辅料", "required": true, "prep": "切颗粒" },
+        { "name": "肥猪肉", "canonicalName": "肥猪肉", "aliases": [], "quantity": null, "unit": "1小块", "role": "辅料", "required": true, "prep": "去皮切粒" },
+        { "name": "藿香叶", "canonicalName": "藿香叶", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false, "alternatives": ["香菜", "小葱"], "prep": "切碎" },
+        { "name": "蚝油", "canonicalName": "蚝油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "生抽", "canonicalName": "生抽", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "老抽", "canonicalName": "老抽", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "陈醋", "canonicalName": "陈醋", "aliases": [], "quantity": null, "unit": "少许", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "鲤鱼处理干净并在鱼身打浅一字花刀；大葱、姜、蒜、香菇和肥猪肉分别切好。", "durationMinutes": 12, "cue": "花刀不切透鱼骨" },
+        { "order": 2, "action": "平底锅加菜籽油，先将大葱段煎至两面金黄取出；再将鲤鱼两面煎黄。", "heat": "中火", "durationMinutes": 8, "tips": ["煎鱼前油中撒少许盐可防粘"] },
+        { "order": 3, "action": "在锅中炒香肥猪肉粒，加入姜蒜粒和香菇，再加蚝油、老抽、生抽和开水烧开。", "heat": "大火", "durationMinutes": 5 },
+        { "order": 4, "action": "加盐、白糖和少许陈醋，转中小火收浓汤汁，期间不断将汤汁淋在鱼另一面；最后放入煎好的葱段和藿香叶或替代香菜出锅。", "heat": "中小火", "durationMinutes": 10, "cue": "汤汁浓稠" }
+      ],
+      "notes": ["鲤鱼处理与煎鱼步骤较多，建议先阅读完整流程。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鲤鱼", "大葱"], "ingredientConfidence": 0.9, "quantityConfidence": 0.75, "stepConfidence": 0.9, "reviewNote": "图文有清晰材料和时间点；部分调料为适量，待人工抽查。" }
+    },
+    {
+      "id": "mogu-cv52910204",
+      "title": "姜葱炒生蚝",
+      "aliases": ["姜葱生蚝"],
+      "summary": "生蚝吸干水分后小火煎香，再以姜蒜、葱段和鱼露蚝油汁收紧。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910204",
+        "originalCreator": "美食作家王刚R",
+        "originalCreatorUrl": "https://space.bilibili.com/1381203553",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["鲜香", "葱香"], "methods": ["煎", "炒"], "difficulty": "中等", "estimatedMinutes": 25, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "生蚝", "canonicalName": "生蚝", "aliases": [], "quantity": null, "unit": "16个左右", "role": "主料", "required": true, "prep": "取肉洗净后吸干水分" },
+        { "name": "玉米淀粉", "canonicalName": "玉米淀粉", "aliases": [], "quantity": null, "unit": "2勺", "role": "调味料", "required": true },
+        { "name": "生姜", "canonicalName": "生姜", "aliases": [], "quantity": 80, "unit": "克", "role": "辅料", "required": true, "prep": "切姜片" },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 50, "unit": "克", "role": "辅料", "required": true, "prep": "切颗粒" },
+        { "name": "小葱", "canonicalName": "小葱", "aliases": [], "quantity": 100, "unit": "克", "role": "辅料", "required": true, "prep": "葱头、葱尾分开" },
+        { "name": "蚝油", "canonicalName": "蚝油", "aliases": [], "quantity": 6, "unit": "克", "role": "调味料", "required": true },
+        { "name": "鱼露", "canonicalName": "鱼露", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "生抽", "canonicalName": "生抽", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "胡椒粉", "canonicalName": "胡椒粉", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "生蚝肉洗净后放在厨房纸上吸干水分；加胡椒粉和1勺玉米淀粉轻轻拌匀。", "durationMinutes": 5, "cue": "表面干爽不出水" },
+        { "order": 2, "action": "姜切片、蒜切粒、小葱切段并将葱头和葱尾分开；蚝油、鱼露、生抽、清水、胡椒粉和1勺淀粉调成料汁。", "durationMinutes": 8 },
+        { "order": 3, "action": "五成热油中炸香姜蒜和葱头，捞出备用；倒出热油留少许底油。", "heat": "中火", "durationMinutes": 3, "cue": "姜蒜金黄" },
+        { "order": 4, "action": "五成热底油下生蚝，中小火煎至两面金黄，不要频繁翻动；放回料头和料汁，收紧后下葱尾和少许明油出锅。", "heat": "中小火", "durationMinutes": 6, "tips": ["煎制时弄破蚝肉会影响卖相", "无需另加盐和糖"] }
+      ],
+      "notes": ["鱼露是这道菜的特殊调味，库存匹配会将其作为需要补齐的食材。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["生蚝", "鱼露"], "ingredientConfidence": 0.9, "quantityConfidence": 0.8, "stepConfidence": 0.9, "reviewNote": "图文材料、步骤和关键火候完整；首批人工抽查对象。" }
+    },
+    {
+      "id": "mogu-cv52910202",
+      "title": "粉丝肉丸汤",
+      "aliases": ["豌豆尖肉丸粉丝汤"],
+      "summary": "不加鸡蛋和淀粉的肉丸，以细剁肉蓉和小火定型保证弹性，再煮入粉丝和青菜。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910202",
+        "originalCreator": "美食作家王刚R",
+        "originalCreatorUrl": "https://space.bilibili.com/1381203553",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["汤羹", "家常菜"], "flavor": ["清淡", "鲜香"], "methods": ["煮", "汆"], "difficulty": "中等", "estimatedMinutes": 30, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "猪二刀肉", "canonicalName": "猪二刀肉", "aliases": ["二刀肉", "猪肉"], "quantity": null, "unit": "适量", "role": "主料", "required": true, "prep": "三七肥瘦比例，去皮剁成极细肉蓉" },
+        { "name": "粉丝", "canonicalName": "粉丝", "aliases": [], "quantity": null, "unit": "1小把", "role": "主料", "required": true, "prep": "泡发后截短" },
+        { "name": "豌豆尖", "canonicalName": "豌豆尖", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false, "alternatives": ["绿色蔬菜"], "prep": "摘嫩叶" },
+        { "name": "大葱白", "canonicalName": "大葱白", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "切碎" },
+        { "name": "生姜", "canonicalName": "生姜", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "切碎或切片" },
+        { "name": "黄酒", "canonicalName": "黄酒", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": false, "alternatives": ["清水"] },
+        { "name": "蚝油", "canonicalName": "蚝油", "aliases": [], "quantity": 4, "unit": "克", "role": "调味料", "required": true },
+        { "name": "胡椒粉", "canonicalName": "胡椒粉", "aliases": [], "quantity": 1, "unit": "克", "role": "调味料", "required": true },
+        { "name": "猪油", "canonicalName": "猪油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": false }
+      ],
+      "steps": [
+        { "order": 1, "action": "猪二刀肉去皮切片后剁成极细肉蓉；葱白和姜切碎，可与肉一起剁。", "durationMinutes": 10, "cue": "肉蓉细腻" },
+        { "order": 2, "action": "肉蓉加盐、胡椒粉、蚝油和黄酒，朝一个方向搅拌上劲至能粘在手上不易脱落。", "durationMinutes": 3, "cue": "肉泥有粘性" },
+        { "order": 3, "action": "锅中姜片和清水烧至温热，用手挤肉丸下锅，小火烧制并翻面、撇沫。", "heat": "小火", "durationMinutes": 8, "tips": ["不要大火，避免肉丸冲散"] },
+        { "order": 4, "action": "肉丸熟后放入泡发粉丝，加盐调味；最后放豌豆尖和少许猪油，蔬菜断生即出锅。", "heat": "小火", "durationMinutes": 4, "cue": "蔬菜刚断生" }
+      ],
+      "notes": ["该版本强调不加鸡蛋和淀粉；若换纯瘦肉，原文建议改加蛋清和生粉。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["猪二刀肉", "粉丝"], "ingredientConfidence": 0.9, "quantityConfidence": 0.7, "stepConfidence": 0.9, "reviewNote": "关键状态判断和替代条件完整；首批人工抽查对象。" }
+    },
+    {
+      "id": "mogu-cv52910201",
+      "title": "孜然羊肉",
+      "aliases": ["孜然炒羊肉"],
+      "summary": "羊前腿肉用姜葱水腌制后小火煎熟，再以孜然颗粒和干料炒出香味。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910201",
+        "originalCreator": "美食作家王刚R",
+        "originalCreatorUrl": "https://space.bilibili.com/1381203553",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["孜然", "香辣"], "methods": ["腌", "煎", "炒"], "difficulty": "中等", "estimatedMinutes": 45, "spicyLevel": 1 },
+      "ingredients": [
+        { "name": "羊前腿肉", "canonicalName": "羊前腿肉", "aliases": ["羊肉"], "quantity": 300, "unit": "克", "role": "主料", "required": true, "prep": "切小方块" },
+        { "name": "生姜", "canonicalName": "生姜", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "与葱打成姜葱水" },
+        { "name": "大葱", "canonicalName": "大葱", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "与姜打成姜葱水" },
+        { "name": "洋葱", "canonicalName": "洋葱", "aliases": [], "quantity": null, "unit": "几片", "role": "辅料", "required": true, "prep": "一半切粒、一半切块" },
+        { "name": "香菜", "canonicalName": "香菜", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false, "prep": "根切碎、叶切段" },
+        { "name": "红椒", "canonicalName": "红椒", "aliases": [], "quantity": null, "unit": "半个", "role": "辅料", "required": false, "prep": "切碎" },
+        { "name": "孜然颗粒", "canonicalName": "孜然颗粒", "aliases": [], "quantity": null, "unit": "1小把", "role": "调味料", "required": true },
+        { "name": "孜然粉", "canonicalName": "孜然粉", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "辣椒面", "canonicalName": "辣椒面", "aliases": [], "quantity": 6, "unit": "克", "role": "调味料", "required": false, "prep": "微辣型" },
+        { "name": "白芝麻", "canonicalName": "白芝麻", "aliases": [], "quantity": null, "unit": "2勺", "role": "调味料", "required": false },
+        { "name": "花椒面", "canonicalName": "花椒面", "aliases": [], "quantity": null, "unit": "少许", "role": "调味料", "required": false },
+        { "name": "玉米淀粉", "canonicalName": "玉米淀粉", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "黄酒", "canonicalName": "黄酒", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "羊前腿肉切小方块，加小苏打和清水抓洗后浸泡30分钟；嫩羊肉可省略此步。", "durationMinutes": 30, "tips": ["小苏打用于嫩化，不是必需调味"] },
+        { "order": 2, "action": "姜葱加黄酒打成汁；羊肉挤干后加盐、胡椒粉、孜然粉、生抽和姜葱汁，搅拌1分钟，再加淀粉和油封口。", "durationMinutes": 5, "cue": "料汁被羊肉吸收" },
+        { "order": 3, "action": "洋葱、香菜、红椒和白芝麻辣椒面干料分别准备好。", "durationMinutes": 5 },
+        { "order": 4, "action": "热锅滑油后留底油，下羊肉小火煎1分钟不动，翻面再煎3分钟，取出多余油。", "heat": "小火", "durationMinutes": 4, "cue": "外焦里嫩" },
+        { "order": 5, "action": "底油中小火爆香孜然颗粒，放羊肉、洋葱块和干料转中火翻炒；锅边淋少许酱油，加入洋葱粒、红椒和香菜翻匀出锅。", "heat": "小火转中火", "durationMinutes": 3, "tips": ["孜然颗粒与孜然粉可按约10:1搭配"] }
+      ],
+      "notes": ["羊肉可按口感换羊里脊或羊腱子肉；原文给出了老人孩子和追求口感的选择建议。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["羊前腿肉", "孜然颗粒"], "ingredientConfidence": 0.9, "quantityConfidence": 0.8, "stepConfidence": 0.9, "reviewNote": "图文材料、时间点和关键火候完整；首批人工抽查对象。" }
+    }
+  ]
+}
