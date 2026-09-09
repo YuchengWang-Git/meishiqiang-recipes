@@ -48,6 +48,9 @@ for (const recipe of recipes) {
     const failures = admissionFailures(recipe, { duplicate: meishiqiangTitleCounts.get(normalizedTitle(recipe)) > 1 });
     if (failures.length) errors.push(`${label}: 未通过美食强准入标准：${failures.join("；")}`);
   }
+  if (recipe.source?.creator === "美食强" && recipe.quality?.status === "needs_rebuild" && !(recipe.quality?.admission?.severity && recipe.quality?.admission?.failures?.length)) {
+    errors.push(`${label}: 已隔离的美食强菜谱缺少准入分级与复核原因`);
+  }
   for (const required of recipe.quality?.requiredIngredients || []) {
     if (!ingredientTerms.some((item) => item === required || item.includes(required) || required.includes(item))) errors.push(`${label}: 关键食材“${required}”未列入材料`);
   }

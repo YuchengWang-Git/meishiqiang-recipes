@@ -1,0 +1,1118 @@
+{
+  "generatedAt": "2026-09-09T01:52:21.042Z",
+  "source": "美食强准入门禁",
+  "items": [
+    {
+      "id": "bili-BV1HK421i7Xh",
+      "title": "炒花甲",
+      "sourceUrl": "https://www.bilibili.com/video/BV1HK421i7Xh",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：花甲"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1oa4y1T742",
+      "title": "茨菰烧甲鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1oa4y1T742",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：甲鱼、鱼",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1p6yfYdE7J",
+      "title": "葱爆羊肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1p6yfYdE7J",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：羊",
+        "主料未在步骤中出现：牛肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1wC4y1m7YM",
+      "title": "葱爆羊肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1wC4y1m7YM",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：羊",
+        "主料未在步骤中出现：猪肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV114EFzzEnh",
+      "title": "葱烧大排",
+      "sourceUrl": "https://www.bilibili.com/video/BV114EFzzEnh",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：大排",
+        "首步不是可执行操作",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1Fm4y1G7sE",
+      "title": "葱烧大排",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Fm4y1G7sE",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：大排",
+        "首步不是可执行操作",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1Dy411e7gc",
+      "title": "番茄滑肉汤",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Dy411e7gc",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：番茄"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1dt1KB4EhT",
+      "title": "番茄牛腩",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dt1KB4EhT",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：番茄",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1LE421u7Lr",
+      "title": "番茄牛腩",
+      "sourceUrl": "https://www.bilibili.com/video/BV1LE421u7Lr",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：牛、番茄",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1T24y1e7pQ",
+      "title": "分享年夜饭两道菜：红烧带鱼、白灼鲍鱼、做法靠谱实用接地气",
+      "sourceUrl": "https://www.bilibili.com/video/BV1T24y1e7pQ",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1op42127y9",
+      "title": "干锅牛蛙",
+      "sourceUrl": "https://www.bilibili.com/video/BV1op42127y9",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：牛"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1cw41137AV",
+      "title": "干烧鳜鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1cw41137AV",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鳜鱼、鱼",
+        "主料未在步骤中出现：莴笋"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1U8MMzVEUP",
+      "title": "红烧鳊鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1U8MMzVEUP",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1XXCAYjEmD",
+      "title": "红烧带鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1XXCAYjEmD",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1VZ421r79P",
+      "title": "红烧甲鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1VZ421r79P",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：甲鱼、鱼",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV16m411Q7xk",
+      "title": "红烧肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV16m411Q7xk",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1vy421v76q",
+      "title": "红烧鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1vy421v76q",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1NvtEzJE7S",
+      "title": "红烧鱼块",
+      "sourceUrl": "https://www.bilibili.com/video/BV1NvtEzJE7S",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1owdVY5EFU",
+      "title": "黄焖猪蹄",
+      "sourceUrl": "https://www.bilibili.com/video/BV1owdVY5EFU",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：猪"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1Jf421S7vS",
+      "title": "酱爆牛肚",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Jf421S7vS",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：牛"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1XPgHzxEbu",
+      "title": "酱大骨",
+      "sourceUrl": "https://www.bilibili.com/video/BV1XPgHzxEbu",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：大骨",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1eS4y1C7Y9",
+      "title": "椒盐大虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV1eS4y1C7Y9",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：虾",
+        "主料未在步骤中出现：青椒"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1mx4y1J7b8",
+      "title": "捞汁小海鲜",
+      "sourceUrl": "https://www.bilibili.com/video/BV1mx4y1J7b8",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1kRahzZEfg",
+      "title": "凉拌猪蹄",
+      "sourceUrl": "https://www.bilibili.com/video/BV1kRahzZEfg",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：猪",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1xRHWzJEtf",
+      "title": "卤肥肠",
+      "sourceUrl": "https://www.bilibili.com/video/BV1xRHWzJEtf",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：肥肠"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1ZJ4m137pa",
+      "title": "梅干菜烧鸡爪",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ZJ4m137pa",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鸡"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1tY4y1n79H",
+      "title": "皮蛋廋肉粥",
+      "sourceUrl": "https://www.bilibili.com/video/BV1tY4y1n79H",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1jq421F7BH",
+      "title": "啤酒鸭",
+      "sourceUrl": "https://www.bilibili.com/video/BV1jq421F7BH",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鸭"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV11AE9zREwf",
+      "title": "肉末茄子",
+      "sourceUrl": "https://www.bilibili.com/video/BV11AE9zREwf",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：茄子",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1GM4m1U7Gv",
+      "title": "肉末茄子",
+      "sourceUrl": "https://www.bilibili.com/video/BV1GM4m1U7Gv",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：茄子",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1h2NCzBEML",
+      "title": "酸菜鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1h2NCzBEML",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鱼",
+        "主料未在步骤中出现：猪肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1Df42127v8",
+      "title": "酸菜鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Df42127v8",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鱼",
+        "主料未在步骤中出现：黄鳝、猪肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1XM4m1z7Q3",
+      "title": "酸辣柠檬虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV1XM4m1z7Q3",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：虾"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV16AG9zPETt",
+      "title": "蒜薹炒鸡胗",
+      "sourceUrl": "https://www.bilibili.com/video/BV16AG9zPETt",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鸡"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1W1421t7BH",
+      "title": "蒜香鸡翅",
+      "sourceUrl": "https://www.bilibili.com/video/BV1W1421t7BH",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鸡",
+        "主料未在步骤中出现：白萝卜"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1yMK3zMEvT",
+      "title": "蒜香鸡爪",
+      "sourceUrl": "https://www.bilibili.com/video/BV1yMK3zMEvT",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鸡"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV15KgAzGE7u",
+      "title": "蒜香鱼片",
+      "sourceUrl": "https://www.bilibili.com/video/BV15KgAzGE7u",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：鱼",
+        "主料未在步骤中出现：猪肉"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1Kw411P773",
+      "title": "糖醋带鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Kw411P773",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鱼",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1ZZ4y1f7vG",
+      "title": "香辣鸡爪",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ZZ4y1f7vG",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：鸡"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV19vQAYTEQo",
+      "title": "香辣螺蛳",
+      "sourceUrl": "https://www.bilibili.com/video/BV19vQAYTEQo",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：螺蛳"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1kezGY1Eb1",
+      "title": "香辣猪蹄",
+      "sourceUrl": "https://www.bilibili.com/video/BV1kezGY1Eb1",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "菜名主体未列入材料：猪",
+        "首步不是可执行操作"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV14c6SYoEtY",
+      "title": "油焖大虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV14c6SYoEtY",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：虾",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1ya4y127BC",
+      "title": "油焖大虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ya4y127BC",
+      "severity": "A",
+      "label": "必须重建",
+      "failures": [
+        "没有可识别的主料",
+        "菜名主体未列入材料：虾",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+    },
+    {
+      "id": "bili-BV1gCq3BVEfu",
+      "title": "白菜猪肉炖粉条",
+      "sourceUrl": "https://www.bilibili.com/video/BV1gCq3BVEfu",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV14M4m1y7V1",
+      "title": "白切鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV14M4m1y7V1",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：鸡腿、鸡肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1GY411d7Mk",
+      "title": "蛋炒饭",
+      "sourceUrl": "https://www.bilibili.com/video/BV1GY411d7Mk",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：河虾"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV15P411y7g6",
+      "title": "地锅鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV15P411y7g6",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：豆腐",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1DY41117Zo",
+      "title": "分享年夜饭菜谱：炸耦盒、缠肘花、靠谱实用接地气",
+      "sourceUrl": "https://www.bilibili.com/video/BV1DY41117Zo",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：鸡腿"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1K3411S7jt",
+      "title": "分享年夜饭两道菜谱：百财聚来、金玉满堂、做法靠谱实用接地气",
+      "sourceUrl": "https://www.bilibili.com/video/BV1K3411S7jt",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：白菜"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1W94y1V7D9",
+      "title": "锅包肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1W94y1V7D9",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：土豆"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1STyNYSE9h",
+      "title": "红焖羊排",
+      "sourceUrl": "https://www.bilibili.com/video/BV1STyNYSE9h",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：羊排、白萝卜",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1MJ4m1P7pe",
+      "title": "黄焖鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1MJ4m1P7pe",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：鸡腿、鸡肉、白萝卜、土豆"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1FLNSeyEfR",
+      "title": "酱牛肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1FLNSeyEfR",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：白萝卜",
+        "首步不是可执行操作"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1MyS3YjERt",
+      "title": "椒麻鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1MyS3YjERt",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：鸡肉、豆腐"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1wrPxe1Eeg",
+      "title": "辣椒炒鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1wrPxe1Eeg",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：青椒",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1DZ4y1R77j",
+      "title": "辣椒炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1DZ4y1R77j",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1qa411x7BY",
+      "title": "凉拌莴笋丝",
+      "sourceUrl": "https://www.bilibili.com/video/BV1qa411x7BY",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：白萝卜"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV17b5yzGEU5",
+      "title": "麻婆豆腐",
+      "sourceUrl": "https://www.bilibili.com/video/BV17b5yzGEU5",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1JGNH6GE22",
+      "title": "毛豆肉丸汤",
+      "sourceUrl": "https://www.bilibili.com/video/BV1JGNH6GE22",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1Lj421R72J",
+      "title": "泡椒凤爪",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Lj421R72J",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：白萝卜、莴笋",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1oT4y1Q7jd",
+      "title": "平菇炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1oT4y1Q7jd",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1CtRSBUEHi",
+      "title": "千张滑肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1CtRSBUEHi",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉、猪前腿肉、千张"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1Eo3MziE5W",
+      "title": "炝炒包菜",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Eo3MziE5W",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：牛肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1bZ421n7bC",
+      "title": "青椒酿肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1bZ421n7bC",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉、猪肉",
+        "首步不是可执行操作"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1LzqNYGEWf",
+      "title": "青椒牛肉丝",
+      "sourceUrl": "https://www.bilibili.com/video/BV1LzqNYGEWf",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1Y7Gb6qE8M",
+      "title": "青椒肉丝",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Y7Gb6qE8M",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1fmjd6vEef",
+      "title": "酸汤滑肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1fmjd6vEef",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1uu4m1P7nx",
+      "title": "蒜苔炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1uu4m1P7nx",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉、猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1HiUZB9EAg",
+      "title": "土豆丝炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1HiUZB9EAg",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪肉",
+        "首步不是可执行操作"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1fi42197LU",
+      "title": "西红柿肉丸汤",
+      "sourceUrl": "https://www.bilibili.com/video/BV1fi42197LU",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1Uu4m1T7yC",
+      "title": "小炒三鲜",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Uu4m1T7yC",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：河虾",
+        "首步不是可执行操作"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1FH4y1F7MW",
+      "title": "雪菜豆腐包",
+      "sourceUrl": "https://www.bilibili.com/video/BV1FH4y1F7MW",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：猪前腿肉"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1zh4y147K1",
+      "title": "油焖小龙虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV1zh4y147K1",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：小龙虾",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1qXLJzkEZs",
+      "title": "鱼香肉丝",
+      "sourceUrl": "https://www.bilibili.com/video/BV1qXLJzkEZs",
+      "severity": "B",
+      "label": "定点复核",
+      "failures": [
+        "主料未在步骤中出现：牛肉、猪肉、莴笋",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+    },
+    {
+      "id": "bili-BV1FN411t7Wr",
+      "title": "板栗烧鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1FN411t7Wr",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1Eq4y187eS",
+      "title": "板栗烧鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Eq4y187eS",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1RmxezBEWN",
+      "title": "地锅鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1RmxezBEWN",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1Nm411R7hr",
+      "title": "地锅鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Nm411R7hr",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1Yr421w7TR",
+      "title": "干锅鹿茸菇",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Yr421w7TR",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1fDUTB3Er4",
+      "title": "红焖羊排",
+      "sourceUrl": "https://www.bilibili.com/video/BV1fDUTB3Er4",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV16C4y1S7Ag",
+      "title": "红焖羊排",
+      "sourceUrl": "https://www.bilibili.com/video/BV16C4y1S7Ag",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1w6d6YPEb7",
+      "title": "红烧黄鳝",
+      "sourceUrl": "https://www.bilibili.com/video/BV1w6d6YPEb7",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV14LbZ6JEXY",
+      "title": "怀胎鲫鱼",
+      "sourceUrl": "https://www.bilibili.com/video/BV14LbZ6JEXY",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1BSBXBVEyr",
+      "title": "辣椒炒鸡",
+      "sourceUrl": "https://www.bilibili.com/video/BV1BSBXBVEyr",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作",
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1CqE16JEpP",
+      "title": "辣椒炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1CqE16JEpP",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1GZ421y7D8",
+      "title": "麻婆豆腐",
+      "sourceUrl": "https://www.bilibili.com/video/BV1GZ421y7D8",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1LFbDz4Ewz",
+      "title": "毛豆炒肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1LFbDz4Ewz",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1iG411B7fR",
+      "title": "梅菜扣肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1iG411B7fR",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV19njqzHEHe",
+      "title": "泡椒凤爪",
+      "sourceUrl": "https://www.bilibili.com/video/BV19njqzHEHe",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1pt421N7bi",
+      "title": "鲜肉包",
+      "sourceUrl": "https://www.bilibili.com/video/BV1pt421N7bi",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1CP82zFEkp",
+      "title": "小酥肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1CP82zFEkp",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1S4421A7Ba",
+      "title": "小酥肉",
+      "sourceUrl": "https://www.bilibili.com/video/BV1S4421A7Ba",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1jAHXzmEkK",
+      "title": "盐水鸭",
+      "sourceUrl": "https://www.bilibili.com/video/BV1jAHXzmEkK",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "首步不是可执行操作"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV1AZ421g7Nd",
+      "title": "油焖小龙虾",
+      "sourceUrl": "https://www.bilibili.com/video/BV1AZ421g7Nd",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    },
+    {
+      "id": "bili-BV11r421G7Eq",
+      "title": "鱼香肉丝",
+      "sourceUrl": "https://www.bilibili.com/video/BV11r421G7Eq",
+      "severity": "C",
+      "label": "快速校验",
+      "failures": [
+        "同一创作者存在同名版本，尚未完成版本归并"
+      ],
+      "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+    }
+  ]
+}

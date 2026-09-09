@@ -45,3 +45,13 @@ export function admissionFailures(recipe, { duplicate = false } = {}) {
   if (duplicate) failures.push("同一创作者存在同名版本，尚未完成版本归并");
   return failures;
 }
+
+export function reviewRoute(failures) {
+  if (failures.some((failure) => /没有可识别的主料|菜名主体未列入材料|可执行烹饪操作不足/.test(failure))) {
+    return { severity: "A", label: "必须重建", action: "依据原视频重新整理主料、配料和完整步骤后再提交。" };
+  }
+  if (failures.some((failure) => /主料未在步骤中出现/.test(failure))) {
+    return { severity: "B", label: "定点复核", action: "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。" };
+  }
+  return { severity: "C", label: "快速校验", action: "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。" };
+}

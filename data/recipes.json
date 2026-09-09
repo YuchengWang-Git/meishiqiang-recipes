@@ -664,7 +664,15 @@
         "ingredientConfidence": 0.98,
         "quantityConfidence": 0.98,
         "stepConfidence": 0.98,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -1123,7 +1131,15 @@
         "ingredientConfidence": 0.97,
         "quantityConfidence": 0.92,
         "stepConfidence": 0.97,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -3082,7 +3098,15 @@
         "ingredientConfidence": 0.99,
         "quantityConfidence": 0.99,
         "stepConfidence": 0.99,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -3511,7 +3535,15 @@
         "ingredientConfidence": 0.97,
         "quantityConfidence": 0.91,
         "stepConfidence": 0.97,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -5820,7 +5852,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -6166,7 +6206,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉、千张。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉、千张。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉、猪前腿肉、千张"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -6751,7 +6799,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -7109,7 +7166,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -8348,7 +8413,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉",
+            "首步不是可执行操作"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -8701,7 +8775,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -9248,7 +9330,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：番茄",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -9599,7 +9690,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -9944,7 +10044,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：肥肠。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：肥肠。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：肥肠"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -10742,7 +10851,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -11359,7 +11476,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：猪",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -11963,7 +12089,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -12293,7 +12429,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -12529,7 +12673,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大骨；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大骨；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：大骨",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -12895,7 +13049,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鱼",
+            "主料未在步骤中出现：猪肉"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -13685,7 +13848,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：牛肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -13991,7 +14162,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鸡"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -14375,7 +14554,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鱼",
+            "主料未在步骤中出现：猪肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -14647,7 +14836,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -15304,7 +15502,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -15882,7 +16088,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：茄子",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -16181,7 +16397,18 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：大排",
+            "首步不是可执行操作",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -16446,7 +16673,15 @@
         "ingredientConfidence": 0.96,
         "quantityConfidence": 0.91,
         "stepConfidence": 0.97,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -16729,7 +16964,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鸡"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -17096,7 +17339,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉、猪肉、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉、猪肉、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：牛肉、猪肉、莴笋",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -17743,7 +17995,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -17986,7 +18247,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -18298,7 +18567,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：猪。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：猪。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：猪"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -18875,7 +19153,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：螺蛳。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：螺蛳。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：螺蛳"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -19189,7 +19476,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：青椒；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：青椒；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：青椒",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -19460,7 +19756,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：白萝卜",
+            "首步不是可执行操作"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -19682,7 +19987,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：虾",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -20047,7 +20362,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -20388,7 +20713,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -20935,7 +21268,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：猪",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -22974,7 +23316,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡肉、豆腐。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡肉、豆腐。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：鸡肉、豆腐"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -23236,7 +23586,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：牛肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：牛肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：羊",
+            "主料未在步骤中出现：牛肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -23577,7 +23937,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：羊排、白萝卜；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：羊排、白萝卜；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：羊排、白萝卜",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -23823,7 +24192,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -24434,7 +24811,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡；主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡；主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鸡",
+            "主料未在步骤中出现：白萝卜"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -24718,7 +25104,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：番茄。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：番茄。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：番茄"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -25293,7 +25688,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：鸡腿、鸡肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -26144,7 +26547,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：茄子",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -26370,7 +26783,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -26586,7 +27007,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -26873,7 +27302,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鸡"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -27130,7 +27568,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：虾"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -27364,7 +27811,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -27690,7 +28145,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -27928,7 +28391,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉、白萝卜、土豆。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉、白萝卜、土豆。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：鸡腿、鸡肉、白萝卜、土豆"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -28886,7 +29357,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：黄鳝、猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：黄鳝、猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鱼",
+            "主料未在步骤中出现：黄鳝、猪肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -29557,7 +30038,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：牛"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -29909,7 +30398,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉、猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉、猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉、猪肉",
+            "首步不是可执行操作"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -30225,7 +30723,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -30574,7 +31080,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸭。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸭。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鸭"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -30859,7 +31373,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛、番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛、番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：牛、番茄",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -31177,7 +31700,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：白萝卜、莴笋",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -32114,7 +32646,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -32576,7 +33116,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：牛"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -32878,7 +33426,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：河虾",
+            "首步不是可执行操作"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -33186,7 +33743,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：花甲。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：花甲。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：花甲"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -33822,7 +34388,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -34241,7 +34816,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -34893,7 +35476,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -35239,7 +35830,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪肉、猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -35555,7 +36154,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -35867,7 +36475,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -36200,7 +36816,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：甲鱼、鱼",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -37041,7 +37666,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -37283,7 +37916,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：虾",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -37621,7 +38264,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鳜鱼、鱼；主料未在步骤中出现：莴笋。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鳜鱼、鱼；主料未在步骤中出现：莴笋。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：鳜鱼、鱼",
+            "主料未在步骤中出现：莴笋"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -37931,7 +38583,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -38435,7 +39095,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -38757,7 +39427,17 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：羊",
+            "主料未在步骤中出现：猪肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -39103,7 +39783,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：土豆。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：土豆。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：土豆"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -39445,7 +40133,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "首步不是可执行操作",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -39735,7 +40432,18 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：大排",
+            "首步不是可执行操作",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -40400,7 +41108,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：豆腐；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：豆腐；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：豆腐",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -41048,7 +41765,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：小龙虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：小龙虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：小龙虾",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -41408,7 +42134,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：甲鱼、鱼",
+            "首步不是可执行操作"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -41797,7 +42532,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：鸡腿"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -42276,7 +43019,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鱼"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -42524,7 +43276,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白菜。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白菜。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：白菜"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -42834,7 +43594,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：河虾"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -43075,7 +43843,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -43717,7 +44493,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：白萝卜"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -44793,7 +45577,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉",
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -45030,7 +45823,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "C",
+          "label": "快速校验",
+          "failures": [
+            "同一创作者存在同名版本，尚未完成版本归并"
+          ],
+          "action": "确认原视频后删除口播开场，或选定同名菜的一个主版本并归并其余版本。"
+        }
       }
     },
     {
@@ -45717,7 +46518,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：菜名主体未列入材料：虾；主料未在步骤中出现：青椒。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：虾；主料未在步骤中出现：青椒。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "菜名主体未列入材料：虾",
+            "主料未在步骤中出现：青椒"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     },
     {
@@ -45953,7 +46763,15 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "B",
+          "label": "定点复核",
+          "failures": [
+            "主料未在步骤中出现：猪前腿肉"
+          ],
+          "action": "回看主料出现的片段；补齐、修正或删除不被步骤证实的主料。"
+        }
       }
     },
     {
@@ -46807,7 +47625,16 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。",
+        "admission": {
+          "severity": "A",
+          "label": "必须重建",
+          "failures": [
+            "没有可识别的主料",
+            "菜名主体未列入材料：鸡"
+          ],
+          "action": "依据原视频重新整理主料、配料和完整步骤后再提交。"
+        }
       }
     }
   ]
