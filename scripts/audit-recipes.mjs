@@ -1,8 +1,14 @@
 import { readFileSync } from "node:fs";
+import { admissionFailures, normalizedTitle } from "./meishiqiang-admission-rules.mjs";
 
 const files = ["recipes.json", "recipes-howtocook.json", "recipes-howtocook-batch.json", "recipes-howtocook-imported.json", "recipes-cunlv.json"];
 const libraries = files.map((file) => JSON.parse(readFileSync(new URL(`../data/${file}`, import.meta.url), "utf8")));
 const recipes = libraries.flatMap((library) => library.recipes);
+const meishiqiangTitleCounts = new Map();
+for (const recipe of recipes.filter((recipe) => recipe.source?.creator === "美食强")) {
+  const key = normalizedTitle(recipe);
+  meishiqiangTitleCounts.set(key, (meishiqiangTitleCounts.get(key) || 0) + 1);
+}
 const hiddenStatuses = new Set(["excluded_from_recommendations", "needs_rebuild"]);
 const qualityStatuses = new Set(["reference_verified", "human_verified", "needs_user_spot_check", "source_structured", "creator_attributed", "excluded_from_recommendations", "needs_rebuild"]);
 const malformedHowToCookIngredient = /(?:[=＝]|(?:的)?(?:数量|用量|份数|数)$|秒表|单人|淹过|没过|一般一个人可以食用|手套|容器|塑料杯|玻璃杯|密封罐|刻度)/;
@@ -39,6 +45,8 @@ for (const recipe of recipes) {
     const text = ingredientTerms.join(" ");
     const missing = titleIngredientChecks.filter(([, titlePattern, ingredientPattern]) => titlePattern.test(recipe.title) && !ingredientPattern.test(text)).map(([name]) => name);
     if (missing.length) errors.push(`${label}: 菜名关键食材“${missing.join("、")}”未列入材料，必须先停止推荐`);
+    const failures = admissionFailures(recipe, { duplicate: meishiqiangTitleCounts.get(normalizedTitle(recipe)) > 1 });
+    if (failures.length) errors.push(`${label}: 未通过美食强准入标准：${failures.join("；")}`);
   }
   for (const required of recipe.quality?.requiredIngredients || []) {
     if (!ingredientTerms.some((item) => item === required || item.includes(required) || required.includes(item))) errors.push(`${label}: 关键食材“${required}”未列入材料`);

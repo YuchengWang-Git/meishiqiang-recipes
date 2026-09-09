@@ -660,10 +660,11 @@
         "未说明保存方式"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.98,
         "quantityConfidence": 0.98,
-        "stepConfidence": 0.98
+        "stepConfidence": 0.98,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -1118,10 +1119,11 @@
         "未说明成品份数"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.97,
         "quantityConfidence": 0.92,
-        "stepConfidence": 0.97
+        "stepConfidence": 0.97,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -3076,10 +3078,11 @@
         "未说明腌制时间和成品份数"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.99,
         "quantityConfidence": 0.99,
-        "stepConfidence": 0.99
+        "stepConfidence": 0.99,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -3504,10 +3507,11 @@
         "未说明成品份数"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.97,
         "quantityConfidence": 0.91,
-        "stepConfidence": 0.97
+        "stepConfidence": 0.97,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -5812,10 +5816,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -6157,10 +6162,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉、千张。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -6741,10 +6747,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -7098,10 +7105,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -8336,10 +8344,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -8688,10 +8697,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -9234,10 +9244,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -9584,10 +9595,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -9928,10 +9940,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：肥肠。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -10725,10 +10738,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -11345,7 +11359,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -11949,7 +11963,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -12275,10 +12289,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -12510,10 +12525,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大骨；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -12879,7 +12895,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -13665,10 +13681,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -13974,7 +13991,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -14358,7 +14375,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -14630,7 +14647,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -15283,10 +15300,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -15864,7 +15882,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“茄子”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -16159,10 +16177,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -16423,10 +16442,11 @@
         "视频未说明成品份数和冷藏期限"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.96,
         "quantityConfidence": 0.91,
-        "stepConfidence": 0.97
+        "stepConfidence": 0.97,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -16709,7 +16729,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -17072,10 +17092,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：牛肉、猪肉、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -17718,10 +17739,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -17960,10 +17982,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -18275,7 +18298,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：猪。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -18848,10 +18871,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：螺蛳。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -19161,10 +19185,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：青椒；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -19431,10 +19456,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -19656,7 +19682,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -20021,7 +20047,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -20358,10 +20384,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -20908,7 +20935,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“猪”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：猪；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -22943,10 +22970,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡肉、豆腐。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -23208,7 +23236,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“羊”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：牛肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -23545,10 +23573,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：羊排、白萝卜；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -23790,10 +23819,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -24404,7 +24434,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸡；主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -24684,10 +24714,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：番茄。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -25258,10 +25289,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -26112,7 +26144,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“茄子”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：茄子；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -26334,10 +26366,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -26549,11 +26582,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "excluded_from_recommendations",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "步骤为零散字幕片段，关键收汁时长和判断标准缺失；暂不作为可直接照做的菜谱推荐。"
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -26840,7 +26873,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -27097,7 +27130,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“虾、柠檬”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -27327,10 +27360,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -27652,10 +27686,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -27889,10 +27924,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿、鸡肉、白萝卜、土豆。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -28850,7 +28886,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鱼；主料未在步骤中出现：黄鳝、猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -29521,7 +29557,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -29869,10 +29905,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉、猪肉；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -30184,10 +30221,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -30536,7 +30574,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸭”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鸭。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -30821,7 +30859,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛、番茄；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -31135,10 +31173,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜、莴笋；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -32071,10 +32110,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -32536,7 +32576,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“牛”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：牛。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -32834,10 +32874,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -33141,10 +33182,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：花甲。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -33780,7 +33822,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -34195,10 +34237,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -34846,10 +34889,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -35191,10 +35235,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪肉、猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -35506,10 +35551,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -35817,10 +35863,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -36153,7 +36200,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“甲鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -36990,10 +37037,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -37235,7 +37283,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -37573,7 +37621,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鳜鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：鳜鱼、鱼；主料未在步骤中出现：莴笋。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -37879,10 +37927,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -38386,7 +38435,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -38708,7 +38757,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“羊”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：羊；主料未在步骤中出现：猪肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -39050,10 +39099,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：土豆。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -39391,10 +39441,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -39680,10 +39731,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：大排；首步不是可执行操作；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -40344,10 +40396,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：豆腐；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -40994,7 +41047,8 @@
         "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：小龙虾；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -41354,7 +41408,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“甲鱼、鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：甲鱼、鱼；首步不是可执行操作。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -41743,7 +41797,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：鸡腿。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -42222,7 +42276,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鱼”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鱼。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -42470,7 +42524,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "一个视频包含多道菜，现有材料和步骤无法可靠拆分；待重建后再收录。"
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白菜。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -42776,10 +42830,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：河虾。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -43016,10 +43071,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：没有可识别的主料。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -43657,10 +43713,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：白萝卜。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -44732,10 +44789,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉；同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -44968,10 +45026,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：同一创作者存在同名版本，尚未完成版本归并。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -45658,7 +45717,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“虾”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：菜名主体未列入材料：虾；主料未在步骤中出现：青椒。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -45890,10 +45949,11 @@
         "成品份数和保存期限未明确"
       ],
       "quality": {
-        "status": "needs_user_spot_check",
+        "status": "needs_rebuild",
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
-        "stepConfidence": 0.82
+        "stepConfidence": 0.82,
+        "reviewNote": "美食强准入未通过：主料未在步骤中出现：猪前腿肉。保留原视频，待重建后重新准入。"
       }
     },
     {
@@ -46747,7 +46807,7 @@
         "ingredientConfidence": 0.75,
         "quantityConfidence": 0.65,
         "stepConfidence": 0.82,
-        "reviewNote": "自动质量门禁：菜名关键食材“鸡”未在材料中找到，已停止推荐，待依据原视频重建。"
+        "reviewNote": "美食强准入未通过：没有可识别的主料；菜名主体未列入材料：鸡。保留原视频，待重建后重新准入。"
       }
     }
   ]
