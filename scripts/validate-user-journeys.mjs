@@ -36,7 +36,7 @@ assert(candidateNames.includes("茄子"), "食材选择池缺少“茄子”");
 const moguRecipes = recipes.filter((recipe) => recipe.source?.creator === "采蘑菇的小姑娘ヽ");
 const allowedMoguCreators = ["美食作家王刚R", "万能工具人阿伟", "小高姐的魔法调料", "隋卞一做"];
 assert(moguRecipes.length >= 5, `图文整理菜谱数量异常：${moguRecipes.length}`);
-assert(moguRecipes.every((recipe) => recipe.quality?.status === "needs_user_spot_check" && recipe.source?.originalCreator && recipe.source?.originalCreatorUrl), "图文整理菜谱缺少待抽查状态或双重来源归属");
+assert(moguRecipes.every((recipe) => ["needs_user_spot_check", "human_verified"].includes(recipe.quality?.status) && recipe.source?.originalCreator && recipe.source?.originalCreatorUrl), "图文整理菜谱缺少有效复核状态或双重来源归属");
 assert(moguRecipes.every((recipe) => allowedMoguCreators.some((creator) => recipe.source.originalCreator.includes(creator))), "图文整理菜谱出现未准入原作者");
 const taxonomyProblems = visible.flatMap((recipe) => {
   const names = recipe.ingredients.map((item) => canonicalIngredientName(item.canonicalName || item.name));

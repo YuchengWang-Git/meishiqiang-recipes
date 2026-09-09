@@ -230,7 +230,7 @@
         { "order": 5, "action": "鸡胸肉完全放凉后撕开，与黄瓜丝、洋葱丝和酱汁拌匀。", "durationMinutes": 3 }
       ],
       "notes": ["煮鸡胸肉的汤留1大勺调酱，其余不作为需要另购的材料。", "红辣椒酱是原方的明确风味来源，库存匹配会将其视为需补齐调味。", "已保留图文整理者、原视频作者主页和原视频链接，待人工抽查。"],
-      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鸡胸肉", "花生酱"], "ingredientConfidence": 0.95, "quantityConfidence": 0.9, "stepConfidence": 0.95, "reviewNote": "图文中的主辅料、用量和时间点步骤完整，并已核对内嵌原视频作者。" }
+      "quality": { "status": "human_verified", "requiredIngredients": ["鸡胸肉", "花生酱"], "ingredientConfidence": 0.95, "quantityConfidence": 0.9, "stepConfidence": 0.95, "reviewNote": "图文中的主辅料、用量和时间点步骤完整；已由站点维护者人工复核。" }
     },
     {
       "id": "mogu-cv21746614",
@@ -266,7 +266,7 @@
         { "order": 4, "action": "加清水和鸡蛋烧开，加盐后下入面条煮熟即可。", "heat": "中火", "durationMinutes": 6, "tips": ["原方建议汤与面约3:1；喜欢干一些可用2:1，喜欢汤多可用4:1"] }
       ],
       "notes": ["清水属于烹饪过程用水，不会作为库存食材。", "番茄、鸡蛋和面条均为主料，库存推荐会同时识别。", "已保留图文整理者与原视频链接，待人工抽查。"],
-      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鸡蛋", "番茄", "面条"], "ingredientConfidence": 0.95, "quantityConfidence": 0.75, "stepConfidence": 0.95, "reviewNote": "图文材料、步骤、汤面比例和时间点完整，并已核对内嵌原视频。" }
+      "quality": { "status": "human_verified", "requiredIngredients": ["鸡蛋", "番茄", "面条"], "ingredientConfidence": 0.95, "quantityConfidence": 0.75, "stepConfidence": 0.95, "reviewNote": "图文材料、步骤、汤面比例和时间点完整；已由站点维护者人工复核。" }
     }
   ]
 }
