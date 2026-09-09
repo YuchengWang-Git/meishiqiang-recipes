@@ -42,10 +42,24 @@ const markdown = [
   "- **C · 快速校验**：仅有开场口播或同名版本待归并，可优先人工快速处理。",
   "",
 ].join("\n");
+const escapeCell = (value) => String(value || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+const recipeById = new Map(recipes.map((recipe) => [recipe.id, recipe]));
 const renderedQueue = ["A", "B", "C"].map((severity) => {
   const items = reviewQueue.filter((item) => item.severity === severity);
-  const rows = items.map((item) => `| ${item.title.replace(/\|/g, "\\|")} | ${item.failures.join("；").replace(/\|/g, "\\|")} | [原视频](${item.sourceUrl}) |`).join("\n");
+  const rows = items.map((item) => `| ${escapeCell(item.title)} | ${escapeCell(item.failures.join("；"))} | [原视频](${item.sourceUrl}) |`).join("\n");
   return `## ${severity} · ${items[0]?.label || ""}\n\n| 菜谱 | 隔离原因 | 来源 |\n| --- | --- | --- |\n${rows}`;
 }).join("\n\n");
-writeFileSync(new URL("../MEISHIQIANG_REVIEW_QUEUE.md", import.meta.url), `${markdown}${renderedQueue}\n`, "utf8");
+const formatQuantity = (ingredient) => ingredient.quantity === null || ingredient.quantity === undefined ? ingredient.unit || "适量" : `${ingredient.quantity}${ingredient.unit || ""}`;
+const formatEvidence = (range) => {
+  if (!Array.isArray(range) || range.length !== 2) return "";
+  const clock = (seconds) => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, "0")}`;
+  return `（字幕 ${clock(range[0])}–${clock(range[1])}）`;
+};
+const cReviewCards = reviewQueue.filter((item) => item.severity === "C").map((item) => {
+  const recipe = recipeById.get(item.id);
+  const ingredients = (recipe.ingredients || []).map((ingredient) => `- ${ingredient.canonicalName || ingredient.name}：${formatQuantity(ingredient)}${ingredient.prep ? `；${ingredient.prep}` : ""}`).join("\n") || "- 未提取到材料";
+  const steps = (recipe.steps || []).map((step, index) => `${index + 1}. ${escapeCell(step.action)}${formatEvidence(step.evidenceRangeSeconds)}`).join("\n") || "1. 未提取到步骤";
+  return `### ${escapeCell(recipe.title)} · ${recipe.id}\n\n**隔离原因：** ${escapeCell(item.failures.join("；"))}\n\n**快速处理建议：** ${item.action}\n\n[打开原视频](${item.sourceUrl})\n\n**当前材料表**\n\n${ingredients}\n\n**当前步骤（含字幕证据时间）**\n\n${steps}`;
+}).join("\n\n");
+writeFileSync(new URL("../MEISHIQIANG_REVIEW_QUEUE.md", import.meta.url), `${markdown}${renderedQueue}\n\n## C 级逐条人工复核卡\n\n以下内容是当前结构化结果，不是原视频的替代品；请对照右侧原视频链接核验。\n\n${cReviewCards}\n`, "utf8");
 console.log(`美食强准入检查完成：${recipes.length} 道中隔离 ${quarantined.length} 道（A ${counts.A} / B ${counts.B} / C ${counts.C}）。\n${quarantined.join("\n")}`);
