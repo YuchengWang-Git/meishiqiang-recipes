@@ -131,7 +131,7 @@
       },
       "tags": { "meal": ["汤羹", "家常菜"], "flavor": ["清淡", "鲜香"], "methods": ["煮", "汆"], "difficulty": "中等", "estimatedMinutes": 30, "spicyLevel": 0 },
       "ingredients": [
-        { "name": "猪二刀肉", "canonicalName": "猪二刀肉", "aliases": ["二刀肉", "猪肉"], "quantity": null, "unit": "适量", "role": "主料", "required": true, "prep": "三七肥瘦比例，去皮剁成极细肉蓉" },
+        { "name": "猪肉", "canonicalName": "猪肉", "aliases": ["二刀肉", "猪二刀肉"], "quantity": null, "unit": "适量", "role": "主料", "required": true, "prep": "优先选二刀肉或其他三七肥瘦的猪肉，去皮后剁成极细肉蓉" },
         { "name": "粉丝", "canonicalName": "粉丝", "aliases": [], "quantity": null, "unit": "1小把", "role": "主料", "required": true, "prep": "泡发后截短" },
         { "name": "豌豆尖", "canonicalName": "豌豆尖", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": false, "alternatives": ["绿色蔬菜"], "prep": "摘嫩叶" },
         { "name": "大葱白", "canonicalName": "大葱白", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "切碎" },
@@ -142,13 +142,13 @@
         { "name": "猪油", "canonicalName": "猪油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": false }
       ],
       "steps": [
-        { "order": 1, "action": "猪二刀肉去皮切片后剁成极细肉蓉；葱白和姜切碎，可与肉一起剁。", "durationMinutes": 10, "cue": "肉蓉细腻" },
+        { "order": 1, "action": "猪肉去皮切片后剁成极细肉蓉；葱白和姜切碎，可与肉一起剁。", "durationMinutes": 10, "cue": "肉蓉细腻" },
         { "order": 2, "action": "肉蓉加盐、胡椒粉、蚝油和黄酒，朝一个方向搅拌上劲至能粘在手上不易脱落。", "durationMinutes": 3, "cue": "肉泥有粘性" },
         { "order": 3, "action": "锅中姜片和清水烧至温热，用手挤肉丸下锅，小火烧制并翻面、撇沫。", "heat": "小火", "durationMinutes": 8, "tips": ["不要大火，避免肉丸冲散"] },
         { "order": 4, "action": "肉丸熟后放入泡发粉丝，加盐调味；最后放豌豆尖和少许猪油，蔬菜断生即出锅。", "heat": "小火", "durationMinutes": 4, "cue": "蔬菜刚断生" }
       ],
-      "notes": ["该版本强调不加鸡蛋和淀粉；若换纯瘦肉，原文建议改加蛋清和生粉。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
-      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["猪二刀肉", "粉丝"], "ingredientConfidence": 0.9, "quantityConfidence": 0.7, "stepConfidence": 0.9, "reviewNote": "关键状态判断和替代条件完整；首批人工抽查对象。" }
+      "notes": ["二刀肉是肥瘦相间、适合剁馅的猪后腿部位；买不到时选三七肥瘦的普通猪肉即可。", "该版本强调不加鸡蛋和淀粉；若换纯瘦肉，原文建议改加蛋清和生粉。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["猪肉", "粉丝"], "ingredientConfidence": 0.9, "quantityConfidence": 0.7, "stepConfidence": 0.9, "reviewNote": "关键状态判断和替代条件完整；首批人工抽查对象。" }
     },
     {
       "id": "mogu-cv52910201",
