@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-09-09T08:00:00.000Z",
-  "source": "采蘑菇的小姑娘ヽ对美食作家王刚R公开视频的图文菜谱整理；首批仅供人工抽查，不作为已验证菜谱。",
+  "source": "采蘑菇的小姑娘ヽ对多位美食创作者公开视频的图文菜谱整理；仅导入原作者和标题均可明确核对的条目，首批仅供人工抽查，不作为已验证菜谱。",
   "recipes": [
     {
       "id": "mogu-cv52910207",
@@ -190,6 +190,83 @@
       ],
       "notes": ["羊肉可按口感换羊里脊或羊腱子肉；原文给出了老人孩子和追求口感的选择建议。", "已保留图文整理者与原视频作者主页，待人工抽查。"],
       "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["羊前腿肉", "孜然颗粒"], "ingredientConfidence": 0.9, "quantityConfidence": 0.8, "stepConfidence": 0.9, "reviewNote": "图文材料、时间点和关键火候完整；首批人工抽查对象。" }
+    },
+    {
+      "id": "mogu-cv52910092",
+      "title": "水煮鸡胸肉",
+      "aliases": ["凉拌鸡胸肉"],
+      "summary": "鸡胸肉用香料汤小火煮后焖熟放凉，再撕开拌入花生酱辣酱汁和蔬菜。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv52910092",
+        "originalCreator": "小高姐的魔法调料",
+        "originalCreatorUrl": "https://space.bilibili.com/216156027",
+        "originalVideoUrl": "https://www.bilibili.com/video/BV1YyySBrExc/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主菜", "家常菜"], "flavor": ["麻辣", "酱香"], "methods": ["煮", "拌"], "difficulty": "简单", "estimatedMinutes": 30, "spicyLevel": 2 },
+      "ingredients": [
+        { "name": "鸡胸肉", "canonicalName": "鸡胸肉", "aliases": [], "quantity": 500, "unit": "克", "role": "主料", "required": true },
+        { "name": "黄瓜", "canonicalName": "黄瓜", "aliases": ["小黄瓜"], "quantity": 1, "unit": "根", "role": "辅料", "required": true, "prep": "切丝" },
+        { "name": "洋葱", "canonicalName": "洋葱", "aliases": [], "quantity": null, "unit": "1/8个", "role": "辅料", "required": true, "prep": "切丝" },
+        { "name": "干辣椒", "canonicalName": "干辣椒", "aliases": [], "quantity": 9, "unit": "个", "role": "辅料", "required": true },
+        { "name": "花椒", "canonicalName": "花椒", "aliases": [], "quantity": 1, "unit": "小勺", "role": "辅料", "required": true },
+        { "name": "小茴香", "canonicalName": "小茴香", "aliases": [], "quantity": 1, "unit": "小勺", "role": "辅料", "required": true },
+        { "name": "八角", "canonicalName": "八角", "aliases": [], "quantity": 1, "unit": "个", "role": "辅料", "required": true },
+        { "name": "蒜", "canonicalName": "蒜", "aliases": ["大蒜"], "quantity": 1, "unit": "大勺", "role": "辅料", "required": true, "prep": "切末" },
+        { "name": "花生酱", "canonicalName": "花生酱", "aliases": [], "quantity": 1, "unit": "大勺", "role": "调味料", "required": true },
+        { "name": "红辣椒酱", "canonicalName": "红辣椒酱", "aliases": ["Red Hot辣椒酱"], "quantity": 1, "unit": "大勺", "role": "调味料", "required": true },
+        { "name": "生抽", "canonicalName": "生抽", "aliases": [], "quantity": 2, "unit": "大勺", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": 1, "unit": "小勺", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "黄瓜和洋葱切丝；蒜切末备用。", "durationMinutes": 5 },
+        { "order": 2, "action": "锅中加约500毫升水、盐、生抽、干辣椒、花椒、小茴香和八角，烧开后调至微开。", "heat": "小火", "durationMinutes": 5, "cue": "汤面只有小气泡" },
+        { "order": 3, "action": "放入完整鸡胸肉，用小盘压住，盖盖煮10至12分钟；关火后不揭盖，利用余热焖熟并放凉。", "heat": "小火", "durationMinutes": 12, "cue": "鸡胸肉中心熟透、不发粉", "tips": ["不要把鸡胸肉预先切开，冷却后再撕能保留汁水"] },
+        { "order": 4, "action": "花生酱、蒜末和红辣椒酱中加入1大勺煮鸡胸肉的汤，搅成浓稠酱汁。", "durationMinutes": 2 },
+        { "order": 5, "action": "鸡胸肉完全放凉后撕开，与黄瓜丝、洋葱丝和酱汁拌匀。", "durationMinutes": 3 }
+      ],
+      "notes": ["煮鸡胸肉的汤留1大勺调酱，其余不作为需要另购的材料。", "红辣椒酱是原方的明确风味来源，库存匹配会将其视为需补齐调味。", "已保留图文整理者、原视频作者主页和原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鸡胸肉", "花生酱"], "ingredientConfidence": 0.95, "quantityConfidence": 0.9, "stepConfidence": 0.95, "reviewNote": "图文中的主辅料、用量和时间点步骤完整，并已核对内嵌原视频作者。" }
+    },
+    {
+      "id": "mogu-cv21746614",
+      "title": "炝锅面",
+      "aliases": ["番茄鸡蛋炝锅面"],
+      "summary": "先炒香略老的鸡蛋和葱，再将番茄、酱油和清水煮开后下入面条。",
+      "source": {
+        "platform": "bilibili",
+        "creator": "采蘑菇的小姑娘ヽ",
+        "label": "@B站采蘑菇的小姑娘ヽ",
+        "url": "https://www.bilibili.com/read/cv21746614",
+        "originalCreator": "隋卞一做（特厨做饭_）",
+        "originalCreatorUrl": "https://www.bilibili.com/video/BV1e8411u7uB/",
+        "originalVideoUrl": "https://www.bilibili.com/video/BV1e8411u7uB/",
+        "derivedFrom": "图文整理页内嵌原视频与时间点",
+        "license": "原始视频及图文版权归相应作者所有；仅作非商业个人学习参考"
+      },
+      "tags": { "meal": ["主食", "家常菜"], "flavor": ["咸鲜", "番茄"], "methods": ["炒", "煮"], "difficulty": "简单", "estimatedMinutes": 20, "spicyLevel": 0 },
+      "ingredients": [
+        { "name": "鸡蛋", "canonicalName": "鸡蛋", "aliases": [], "quantity": 3, "unit": "个", "role": "主料", "required": true },
+        { "name": "番茄", "canonicalName": "番茄", "aliases": ["西红柿"], "quantity": null, "unit": "2个", "role": "主料", "required": true, "prep": "切丁" },
+        { "name": "面条", "canonicalName": "面条", "aliases": [], "quantity": null, "unit": "1人份", "role": "主料", "required": true },
+        { "name": "大葱", "canonicalName": "大葱", "aliases": [], "quantity": null, "unit": "适量", "role": "辅料", "required": true, "prep": "切细丝" },
+        { "name": "八角", "canonicalName": "八角", "aliases": [], "quantity": 1, "unit": "个", "role": "辅料", "required": false },
+        { "name": "植物油", "canonicalName": "植物油", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "酱油", "canonicalName": "酱油", "aliases": ["生抽"], "quantity": null, "unit": "适量", "role": "调味料", "required": true },
+        { "name": "盐", "canonicalName": "盐", "aliases": [], "quantity": null, "unit": "适量", "role": "调味料", "required": true }
+      ],
+      "steps": [
+        { "order": 1, "action": "番茄切丁；鸡蛋打散；大葱切细丝。", "durationMinutes": 5 },
+        { "order": 2, "action": "锅热油后倒入蛋液，煎至定型并炒得略老、略香，盛出。", "heat": "中大火", "durationMinutes": 3, "tips": ["原方建议鸡蛋略炒老一些，更能出香味"] },
+        { "order": 3, "action": "原锅补少许油，温油下葱丝和可选八角煸至金黄；倒入番茄丁煸炒，加入酱油炒香。", "heat": "中火", "durationMinutes": 4, "cue": "番茄边缘变软出汁" },
+        { "order": 4, "action": "加清水和鸡蛋烧开，加盐后下入面条煮熟即可。", "heat": "中火", "durationMinutes": 6, "tips": ["原方建议汤与面约3:1；喜欢干一些可用2:1，喜欢汤多可用4:1"] }
+      ],
+      "notes": ["清水属于烹饪过程用水，不会作为库存食材。", "番茄、鸡蛋和面条均为主料，库存推荐会同时识别。", "已保留图文整理者与原视频链接，待人工抽查。"],
+      "quality": { "status": "needs_user_spot_check", "requiredIngredients": ["鸡蛋", "番茄", "面条"], "ingredientConfidence": 0.95, "quantityConfidence": 0.75, "stepConfidence": 0.95, "reviewNote": "图文材料、步骤、汤面比例和时间点完整，并已核对内嵌原视频。" }
     }
   ]
 }
